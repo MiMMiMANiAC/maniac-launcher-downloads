@@ -1,4 +1,14 @@
 {
+  "launcher": {
+    "version": "0.3.2",
+    "releaseTag": "launcher-v0.3.2",
+    "assetId": 0,
+    "packageSize": 48668200,
+    "sha256": "2e2ff590a92b8a922463d95b84c04a43f5212948b586d49ae022328be4e7528e",
+    "assetName": "MANIAC-Launcher-0.3.2-Setup.exe",
+    "channel": "public"
+  },
+  "schemaVersion": 1,
   "plugins": [
     {
       "architecture": "win-x64",
@@ -3416,14 +3426,22 @@
       "isInDevelopment": true
     }
   ],
-  "launcher": {
-    "version": "0.3.0",
-    "releaseTag": "launcher-v0.3.0",
-    "assetId": 0,
-    "packageSize": 48582269,
-    "sha256": "eb4c541fc3dc781d1b49972b4791b635706fc3eae62f75085fbd1f647f0b9082",
-    "assetName": "MANIAC-Launcher-0.3.0-Setup.exe",
-    "channel": "public"
-  },
-  "schemaVersion": 1
+  "software": [
+    {
+      "softwareId": "pattern-studio",
+      "name": "Pattern Studio",
+      "description": "Geometrische Muster, Foto-Nachzeichnen und Bühnenflächen; 2D-/3D-Animation und SVG-/PNG-Export. Lokal und offline.",
+      "version": "1.1.0",
+      "architecture": "win-x64",
+      "minimumLauncherVersion": "0.3.2",
+      "releaseTag": "software-pattern-studio-v1.1.0",
+      "assetId": 0,
+      "packageSize": 163108114,
+      "sha256": "f1627f0be1b628c58cb48d16a78efd935c05aa25a00c48c58bcd796e44abeac1",
+      "assetName": "Pattern-Studio-1.1.0.zip",
+      "executableName": "Pattern Studio.exe",
+      "installDirectoryName": "pattern-studio",
+      "packageFormat": "runtime-zip"
+    }
+  ]
 }
