@@ -1,17 +1,23 @@
 # MANIAC Launcher
 
-Eigene Resolume-Plugins unter Windows x64 installieren und aktualisieren.
+Öffentliche Windows-x64-Downloads für Freunde. Kein GitHub-Konto und kein Zugangsschlüssel erforderlich. Programmquellen und persönliche Einstellungen gehören nicht in diesen Downloadbereich.
 
-[**Aktuellen MANIAC Launcher herunterladen**](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/latest)
+## Launcher 0.3.2
 
-1. Den Windows-Installer herunterladen und ausführen.
-2. Launcher öffnen und unter Einstellungen Arena/Avenue sowie den gewünschten Pluginordner prüfen.
-3. Resolume schließen und gewünschte Plugins installieren. Bereits vorhandene Installationen nur ausdrücklich übernehmen; ihre Dateien bleiben bei der Übernahme unverändert.
+[MANIAC Launcher herunterladen](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/launcher-v0.3.2)
 
-Kein GitHub-Konto und kein Zugriffsschlüssel nötig. Beim Start prüft der Launcher auf neue Launcher- und Pluginversionen und zeigt verfügbare Updates an. Du entscheidest, wann du aktualisierst. „Alle Updates installieren“ aktualisiert die dafür freigegebenen verwalteten Plugins.
+Installer ausführen und anschließend den Launcher öffnen. Acht reguläre Pluginangebote einschließlich MANIAC Slowmo als „In Entwicklung“; Slowmo bleibt von Sammelaktionen ausgeschlossen. Pluginanleitungen und tatsächliche DLL-Vorschauen auf der eigenen Bühne sind enthalten. Pluginänderungen verlangen geschlossenes Resolume. Der Launcher beendet Resolume nicht.
 
-MANIAC Slowmo ist **In Entwicklung** und wird bewusst einzeln installiert. Alle Vorschaubilder zeigen ausschließlich die eigene Bühnen-SVG und tatsächliche Plugin-Ausgabe. Private Entwicklerwerkzeuge sind in dieser Ausgabe nicht enthalten. Der Launcher-Quellcode bleibt privat.
+## Pattern Studio 1.1.0
 
-Vollständige Drittanbieter-Lizenztexte liegen in den Pluginpaketen. Der Launcher verwaltet sie gemeinsam unter `MANIAC/third-party-notices.txt` im ausgewählten Plugin-Stammordner. Plugin-Unterordner und eigene Zusatzdateien bleiben erhalten. Eine Launcher-Aktualisierung allein verändert keine installierten Plugins.
+[Pattern Studio, Anleitung und echte Softwarevorschau](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/software-pattern-studio-v1.1.0)
 
-Windows kann beim noch nicht signierten Installer einen Herausgeberhinweis anzeigen. Einige Plugins benötigen zusätzlich die Microsoft-Visual-C++-Laufzeit für x64.
+Geometrische Muster, vier Vorschläge mit Variantensteuerung, eigene Zeichnungen, 2D-/3D-Ansicht und SVG-/PNG-Export. Läuft lokal und offline. Zuerst Launcher 0.3.2 aktualisieren; anschließend im Reiter **Software** installieren. Software besitzt eigene Installations-, Update-, Start- und Deinstallationsaktionen. Programmdateien liegen unter `%LOCALAPPDATA%\Programs\pattern-studio`, niemals im Resolume-Pluginordner.
+
+Für eine lokale Launcherinstallation das Laufzeit-ZIP und die daneben angebotene `.software.json` zusammen ablegen. Die EXE ist ein alternativer Windows-Installationsweg. Bitte nicht beide Verwaltungswege gleichzeitig für denselben Programmordner verwenden. Vor Update oder Deinstallation Pattern Studio schließen. Eigene zusätzliche Dateien und die Benutzerablage bleiben erhalten.
+
+## Updates und Lizenzen
+
+Verfügbare Launcher-, Plugin- und Softwareupdates werden nach erfolgreicher Onlineprüfung angezeigt. Installation und Updates erfolgen ausschließlich durch Nutzeraktion. Das Veröffentlichen neuer Downloads installiert nichts auf bestehenden Systemen. Die erste verwaltete Softwareinstallation erweitert die bestehende gemeinsame Datenbank auf Format 4; ältere Launcher können dieses Format nicht verwalten.
+
+Pluginpakete enthalten vollständige Lizenzen separat unter `notices/`. Bei ausdrücklichen Pluginaktionen verwaltet der Launcher die gemeinsame Datei `MANIAC/third-party-notices.txt`. Software bewahrt ihre vollständigen Electron-/Chromium- und weiteren Lizenztexte im Programmordner. Die Windows-Installer sind nicht mit einem Herausgeberzertifikat signiert; Windows kann einen entsprechenden Hinweis anzeigen.
