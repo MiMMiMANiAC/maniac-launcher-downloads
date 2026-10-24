@@ -1,0 +1,3444 @@
+{
+  "plugins": [
+    {
+      "architecture": "win-x64",
+      "assetId": 0,
+      "pluginId": "maniac-svg-slime",
+      "version": "0.6.1-pkg.2",
+      "sha256": "b198e3c69dbda78f179da71f8ff38bdacda13d12567b23020d13993d65ab2592",
+      "binaryName": "MANIAC_SVG SLIME.dll",
+      "name": "MANIAC_SVG SLIME",
+      "minimumLauncherVersion": "0.2.9",
+      "assetName": "maniac-svg-slime-0.6.1-pkg.2.zip",
+      "releaseTag": "plugin-maniac-svg-slime-v0.6.1-pkg.2",
+      "packageSize": 414032,
+      "minimumHostVersion": "7.26.2",
+      "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.6.0. Verbesserter SVG-Import mit Illustrator-CSS, Vererbung, Farbverläufen und erhaltenen Löchern. Eigene SVG laden; Testmotiv-Sammlung wird nicht installiert.",
+      "isTestOnly": false,
+      "knownInstallations": [
+        {
+          "binaryName": "MANIAC_SVG SLIME.dll",
+          "files": [
+            {
+              "path": "Example.svg",
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87"
+            },
+            {
+              "path": "licenses/FreeFrame-BSD.txt",
+              "size": 2309,
+              "sha256": "a35c291ac9dd7348b9e83b6065cb5e1079792b6e2dedd484802596166427da61"
+            },
+            {
+              "path": "licenses/LunaSVG-MIT.txt",
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b"
+            },
+            {
+              "path": "licenses/PlutoVG-MIT.txt",
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b"
+            },
+            {
+              "path": "licenses/TinyXML2-zlib.txt",
+              "size": 826,
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45"
+            },
+            {
+              "path": "MANIAC_SVG SLIME.dll",
+              "size": 928256,
+              "sha256": "89b8dd4ee105a3703e94f0bc9a66ba0f439cf7fa42e45baf50f7ecfa3c888fc3"
+            },
+            {
+              "path": "Preview-Von-oben.gif",
+              "size": 16844590,
+              "sha256": "71f32d462eafc66874f2945d421d67bc4c00104d18f0f9bb2e6ea7a00f6f7b68"
+            },
+            {
+              "path": "Preview.gif",
+              "size": 13015306,
+              "sha256": "72f82a3d4d7d06e3ffb3a39a70f1561e86e726178f4384f3a0da4075ffedf6c9"
+            },
+            {
+              "path": "README.md",
+              "size": 8834,
+              "sha256": "738bc014246232c3d2087fa1129ec253815de603b0848db7206f400d47aefc49"
+            },
+            {
+              "path": "Reference-Thickness-045.png",
+              "size": 97509,
+              "sha256": "3a0b8b35b686a919661c930b8f6b30549479029d7617ff1ffc451784e57da91d"
+            },
+            {
+              "path": "Reference-Thickness-100.png",
+              "size": 99738,
+              "sha256": "5bf7a0c9a40b8ceca6e92420a3c550ff8e56a2e73a3160fc3eba663f9736475e"
+            },
+            {
+              "path": "THIRD_PARTY_NOTICES.md",
+              "size": 714,
+              "sha256": "ec7926c362f6837406ae46aa14c256bfac28d6e30035c8f953c3854423666bc3"
+            }
+          ],
+          "version": "0.5.0"
+        },
+        {
+          "files": [
+            {
+              "path": "Example.svg",
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "size": 992639
+            },
+            {
+              "path": "licenses/FreeFrame-BSD.txt",
+              "sha256": "a35c291ac9dd7348b9e83b6065cb5e1079792b6e2dedd484802596166427da61",
+              "size": 2309
+            },
+            {
+              "path": "licenses/LunaSVG-MIT.txt",
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "size": 1125
+            },
+            {
+              "path": "licenses/PlutoVG-MIT.txt",
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "size": 1125
+            },
+            {
+              "path": "licenses/TinyXML2-zlib.txt",
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45",
+              "size": 826
+            },
+            {
+              "path": "MANIAC_SVG SLIME.dll",
+              "sha256": "82e62e2018f6394fa106cb66876aa6ea6f900602e7174656adcb4ee02be50f1a",
+              "size": 928256
+            },
+            {
+              "path": "Preview.gif",
+              "sha256": "72f82a3d4d7d06e3ffb3a39a70f1561e86e726178f4384f3a0da4075ffedf6c9",
+              "size": 13015306
+            },
+            {
+              "path": "README.md",
+              "sha256": "8db25e284fbff6202134f2715217a64584d6bb1ad4216660d45cb25d5dd83b01",
+              "size": 7641
+            },
+            {
+              "path": "Reference-Thickness-045.png",
+              "sha256": "3a0b8b35b686a919661c930b8f6b30549479029d7617ff1ffc451784e57da91d",
+              "size": 97509
+            },
+            {
+              "path": "Reference-Thickness-100.png",
+              "sha256": "5bf7a0c9a40b8ceca6e92420a3c550ff8e56a2e73a3160fc3eba663f9736475e",
+              "size": 99738
+            },
+            {
+              "path": "THIRD_PARTY_NOTICES.md",
+              "sha256": "ec7926c362f6837406ae46aa14c256bfac28d6e30035c8f953c3854423666bc3",
+              "size": 714
+            }
+          ],
+          "binaryName": "MANIAC_SVG SLIME.dll",
+          "version": "0.4.0"
+        }
+      ]
+    },
+    {
+      "architecture": "win-x64",
+      "assetId": 0,
+      "pluginId": "maniac-svg-fluid",
+      "version": "0.1.2-pkg.2",
+      "sha256": "96de764f5876f0cde0bf3387c8d19477b55ea5b5be2e50cb2935e0473f08cda8",
+      "binaryName": "MANIAC_SVG Fluid.dll",
+      "name": "MANIAC_SVG Fluid",
+      "minimumLauncherVersion": "0.2.9",
+      "assetName": "maniac-svg-fluid-0.1.2-pkg.2.zip",
+      "releaseTag": "plugin-maniac-svg-fluid-v0.1.2-pkg.2",
+      "packageSize": 383594,
+      "minimumHostVersion": "7.26.2",
+      "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.1.1. Animierte Farbspuren und Wirbel innerhalb geschlossener SVG-Formen, mit transparentem Hintergrund und zwölf Emitterbahnen.",
+      "isTestOnly": false,
+      "knownInstallations": [
+        {
+          "files": [
+            {
+              "path": "Containers.svg",
+              "size": 373,
+              "sha256": "188586601c2c2082631288df3cb99994515602fdea89d3324c809df1a7c7a40f"
+            },
+            {
+              "path": "Example.svg",
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87"
+            },
+            {
+              "path": "licenses/FreeFrame-BSD.txt",
+              "size": 2309,
+              "sha256": "a35c291ac9dd7348b9e83b6065cb5e1079792b6e2dedd484802596166427da61"
+            },
+            {
+              "path": "licenses/LunaSVG-MIT.txt",
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b"
+            },
+            {
+              "path": "licenses/PlutoVG-MIT.txt",
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b"
+            },
+            {
+              "path": "licenses/TinyXML2-zlib.txt",
+              "size": 826,
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45"
+            },
+            {
+              "path": "Preview-fill.gif",
+              "size": 2055048,
+              "sha256": "c952bccc1d3616e7890449f0964e305e132455df35c2cd4a4ea7e960d8f83c32"
+            },
+            {
+              "path": "Preview-full.gif",
+              "size": 1195574,
+              "sha256": "2c654863c87fe91df4400b16ffcdb25260c1da18e4b3e67a96422e241621f84d"
+            },
+            {
+              "path": "README.md",
+              "size": 4959,
+              "sha256": "2fa637abf5a3a88482a8f05e4c5818fe0c78a9d73ec73f6f08f918e8fbb78807"
+            },
+            {
+              "path": "SVG Fluid.dll",
+              "size": 933376,
+              "sha256": "5f486b3f19bb184333138ae56ef876692f86a2fb0d71641e0fa23114a2d54589"
+            },
+            {
+              "path": "THIRD_PARTY_NOTICES.md",
+              "size": 1017,
+              "sha256": "24e681f144a8aeb4c5b0d05f7fe29e478b87809018f540f2b3b5578be1379047"
+            },
+            {
+              "path": "Verification.md",
+              "size": 5967,
+              "sha256": "3d6ac0981aa69d053b69ccb2d99d179a45deaa768ce4b8d39ac3229b032ea142"
+            }
+          ],
+          "binaryName": "SVG Fluid.dll",
+          "version": "0.1.0"
+        }
+      ]
+    },
+    {
+      "architecture": "win-x64",
+      "assetId": 0,
+      "pluginId": "surface-flow-test",
+      "version": "0.1.1-pkg.2",
+      "sha256": "421dd766ea53eed3df61f3f39383406b117a0e6c71c4c7ef9f02d411f78348a2",
+      "binaryName": "SurfaceFlow.dll",
+      "name": "Surface Flow · SVG 0.1 (Testpaket)",
+      "minimumLauncherVersion": "0.2.9",
+      "assetName": "surface-flow-test-0.1.1-pkg.2.zip",
+      "releaseTag": "plugin-surface-flow-test-v0.1.1-pkg.2",
+      "packageSize": 358354,
+      "minimumHostVersion": "7.26.2",
+      "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.1.0. SVG-Quelle mit Alpha-Ausgabe. Separates Testpaket; vorhandene Surface-Flow-Installation bleibt erhalten.",
+      "isTestOnly": true
+    },
+    {
+      "architecture": "win-x64",
+      "assetId": 0,
+      "pluginId": "maniac-svg-flow",
+      "version": "0.6.1-pkg.2",
+      "sha256": "038aaff67c09a8f213c9a6881dac41bd228b4ddf9dd2192ecad6a2f70b8fcd56",
+      "binaryName": "MANIAC SVG FLOW.dll",
+      "name": "MANIAC SVG FLOW",
+      "minimumLauncherVersion": "0.2.9",
+      "assetName": "maniac-svg-flow-0.6.1-pkg.2.zip",
+      "releaseTag": "plugin-maniac-svg-flow-v0.6.1-pkg.2",
+      "packageSize": 794925,
+      "minimumHostVersion": "7.26.2",
+      "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.6.0. Konturen gefüllter Formen werden als reine Lichtlinien genutzt, einschließlich hohler Ringe und offener Innenbereiche.",
+      "isTestOnly": false,
+      "knownInstallations": [
+        {
+          "version": "0.5.0",
+          "files": [
+            {
+              "path": "Baseline.json",
+              "size": 595,
+              "sha256": "c0978b6d6005f2d5e1b299d4c1f02aa7a49e9d4567be189adec4861679943e0e"
+            },
+            {
+              "path": "Build.json",
+              "size": 534,
+              "sha256": "40bc919d22dc8187350bae6a4127e98f05ebbedccf4388522345afe583047976"
+            },
+            {
+              "path": "Example.svg",
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87"
+            },
+            {
+              "path": "illustrator-inputs.json",
+              "size": 2049,
+              "sha256": "c8ca2d9d5e98facef792d51e171b3d8bbd9a6c1f4ff1fe09addc7d2f1b4af116"
+            },
+            {
+              "path": "illustrator-results.json",
+              "size": 2585,
+              "sha256": "aae8c1e30d744d980d815b143d217261a1613675e9ebd541ad05faa34b452e32"
+            },
+            {
+              "path": "licenses/FreeFrame-BSD.txt",
+              "size": 2309,
+              "sha256": "a35c291ac9dd7348b9e83b6065cb5e1079792b6e2dedd484802596166427da61"
+            },
+            {
+              "path": "licenses/LunaSVG-MIT.txt",
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b"
+            },
+            {
+              "path": "licenses/PlutoVG-MIT.txt",
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b"
+            },
+            {
+              "path": "licenses/TinyXML2-zlib.txt",
+              "size": 826,
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45"
+            },
+            {
+              "path": "MANIAC SVG FLOW.dll",
+              "size": 1014272,
+              "sha256": "7472e6eaf4c9d3186890e603f0a444395f200e810e3d5dd5efc0a1b4dd1d74e9"
+            },
+            {
+              "path": "README.md",
+              "size": 5338,
+              "sha256": "771b4d808a2e1f423a9ca99b328cef9e87339670683d22f78e0e814e8c745c82"
+            },
+            {
+              "path": "THIRD_PARTY_NOTICES.md",
+              "size": 468,
+              "sha256": "b04c66458749a618a039ab0280624937d72e3911710496399f58a73513d5c944"
+            },
+            {
+              "path": "Validation.md",
+              "size": 2911,
+              "sha256": "89dbd5c5b74370672e9ba67315c3fec3109a4d4592bc623acf042b0bd7a61c53"
+            }
+          ],
+          "binaryName": "MANIAC SVG FLOW.dll"
+        },
+        {
+          "version": "0.4.0",
+          "binaryName": "MANIAC SVG FLOW.dll",
+          "files": [
+            {
+              "sha256": "c0978b6d6005f2d5e1b299d4c1f02aa7a49e9d4567be189adec4861679943e0e",
+              "path": "Baseline.json",
+              "size": 595
+            },
+            {
+              "sha256": "5cd4077cc2c12a30af267ecde05d4c96e4902b35da6ef267f78edcbfc4b4b2b9",
+              "path": "Build.json",
+              "size": 493
+            },
+            {
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "path": "Example.svg",
+              "size": 992639
+            },
+            {
+              "sha256": "a35c291ac9dd7348b9e83b6065cb5e1079792b6e2dedd484802596166427da61",
+              "path": "licenses/FreeFrame-BSD.txt",
+              "size": 2309
+            },
+            {
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "path": "licenses/LunaSVG-MIT.txt",
+              "size": 1125
+            },
+            {
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "path": "licenses/PlutoVG-MIT.txt",
+              "size": 1125
+            },
+            {
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45",
+              "path": "licenses/TinyXML2-zlib.txt",
+              "size": 826
+            },
+            {
+              "sha256": "f698d7dc35ce110fa85714d73c724ca94071f3f9beae3ef9ec63c4cfa0f18cfb",
+              "path": "MANIAC SVG FLOW.dll",
+              "size": 997888
+            },
+            {
+              "sha256": "cf7c352808914b93c1fd3ede9bc7c312c3328f1f8c93a554f38522fd26d80a5e",
+              "path": "README.md",
+              "size": 4167
+            },
+            {
+              "sha256": "b04c66458749a618a039ab0280624937d72e3911710496399f58a73513d5c944",
+              "path": "THIRD_PARTY_NOTICES.md",
+              "size": 468
+            },
+            {
+              "sha256": "11c827a914312a40969c2beb88d693c7ca9805e30ffad6683ef36516e77ab772",
+              "path": "Validation.md",
+              "size": 2060
+            }
+          ]
+        },
+        {
+          "binaryName": "MANIAC SVG FLOW.dll",
+          "version": "0.3.0",
+          "files": [
+            {
+              "path": "Baseline.json",
+              "sha256": "c0978b6d6005f2d5e1b299d4c1f02aa7a49e9d4567be189adec4861679943e0e",
+              "size": 595
+            },
+            {
+              "path": "Build.json",
+              "sha256": "3d87e1a6f832e536d16cd23e5ddc2aefda4b21b753d6c0d77edd9392116bb7d2",
+              "size": 491
+            },
+            {
+              "path": "Example.svg",
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "size": 992639
+            },
+            {
+              "path": "licenses/FreeFrame-BSD.txt",
+              "sha256": "a35c291ac9dd7348b9e83b6065cb5e1079792b6e2dedd484802596166427da61",
+              "size": 2309
+            },
+            {
+              "path": "licenses/LunaSVG-MIT.txt",
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "size": 1125
+            },
+            {
+              "path": "licenses/PlutoVG-MIT.txt",
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "size": 1125
+            },
+            {
+              "path": "licenses/TinyXML2-zlib.txt",
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45",
+              "size": 826
+            },
+            {
+              "path": "MANIAC SVG FLOW.dll",
+              "sha256": "6a414e6bc4f9e49b79f5d3c0a533fa90ecd6197afa5a8d57f4645ebd1df5ae45",
+              "size": 980480
+            },
+            {
+              "path": "README.md",
+              "sha256": "c324f3b7fa8ad34f811fe9abd7ae494eaa652976d1e583def84c6009e11837da",
+              "size": 3780
+            },
+            {
+              "path": "THIRD_PARTY_NOTICES.md",
+              "sha256": "b04c66458749a618a039ab0280624937d72e3911710496399f58a73513d5c944",
+              "size": 468
+            },
+            {
+              "path": "Validation.md",
+              "sha256": "803e14f011f01a44724a68c01de9fa5c9b8be6d63470888fdbccdff294551050",
+              "size": 2349
+            }
+          ]
+        },
+        {
+          "version": "0.2.0",
+          "files": [
+            {
+              "sha256": "c0978b6d6005f2d5e1b299d4c1f02aa7a49e9d4567be189adec4861679943e0e",
+              "size": 595,
+              "path": "Baseline.json"
+            },
+            {
+              "sha256": "73a1987b835145261405582195ac000d3776c7680c632b5e59814d515365cdfe",
+              "size": 493,
+              "path": "Build.json"
+            },
+            {
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "size": 992639,
+              "path": "Example.svg"
+            },
+            {
+              "sha256": "a35c291ac9dd7348b9e83b6065cb5e1079792b6e2dedd484802596166427da61",
+              "size": 2309,
+              "path": "licenses/FreeFrame-BSD.txt"
+            },
+            {
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "size": 1125,
+              "path": "licenses/LunaSVG-MIT.txt"
+            },
+            {
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "size": 1125,
+              "path": "licenses/PlutoVG-MIT.txt"
+            },
+            {
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45",
+              "size": 826,
+              "path": "licenses/TinyXML2-zlib.txt"
+            },
+            {
+              "sha256": "19050a5df4bcad2d94ac28ea47685cc40c6c607a5b8b82100a93f5d3b5a334a7",
+              "size": 980480,
+              "path": "MANIAC SVG FLOW.dll"
+            },
+            {
+              "sha256": "0a71939822c94c3d3fdfda5d5ecd01d58da8bff466d44d71176b19ae888d6f5a",
+              "size": 3245,
+              "path": "README.md"
+            },
+            {
+              "sha256": "b04c66458749a618a039ab0280624937d72e3911710496399f58a73513d5c944",
+              "size": 468,
+              "path": "THIRD_PARTY_NOTICES.md"
+            },
+            {
+              "sha256": "b265587ccc48452d54b6e2712610f9ce72af58125f9eadaa9e76876430421068",
+              "size": 1776,
+              "path": "Validation.md"
+            }
+          ],
+          "binaryName": "MANIAC SVG FLOW.dll"
+        },
+        {
+          "version": "0.1.0",
+          "binaryName": "MANIAC SVG FLOW.dll",
+          "files": [
+            {
+              "size": 595,
+              "path": "Baseline.json",
+              "sha256": "c0978b6d6005f2d5e1b299d4c1f02aa7a49e9d4567be189adec4861679943e0e"
+            },
+            {
+              "size": 493,
+              "path": "Build.json",
+              "sha256": "0eb82aa5f5e458d84a6debdb752bf01023807c045dbcf19cfb84f1e35080a8e4"
+            },
+            {
+              "size": 992639,
+              "path": "Example.svg",
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87"
+            },
+            {
+              "size": 2309,
+              "path": "licenses/FreeFrame-BSD.txt",
+              "sha256": "a35c291ac9dd7348b9e83b6065cb5e1079792b6e2dedd484802596166427da61"
+            },
+            {
+              "size": 1125,
+              "path": "licenses/LunaSVG-MIT.txt",
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b"
+            },
+            {
+              "size": 1125,
+              "path": "licenses/PlutoVG-MIT.txt",
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b"
+            },
+            {
+              "size": 826,
+              "path": "licenses/TinyXML2-zlib.txt",
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45"
+            },
+            {
+              "size": 980480,
+              "path": "MANIAC SVG FLOW.dll",
+              "sha256": "4fb977ce45a64490f224e7da8bd87d203b82c2c5cfbc51df6b37ac02627bf044"
+            },
+            {
+              "size": 2690,
+              "path": "README.md",
+              "sha256": "2a8867e5aaac515e7a4de0dd0b39d2dd84b844ee297d166ff6c1a968460b4aa5"
+            },
+            {
+              "size": 468,
+              "path": "THIRD_PARTY_NOTICES.md",
+              "sha256": "b04c66458749a618a039ab0280624937d72e3911710496399f58a73513d5c944"
+            },
+            {
+              "size": 1757,
+              "path": "Validation.md",
+              "sha256": "b144cfe24737ff1d799f9d8772e2d478fc61528c024b79d9830baa0c73f81676"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "architecture": "win-x64",
+      "assetId": 0,
+      "pluginId": "maniac-svg-3d",
+      "version": "0.3.5-pkg.2",
+      "sha256": "afa2c2736b69717ef66cdfac7c9155e92df17e6b0a777ec32bf8887eb6db6c79",
+      "binaryName": "MANIAC SVG 3D.dll",
+      "name": "MANIAC SVG 3D",
+      "minimumLauncherVersion": "0.2.9",
+      "assetName": "maniac-svg-3d-0.3.5-pkg.2.zip",
+      "releaseTag": "plugin-maniac-svg-3d-v0.3.5-pkg.2",
+      "packageSize": 951898,
+      "minimumHostVersion": "7.26.2",
+      "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.3.4. Geordnete deutsche Bedienung mit direkter Extrusion und eindeutig benannten Resets. Reset-Wertmeldungen aktualisieren Host-Regler; native Prüfung und dokumentierte Arena-Teilprüfung. Vektorkonturen, Video, Alpha/Schwarz und MSAA.",
+      "isTestOnly": false,
+      "knownInstallations": [
+        {
+          "version": "0.3.3",
+          "files": [
+            {
+              "size": 1518,
+              "sha256": "0c478c87eca9faea7c74df85aea46ac348ee9c4849c4d9dfa8285535ab68e6b9",
+              "path": "Baseline-starter.json"
+            },
+            {
+              "size": 2829,
+              "sha256": "31ee2b982cb7edce2bc757e3a35977b0ea4c74e58069512317520b3dcb105587",
+              "path": "Baseline.json"
+            },
+            {
+              "size": 2965,
+              "sha256": "73d73e2306890773f25f65a954b6842083a4d09617750600328f0b18faf8f3eb",
+              "path": "Build.json"
+            },
+            {
+              "size": 1828,
+              "sha256": "a4270e532cf65de1506a662ea0bc6f2a0a829dd4eaf1f68df4801456cecb5934",
+              "path": "Changes-0.3.3.md"
+            },
+            {
+              "size": 31987,
+              "sha256": "f3401effb4649d57e200c89f1defd3ad0a50385d06796935064de42671915824",
+              "path": "Compatibility/Compat-boxes-filled-auto.png"
+            },
+            {
+              "size": 11561,
+              "sha256": "eb6920598d6b5f0dfca89181356268ee667544d2a57e7873a876f49856c75ca6",
+              "path": "Compatibility/Compat-boxes-filled.png"
+            },
+            {
+              "size": 11229,
+              "sha256": "e22954068104df1d4f7af043b4c6d6edd538a8fcbadce4004a020a124b61cfd8",
+              "path": "Compatibility/Compat-boxes-original.png"
+            },
+            {
+              "size": 24712,
+              "sha256": "057c9d57741a3a421620171b7b714b4717191fb2612af8b91393d759cebccf1f",
+              "path": "Compatibility/Compat-boxes-video.png"
+            },
+            {
+              "size": 114806,
+              "sha256": "fd6d12bc4070e327fd53817acbd43e38ebdfc953b1b9f8bed4b8f4424305ce88",
+              "path": "Compatibility/Compat-portal2-original.png"
+            },
+            {
+              "size": 96924,
+              "sha256": "208a9c0acbaa580373d4712cbe6877b09fe89f7cc5ad09ef3bdf7f576dad6e43",
+              "path": "Compatibility/Compat-stagex-original.png"
+            },
+            {
+              "size": 1492,
+              "sha256": "74be03d2bd4e34986ba671a7964a9c1da27a5e2f783961f11563d13376c1e1ee",
+              "path": "Compatibility/Quality-circle-AA-4x.png"
+            },
+            {
+              "size": 1676,
+              "sha256": "5602ad4537f94c23a45ad0efcba36ed8008328da6c81d6ef741c01d0428f6ccf",
+              "path": "Compatibility/Quality-circle-AA-8x.png"
+            },
+            {
+              "size": 1122,
+              "sha256": "d5b5ae6e2d0066b21f29477cfc084b9f955b2313bf2d9482c199abe2a7adea8f",
+              "path": "Compatibility/Quality-circle-AA-off.png"
+            },
+            {
+              "size": 2611,
+              "sha256": "d24ffd90290b16b85454118fcc294b792b4fdc417afe6add4215170cf2f7c520",
+              "path": "Compatibility/Quality-tilted-comb-AA-4x.png"
+            },
+            {
+              "size": 3810,
+              "sha256": "6065f599e5e89d9c00458d26d445ae9e670b964cab9f0555721df590f231e01e",
+              "path": "Compatibility/Quality-tilted-comb-AA-8x.png"
+            },
+            {
+              "size": 1333,
+              "sha256": "bef827245e696038370448dcd611b3cd35d5f75b3ea1ec232b6989a01a63c72c",
+              "path": "Compatibility/Quality-tilted-comb-AA-off.png"
+            },
+            {
+              "size": 557,
+              "sha256": "c69fecc4f41ca4dca44cfe98e0d014c96b23c3ac81fa094ff6069190bccce4dc",
+              "path": "Dependencies.json"
+            },
+            {
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "path": "Example.svg"
+            },
+            {
+              "size": 2309,
+              "sha256": "a35c291ac9dd7348b9e83b6065cb5e1079792b6e2dedd484802596166427da61",
+              "path": "licenses/FreeFrame-BSD.txt"
+            },
+            {
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "path": "licenses/LunaSVG-MIT.txt"
+            },
+            {
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "path": "licenses/PlutoVG-MIT.txt"
+            },
+            {
+              "size": 826,
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45",
+              "path": "licenses/TinyXML2-zlib.txt"
+            },
+            {
+              "size": 1303552,
+              "sha256": "4b9844b0af4e6a8d00dfdc48a37bbe255c8389a3a104b9389f5d88c9a175009c",
+              "path": "MANIAC SVG 3D.dll"
+            },
+            {
+              "size": 57282,
+              "sha256": "d51285299a1fa910b750fcf9096c20ca1cfcce62b8aee4b3306631c242ff2355",
+              "path": "Preview-dark.png"
+            },
+            {
+              "size": 57067,
+              "sha256": "6413e785660b36848717d9e107adec2f3187528be2e2985bf3973673c576c9bc",
+              "path": "Preview-light.png"
+            },
+            {
+              "size": 334739,
+              "sha256": "dce7244d63843cb07cc338d510b349a9cb0cd418539842029c56205e2d40633e",
+              "path": "Preview.mp4"
+            },
+            {
+              "size": 8599,
+              "sha256": "f1c67f30e03d1ea3759242978d6f465754f0239cfa500a0b2d090b88d84698ae",
+              "path": "README.md"
+            },
+            {
+              "size": 4257,
+              "sha256": "d2fd186437fca2978318d812fa90d513f60a8dad66e2ff496f8453eb5cb95974",
+              "path": "Regler-Uebersicht.md"
+            },
+            {
+              "size": 1403,
+              "sha256": "4f73bc285dfd48dbd0f6281bc1a2f7eeb16ab9c4a06def69878ae85ffdba7ace",
+              "path": "Regression-0.3.1.log"
+            },
+            {
+              "size": 29971,
+              "sha256": "1ca7149bc2cc2d3fa0d0527cbdce7881343e8984cf4882c04b7f3dc292b81d63",
+              "path": "TestResults.log"
+            },
+            {
+              "size": 1159,
+              "sha256": "5536459a0db43537277f58f4b27fc66820057e229ee2f9bad14af32f0b9a81c9",
+              "path": "THIRD_PARTY_NOTICES.md"
+            },
+            {
+              "size": 1447,
+              "sha256": "a7030c4cb1088882a8ca3ad527b463d73d10e997365ce19407ebda06ce509b72",
+              "path": "User-SVG-baseline.json"
+            },
+            {
+              "size": 4923,
+              "sha256": "d95bb2f60dbdc782c1af7e0e913773917308b3e0ddeb0ece23c2389c05bfca9f",
+              "path": "Validation.md"
+            }
+          ],
+          "binaryName": "MANIAC SVG 3D.dll"
+        },
+        {
+          "version": "0.3.2",
+          "files": [
+            {
+              "size": 688,
+              "sha256": "fdde9f81f309cfb5846d10a9f2b4165fb3e2f29fa3ce1fc46fd5ce93bb1b6bd8",
+              "path": "Arena-Start-Verification-0.3.2.txt"
+            },
+            {
+              "size": 1518,
+              "sha256": "0c478c87eca9faea7c74df85aea46ac348ee9c4849c4d9dfa8285535ab68e6b9",
+              "path": "Baseline-starter.json"
+            },
+            {
+              "size": 2829,
+              "sha256": "742c4203f529b8926df127d1568cf4988e5e54868f56f61aeb47b9a2e8ab9aa8",
+              "path": "Baseline.json"
+            },
+            {
+              "size": 2827,
+              "sha256": "88adac0c481874077b825e0f0eb7bb8b316b8888c57db2c3123f497a2c38ca6a",
+              "path": "Build.json"
+            },
+            {
+              "size": 1288,
+              "sha256": "bafa1c9bfd90dc640aa40c79a1228225bf4c27d361b0037919642b53d7877a28",
+              "path": "Changes-0.3.2.md"
+            },
+            {
+              "size": 31987,
+              "sha256": "f3401effb4649d57e200c89f1defd3ad0a50385d06796935064de42671915824",
+              "path": "Compatibility/Compat-boxes-filled-auto.png"
+            },
+            {
+              "size": 11561,
+              "sha256": "eb6920598d6b5f0dfca89181356268ee667544d2a57e7873a876f49856c75ca6",
+              "path": "Compatibility/Compat-boxes-filled.png"
+            },
+            {
+              "size": 11229,
+              "sha256": "e22954068104df1d4f7af043b4c6d6edd538a8fcbadce4004a020a124b61cfd8",
+              "path": "Compatibility/Compat-boxes-original.png"
+            },
+            {
+              "size": 24712,
+              "sha256": "057c9d57741a3a421620171b7b714b4717191fb2612af8b91393d759cebccf1f",
+              "path": "Compatibility/Compat-boxes-video.png"
+            },
+            {
+              "size": 114806,
+              "sha256": "fd6d12bc4070e327fd53817acbd43e38ebdfc953b1b9f8bed4b8f4424305ce88",
+              "path": "Compatibility/Compat-portal2-original.png"
+            },
+            {
+              "size": 96924,
+              "sha256": "208a9c0acbaa580373d4712cbe6877b09fe89f7cc5ad09ef3bdf7f576dad6e43",
+              "path": "Compatibility/Compat-stagex-original.png"
+            },
+            {
+              "size": 1492,
+              "sha256": "74be03d2bd4e34986ba671a7964a9c1da27a5e2f783961f11563d13376c1e1ee",
+              "path": "Compatibility/Quality-circle-AA-4x.png"
+            },
+            {
+              "size": 1676,
+              "sha256": "5602ad4537f94c23a45ad0efcba36ed8008328da6c81d6ef741c01d0428f6ccf",
+              "path": "Compatibility/Quality-circle-AA-8x.png"
+            },
+            {
+              "size": 1122,
+              "sha256": "d5b5ae6e2d0066b21f29477cfc084b9f955b2313bf2d9482c199abe2a7adea8f",
+              "path": "Compatibility/Quality-circle-AA-off.png"
+            },
+            {
+              "size": 2611,
+              "sha256": "d24ffd90290b16b85454118fcc294b792b4fdc417afe6add4215170cf2f7c520",
+              "path": "Compatibility/Quality-tilted-comb-AA-4x.png"
+            },
+            {
+              "size": 3810,
+              "sha256": "6065f599e5e89d9c00458d26d445ae9e670b964cab9f0555721df590f231e01e",
+              "path": "Compatibility/Quality-tilted-comb-AA-8x.png"
+            },
+            {
+              "size": 1333,
+              "sha256": "bef827245e696038370448dcd611b3cd35d5f75b3ea1ec232b6989a01a63c72c",
+              "path": "Compatibility/Quality-tilted-comb-AA-off.png"
+            },
+            {
+              "size": 557,
+              "sha256": "c69fecc4f41ca4dca44cfe98e0d014c96b23c3ac81fa094ff6069190bccce4dc",
+              "path": "Dependencies.json"
+            },
+            {
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "path": "Example.svg"
+            },
+            {
+              "size": 2309,
+              "sha256": "a35c291ac9dd7348b9e83b6065cb5e1079792b6e2dedd484802596166427da61",
+              "path": "licenses/FreeFrame-BSD.txt"
+            },
+            {
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "path": "licenses/LunaSVG-MIT.txt"
+            },
+            {
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "path": "licenses/PlutoVG-MIT.txt"
+            },
+            {
+              "size": 826,
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45",
+              "path": "licenses/TinyXML2-zlib.txt"
+            },
+            {
+              "size": 1300480,
+              "sha256": "3cb59fdb75823c4c6e64b3e420a0eae7dc2bcb6d5a90cce91ba9adc5d4b2a337",
+              "path": "MANIAC SVG 3D.dll"
+            },
+            {
+              "size": 57282,
+              "sha256": "d51285299a1fa910b750fcf9096c20ca1cfcce62b8aee4b3306631c242ff2355",
+              "path": "Preview-dark.png"
+            },
+            {
+              "size": 57067,
+              "sha256": "6413e785660b36848717d9e107adec2f3187528be2e2985bf3973673c576c9bc",
+              "path": "Preview-light.png"
+            },
+            {
+              "size": 334739,
+              "sha256": "dce7244d63843cb07cc338d510b349a9cb0cd418539842029c56205e2d40633e",
+              "path": "Preview.mp4"
+            },
+            {
+              "size": 8012,
+              "sha256": "2763ff11e9c6dd971e5d5345d18ca30caa28599eeaae05c88fdb06f041700549",
+              "path": "README.md"
+            },
+            {
+              "size": 1403,
+              "sha256": "4f73bc285dfd48dbd0f6281bc1a2f7eeb16ab9c4a06def69878ae85ffdba7ace",
+              "path": "Regression-0.3.1.log"
+            },
+            {
+              "size": 21072,
+              "sha256": "906b2036bbca76260ff0bdb56de97a28d7067dc0e9aadbed8453d146e29ea7e2",
+              "path": "TestResults.log"
+            },
+            {
+              "size": 1159,
+              "sha256": "eea3f7415e2d5f4f047df2ce8659f26bf37aaf8ff77bf9c5250cea2c23663302",
+              "path": "THIRD_PARTY_NOTICES.md"
+            },
+            {
+              "size": 1447,
+              "sha256": "a7030c4cb1088882a8ca3ad527b463d73d10e997365ce19407ebda06ce509b72",
+              "path": "User-SVG-baseline.json"
+            },
+            {
+              "size": 3320,
+              "sha256": "4a63ab7c9ea31f83be69244587ef20d185b69826c679367b3a6bc3e25389909e",
+              "path": "Validation.md"
+            }
+          ],
+          "binaryName": "MANIAC SVG 3D.dll"
+        },
+        {
+          "version": "0.3.1",
+          "files": [
+            {
+              "size": 1518,
+              "sha256": "0c478c87eca9faea7c74df85aea46ac348ee9c4849c4d9dfa8285535ab68e6b9",
+              "path": "Baseline-starter.json"
+            },
+            {
+              "size": 2829,
+              "sha256": "ea66dca9f4c88037a006ed5bff5d365f85d448cf48fed1e28ab1b159cc863681",
+              "path": "Baseline.json"
+            },
+            {
+              "size": 2778,
+              "sha256": "0d50427e777fa3da371449ed45c8b35c8a92ca4b5e792018fa186f3bdca3ef01",
+              "path": "Build.json"
+            },
+            {
+              "size": 1391,
+              "sha256": "206ccf19820e4de531edf239e1b39f6e3f485c2a2a5729bc8d6e25550e84e9bc",
+              "path": "Changes-0.3.1.md"
+            },
+            {
+              "size": 31987,
+              "sha256": "f3401effb4649d57e200c89f1defd3ad0a50385d06796935064de42671915824",
+              "path": "Compatibility/Compat-boxes-filled-auto.png"
+            },
+            {
+              "size": 11561,
+              "sha256": "eb6920598d6b5f0dfca89181356268ee667544d2a57e7873a876f49856c75ca6",
+              "path": "Compatibility/Compat-boxes-filled.png"
+            },
+            {
+              "size": 11229,
+              "sha256": "e22954068104df1d4f7af043b4c6d6edd538a8fcbadce4004a020a124b61cfd8",
+              "path": "Compatibility/Compat-boxes-original.png"
+            },
+            {
+              "size": 24712,
+              "sha256": "057c9d57741a3a421620171b7b714b4717191fb2612af8b91393d759cebccf1f",
+              "path": "Compatibility/Compat-boxes-video.png"
+            },
+            {
+              "size": 114806,
+              "sha256": "fd6d12bc4070e327fd53817acbd43e38ebdfc953b1b9f8bed4b8f4424305ce88",
+              "path": "Compatibility/Compat-portal2-original.png"
+            },
+            {
+              "size": 96924,
+              "sha256": "208a9c0acbaa580373d4712cbe6877b09fe89f7cc5ad09ef3bdf7f576dad6e43",
+              "path": "Compatibility/Compat-stagex-original.png"
+            },
+            {
+              "size": 1492,
+              "sha256": "74be03d2bd4e34986ba671a7964a9c1da27a5e2f783961f11563d13376c1e1ee",
+              "path": "Compatibility/Quality-circle-AA-4x.png"
+            },
+            {
+              "size": 1676,
+              "sha256": "5602ad4537f94c23a45ad0efcba36ed8008328da6c81d6ef741c01d0428f6ccf",
+              "path": "Compatibility/Quality-circle-AA-8x.png"
+            },
+            {
+              "size": 1122,
+              "sha256": "d5b5ae6e2d0066b21f29477cfc084b9f955b2313bf2d9482c199abe2a7adea8f",
+              "path": "Compatibility/Quality-circle-AA-off.png"
+            },
+            {
+              "size": 2611,
+              "sha256": "d24ffd90290b16b85454118fcc294b792b4fdc417afe6add4215170cf2f7c520",
+              "path": "Compatibility/Quality-tilted-comb-AA-4x.png"
+            },
+            {
+              "size": 3810,
+              "sha256": "6065f599e5e89d9c00458d26d445ae9e670b964cab9f0555721df590f231e01e",
+              "path": "Compatibility/Quality-tilted-comb-AA-8x.png"
+            },
+            {
+              "size": 1333,
+              "sha256": "bef827245e696038370448dcd611b3cd35d5f75b3ea1ec232b6989a01a63c72c",
+              "path": "Compatibility/Quality-tilted-comb-AA-off.png"
+            },
+            {
+              "size": 557,
+              "sha256": "c69fecc4f41ca4dca44cfe98e0d014c96b23c3ac81fa094ff6069190bccce4dc",
+              "path": "Dependencies.json"
+            },
+            {
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "path": "Example.svg"
+            },
+            {
+              "size": 2309,
+              "sha256": "a35c291ac9dd7348b9e83b6065cb5e1079792b6e2dedd484802596166427da61",
+              "path": "licenses/FreeFrame-BSD.txt"
+            },
+            {
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "path": "licenses/LunaSVG-MIT.txt"
+            },
+            {
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "path": "licenses/PlutoVG-MIT.txt"
+            },
+            {
+              "size": 826,
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45",
+              "path": "licenses/TinyXML2-zlib.txt"
+            },
+            {
+              "size": 1298944,
+              "sha256": "7f3d778ddc1c8911c249813adf2ab23b8034e5fef978c6a9676ed7fd957a5ad2",
+              "path": "MANIAC SVG 3D.dll"
+            },
+            {
+              "size": 57282,
+              "sha256": "d51285299a1fa910b750fcf9096c20ca1cfcce62b8aee4b3306631c242ff2355",
+              "path": "Preview-dark.png"
+            },
+            {
+              "size": 57067,
+              "sha256": "6413e785660b36848717d9e107adec2f3187528be2e2985bf3973673c576c9bc",
+              "path": "Preview-light.png"
+            },
+            {
+              "size": 334739,
+              "sha256": "dce7244d63843cb07cc338d510b349a9cb0cd418539842029c56205e2d40633e",
+              "path": "Preview.mp4"
+            },
+            {
+              "size": 7832,
+              "sha256": "7bfc88093a61605df79bbc2156c9e78ad3c4d4570e45a0461bad5a081ccd9a10",
+              "path": "README.md"
+            },
+            {
+              "size": 199,
+              "sha256": "05723c32b7e2a4a0a847a145e05b700d7683f833e828876eaa86c28119ac83ca",
+              "path": "Regression-0.3.0.log"
+            },
+            {
+              "size": 20743,
+              "sha256": "b450cd7441c8f8b822a928b2405dc215a93a0a294fe542ab8002c0c702059999",
+              "path": "TestResults.log"
+            },
+            {
+              "size": 1159,
+              "sha256": "69ba8a249745f8ff09c8a962f07205cc2d27dd93cf1af0b023753e4d019380b4",
+              "path": "THIRD_PARTY_NOTICES.md"
+            },
+            {
+              "size": 1447,
+              "sha256": "a7030c4cb1088882a8ca3ad527b463d73d10e997365ce19407ebda06ce509b72",
+              "path": "User-SVG-baseline.json"
+            },
+            {
+              "size": 2714,
+              "sha256": "8219864c8c65585b97a3b89bad4f753a87cd1da112874f46e6d3e4dc3cea4446",
+              "path": "Validation.md"
+            }
+          ],
+          "binaryName": "MANIAC SVG 3D.dll"
+        },
+        {
+          "binaryName": "MANIAC SVG 3D.dll",
+          "files": [
+            {
+              "path": "Baseline-starter.json",
+              "size": 1518,
+              "sha256": "0c478c87eca9faea7c74df85aea46ac348ee9c4849c4d9dfa8285535ab68e6b9"
+            },
+            {
+              "path": "Baseline.json",
+              "size": 2606,
+              "sha256": "8398417855dddb45adcc527123b93fad445860cec8f9e074411e6202d6f39396"
+            },
+            {
+              "path": "Build.json",
+              "size": 2732,
+              "sha256": "57089deb4ee9e8094a3eeea34e6ae0646f28a3086a3832a54f2538663e90c05f"
+            },
+            {
+              "path": "Changes-0.3.0.md",
+              "size": 995,
+              "sha256": "9d28d7b796307a32e916dabca7c545305153b7ccc58ec54b38d272f0194a519b"
+            },
+            {
+              "path": "Compatibility/Compat-boxes-filled-auto.png",
+              "size": 31987,
+              "sha256": "f3401effb4649d57e200c89f1defd3ad0a50385d06796935064de42671915824"
+            },
+            {
+              "path": "Compatibility/Compat-boxes-filled.png",
+              "size": 11561,
+              "sha256": "eb6920598d6b5f0dfca89181356268ee667544d2a57e7873a876f49856c75ca6"
+            },
+            {
+              "path": "Compatibility/Compat-boxes-original.png",
+              "size": 11229,
+              "sha256": "e22954068104df1d4f7af043b4c6d6edd538a8fcbadce4004a020a124b61cfd8"
+            },
+            {
+              "path": "Compatibility/Compat-boxes-video.png",
+              "size": 24712,
+              "sha256": "057c9d57741a3a421620171b7b714b4717191fb2612af8b91393d759cebccf1f"
+            },
+            {
+              "path": "Compatibility/Compat-portal2-original.png",
+              "size": 114806,
+              "sha256": "fd6d12bc4070e327fd53817acbd43e38ebdfc953b1b9f8bed4b8f4424305ce88"
+            },
+            {
+              "path": "Compatibility/Compat-stagex-original.png",
+              "size": 96924,
+              "sha256": "208a9c0acbaa580373d4712cbe6877b09fe89f7cc5ad09ef3bdf7f576dad6e43"
+            },
+            {
+              "path": "Compatibility/Quality-circle-AA-4x.png",
+              "size": 1492,
+              "sha256": "74be03d2bd4e34986ba671a7964a9c1da27a5e2f783961f11563d13376c1e1ee"
+            },
+            {
+              "path": "Compatibility/Quality-circle-AA-8x.png",
+              "size": 1676,
+              "sha256": "5602ad4537f94c23a45ad0efcba36ed8008328da6c81d6ef741c01d0428f6ccf"
+            },
+            {
+              "path": "Compatibility/Quality-circle-AA-off.png",
+              "size": 1122,
+              "sha256": "d5b5ae6e2d0066b21f29477cfc084b9f955b2313bf2d9482c199abe2a7adea8f"
+            },
+            {
+              "path": "Compatibility/Quality-tilted-comb-AA-4x.png",
+              "size": 2611,
+              "sha256": "d24ffd90290b16b85454118fcc294b792b4fdc417afe6add4215170cf2f7c520"
+            },
+            {
+              "path": "Compatibility/Quality-tilted-comb-AA-8x.png",
+              "size": 3810,
+              "sha256": "6065f599e5e89d9c00458d26d445ae9e670b964cab9f0555721df590f231e01e"
+            },
+            {
+              "path": "Compatibility/Quality-tilted-comb-AA-off.png",
+              "size": 1333,
+              "sha256": "bef827245e696038370448dcd611b3cd35d5f75b3ea1ec232b6989a01a63c72c"
+            },
+            {
+              "path": "Dependencies.json",
+              "size": 557,
+              "sha256": "c69fecc4f41ca4dca44cfe98e0d014c96b23c3ac81fa094ff6069190bccce4dc"
+            },
+            {
+              "path": "Example.svg",
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87"
+            },
+            {
+              "path": "licenses/FreeFrame-BSD.txt",
+              "size": 2309,
+              "sha256": "a35c291ac9dd7348b9e83b6065cb5e1079792b6e2dedd484802596166427da61"
+            },
+            {
+              "path": "licenses/LunaSVG-MIT.txt",
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b"
+            },
+            {
+              "path": "licenses/PlutoVG-MIT.txt",
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b"
+            },
+            {
+              "path": "licenses/TinyXML2-zlib.txt",
+              "size": 826,
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45"
+            },
+            {
+              "path": "MANIAC SVG 3D.dll",
+              "size": 1299968,
+              "sha256": "66056a6cde533270e6b1f2cb00e4f7b9a284336916ae1e4501a97e3b04e8ab79"
+            },
+            {
+              "path": "Preview-dark.png",
+              "size": 57282,
+              "sha256": "d51285299a1fa910b750fcf9096c20ca1cfcce62b8aee4b3306631c242ff2355"
+            },
+            {
+              "path": "Preview-light.png",
+              "size": 57067,
+              "sha256": "6413e785660b36848717d9e107adec2f3187528be2e2985bf3973673c576c9bc"
+            },
+            {
+              "path": "Preview.mp4",
+              "size": 334739,
+              "sha256": "dce7244d63843cb07cc338d510b349a9cb0cd418539842029c56205e2d40633e"
+            },
+            {
+              "path": "README.md",
+              "size": 7469,
+              "sha256": "ad4031131e3bf4176c2c7de98b44ab62c752de6aa59c1eb1edb3cb5b8a2cfa21"
+            },
+            {
+              "path": "TestResults.log",
+              "size": 8730,
+              "sha256": "b459c1e181381918c826ec50ee988c3aee7285bb8fbca794bc70d5506ccaad38"
+            },
+            {
+              "path": "THIRD_PARTY_NOTICES.md",
+              "size": 1159,
+              "sha256": "5698e4d8ee886e1dd7dd4b9d4a7eb2f3d02b392af4fde5d1c8449eebecd04f21"
+            },
+            {
+              "path": "User-SVG-baseline.json",
+              "size": 1447,
+              "sha256": "a7030c4cb1088882a8ca3ad527b463d73d10e997365ce19407ebda06ce509b72"
+            },
+            {
+              "path": "Validation.md",
+              "size": 5402,
+              "sha256": "51c9c5b4e82c0431d83337a8ce34c91b5bba2f14d43039fbd14bbe439f6a2b1c"
+            }
+          ],
+          "version": "0.3.0"
+        },
+        {
+          "binaryName": "MANIAC SVG 3D.dll",
+          "version": "0.2.0",
+          "files": [
+            {
+              "path": "Baseline-starter.json",
+              "size": 1518,
+              "sha256": "0c478c87eca9faea7c74df85aea46ac348ee9c4849c4d9dfa8285535ab68e6b9"
+            },
+            {
+              "path": "Baseline.json",
+              "size": 3686,
+              "sha256": "08dd416aed059fbc399b97922860ea2eb3b29e253afb1e22b25d38c69ba78f22"
+            },
+            {
+              "path": "Build.json",
+              "size": 2468,
+              "sha256": "9b39e8cade4cd44663c84d705816ae101eca49b0dec68c5d813a8349bc0690fb"
+            },
+            {
+              "path": "Changes-0.2.0.md",
+              "size": 2271,
+              "sha256": "c397a77ca9d0c567ae873d51e592185689891c9e4922f4f1263bddb5259e36d1"
+            },
+            {
+              "path": "Compatibility/Compat-boxes-filled-auto.png",
+              "size": 25144,
+              "sha256": "b5ad81fdfa68fb981549fe362c8f942d2d670e3a0f08a825d692dd0af8c0cbdb"
+            },
+            {
+              "path": "Compatibility/Compat-boxes-filled.png",
+              "size": 10569,
+              "sha256": "b5a36a06b892b7d3fb52725eb3ffed4ae0220ae2680470aefd183be8eb3e76ea"
+            },
+            {
+              "path": "Compatibility/Compat-boxes-original.png",
+              "size": 10339,
+              "sha256": "42b91573e38eb922eb84307e51861265ac34bed77e696e4df2cc896e022ab781"
+            },
+            {
+              "path": "Compatibility/Compat-boxes-video.png",
+              "size": 20582,
+              "sha256": "58babb0db77cf340e109ed24ad019fc22d71ff2877e39bdbac5fcf71fe510366"
+            },
+            {
+              "path": "Compatibility/Compat-portal2-original.png",
+              "size": 88944,
+              "sha256": "24af5ff1a5a3243ed02315b82a2159caef5e6ff3c39bc41588e589178c7c0277"
+            },
+            {
+              "path": "Compatibility/Compat-stagex-original.png",
+              "size": 65658,
+              "sha256": "0f39aff76531c64515375e7b5ff7ec65408b3ef308d2c43d212365b6104bc191"
+            },
+            {
+              "path": "Dependencies.json",
+              "size": 557,
+              "sha256": "c69fecc4f41ca4dca44cfe98e0d014c96b23c3ac81fa094ff6069190bccce4dc"
+            },
+            {
+              "path": "Example.svg",
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87"
+            },
+            {
+              "path": "licenses/FreeFrame-BSD.txt",
+              "size": 2309,
+              "sha256": "a35c291ac9dd7348b9e83b6065cb5e1079792b6e2dedd484802596166427da61"
+            },
+            {
+              "path": "licenses/LunaSVG-MIT.txt",
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b"
+            },
+            {
+              "path": "licenses/PlutoVG-MIT.txt",
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b"
+            },
+            {
+              "path": "licenses/TinyXML2-zlib.txt",
+              "size": 826,
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45"
+            },
+            {
+              "path": "MANIAC SVG 3D.dll",
+              "size": 1272832,
+              "sha256": "ab59415333856f397b69a1c95071976b44be208a27c64a218a6eb1022fec18c5"
+            },
+            {
+              "path": "Preview-dark.png",
+              "size": 47756,
+              "sha256": "87b5072ea5ebe12cc842417b2d6a47b386c571fb341423da84b1bf2bd773373a"
+            },
+            {
+              "path": "Preview-light.png",
+              "size": 49122,
+              "sha256": "46cabe9d419e916574a0551ad99a64f45f22e434fe5656a59d13952a47fe8f90"
+            },
+            {
+              "path": "Preview.mp4",
+              "size": 446990,
+              "sha256": "edc1ba781b2b27bc1249c33658aae88602ca1249ab3ea3bbbf23ee5d4280d0c6"
+            },
+            {
+              "path": "README.md",
+              "size": 8555,
+              "sha256": "b0aed8df74291240123d22913de88ba896baef2378251b6543eebad7cb0d04f7"
+            },
+            {
+              "path": "TestResults.log",
+              "size": 6288,
+              "sha256": "48a099ffa65b6ba1cd3736f090d675fac7925a7d9da02ad79254ffa39bf94389"
+            },
+            {
+              "path": "THIRD_PARTY_NOTICES.md",
+              "size": 907,
+              "sha256": "3a00846cd92f607f76f26f8a48f7cb54e1f6258d21e59e34747a5e1eb744f992"
+            },
+            {
+              "path": "Validation.md",
+              "size": 4378,
+              "sha256": "1eabeae43b8b0f5048bb57989e91593ea0f7c81103a5a3a529b3e18e4561f6d4"
+            }
+          ]
+        },
+        {
+          "binaryName": "MANIAC SVG 3D.dll",
+          "version": "0.1.0",
+          "files": [
+            {
+              "sha256": "0c478c87eca9faea7c74df85aea46ac348ee9c4849c4d9dfa8285535ab68e6b9",
+              "path": "Baseline.json",
+              "size": 1518
+            },
+            {
+              "sha256": "db31924433db8d0bd9c9aa9c79fbf6bd85d38afedc4457f79748201be2e1209c",
+              "path": "Build.json",
+              "size": 2074
+            },
+            {
+              "sha256": "c69fecc4f41ca4dca44cfe98e0d014c96b23c3ac81fa094ff6069190bccce4dc",
+              "path": "Dependencies.json",
+              "size": 557
+            },
+            {
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "path": "Example.svg",
+              "size": 992639
+            },
+            {
+              "sha256": "a35c291ac9dd7348b9e83b6065cb5e1079792b6e2dedd484802596166427da61",
+              "path": "licenses/FreeFrame-BSD.txt",
+              "size": 2309
+            },
+            {
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "path": "licenses/LunaSVG-MIT.txt",
+              "size": 1125
+            },
+            {
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "path": "licenses/PlutoVG-MIT.txt",
+              "size": 1125
+            },
+            {
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45",
+              "path": "licenses/TinyXML2-zlib.txt",
+              "size": 826
+            },
+            {
+              "sha256": "94d5e82ce70e2cbd33bc654eea500d8bef82b96ac45315944441990e57aa49e9",
+              "path": "MANIAC SVG 3D.dll",
+              "size": 1249280
+            },
+            {
+              "sha256": "ba6bf6c4d9d48fb5a7106f02b0d355c75e3544d11ed5a150117981519cce5019",
+              "path": "Preview-dark.png",
+              "size": 186460
+            },
+            {
+              "sha256": "d00fd30a5432d4050e628b2096708db8dcbd9a6ba1afe3b643450e0e4e226690",
+              "path": "Preview-light.png",
+              "size": 187310
+            },
+            {
+              "sha256": "71025518618f1b208c8f032021e4beb663630a60f7123845df2e287bc484bffa",
+              "path": "Preview.mp4",
+              "size": 3219756
+            },
+            {
+              "sha256": "f8951b1f371d1fcafbbcf14e94ecd62b1b8d1ebdd800138cc1c0d656f1dd09de",
+              "path": "README.md",
+              "size": 6132
+            },
+            {
+              "sha256": "84e4c693abce4725e892977cc9bab5eaac76b375395b1318e10430d56ad947bd",
+              "path": "TestResults.log",
+              "size": 2733
+            },
+            {
+              "sha256": "cb1f75dd0315736eb2b2d100ee94e1304b769e4f1ba9094f4e1acb1431ce7330",
+              "path": "THIRD_PARTY_NOTICES.md",
+              "size": 905
+            },
+            {
+              "sha256": "712c121aca444902ce0ab97a2802368f01f5d14134ac74ce93eb6f1e59617019",
+              "path": "Validation.md",
+              "size": 4862
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "architecture": "win-x64",
+      "assetId": 0,
+      "pluginId": "maniac-stagelight-3d",
+      "version": "0.4.1-pkg.2",
+      "sha256": "1d7921dcc1c6ed89becec524ad49b9dea45c0308f3e23cbc3caf86d2a552768c",
+      "binaryName": "MANIAC_Stagelight 3d.dll",
+      "name": "MANIAC_Stagelight 3d",
+      "minimumLauncherVersion": "0.2.9",
+      "assetName": "maniac-stagelight-3d-0.4.1-pkg.2.zip",
+      "releaseTag": "plugin-maniac-stagelight-3d-v0.4.1-pkg.2",
+      "packageSize": 937328,
+      "minimumHostVersion": "7.26.2",
+      "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.4.0. Verbesserter Illustrator-Import mit CSS-Klassen, Style-Blöcken und Farbverläufen. Hostname MANIAC_Stage3D; 234 Parameter.",
+      "isTestOnly": false,
+      "knownInstallations": [
+        {
+          "version": "0.3.0",
+          "binaryName": "MANIAC_Stagelight 3d.dll",
+          "files": [
+            {
+              "size": 2063,
+              "sha256": "35571f47fb0f18e9141237dc6f857b0262cd8e5824320b73c09d99b953265467",
+              "path": "Baseline-0.1.0.json"
+            },
+            {
+              "size": 3025,
+              "sha256": "74a5eaa1f063a3c56b6e38dd477efb9c9e0300af0daf66f433cdce4eceb46781",
+              "path": "Baseline-0.2.0.json"
+            },
+            {
+              "size": 3196,
+              "sha256": "fe99f5d4dfadad1d65b384f7ccba8a543d3871ea2c51acd4b7b30865765c7da5",
+              "path": "Baseline.json"
+            },
+            {
+              "size": 2481,
+              "sha256": "edd413cd1f0f16dae31b70b84c7ada47748ca1020ce8c7e54470e2d5c1032a3f",
+              "path": "Build.json"
+            },
+            {
+              "size": 557,
+              "sha256": "c69fecc4f41ca4dca44cfe98e0d014c96b23c3ac81fa094ff6069190bccce4dc",
+              "path": "Dependencies.json"
+            },
+            {
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "path": "Example.svg"
+            },
+            {
+              "size": 2309,
+              "sha256": "a35c291ac9dd7348b9e83b6065cb5e1079792b6e2dedd484802596166427da61",
+              "path": "licenses/FreeFrame-BSD.txt"
+            },
+            {
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "path": "licenses/LunaSVG-MIT.txt"
+            },
+            {
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "path": "licenses/PlutoVG-MIT.txt"
+            },
+            {
+              "size": 826,
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45",
+              "path": "licenses/TinyXML2-zlib.txt"
+            },
+            {
+              "size": 4294657,
+              "sha256": "6a1a1a091870fafa9b59060a436ee138a7f6833cbb8f50645f733840b5a3eef1",
+              "path": "LightOnly-16-4K-dark.png"
+            },
+            {
+              "size": 230395,
+              "sha256": "da4866c8526acdd47b4b65956189f8b0a201d00c2e8748ab4dcfe3884ed33b4f",
+              "path": "LightOnly-BeamsOff-dark.png"
+            },
+            {
+              "size": 220093,
+              "sha256": "2ede70d6160df211074c78dd5f1aabf11f2c2bb6866ea7fcd3e7b01570060f11",
+              "path": "LightOnly-BeamsOff-light.png"
+            },
+            {
+              "size": 431875,
+              "sha256": "c06752d7b0564df291a2212ac7a17dc570abf9f75013905d4d2324a0abdb9cee",
+              "path": "LightOnly-BeamsOn-dark.png"
+            },
+            {
+              "size": 424842,
+              "sha256": "df16e2a7008cd5c47329f8a36bf4bcc1ba163e50c754cf9197bde4f048d617ee",
+              "path": "LightOnly-BeamsOn-light.png"
+            },
+            {
+              "size": 1273344,
+              "sha256": "134c89e2a62c570a0a3e6d547d2cf10d1ee860b1e38d169df232209368dbe1c4",
+              "path": "MANIAC_Stagelight 3d.dll"
+            },
+            {
+              "size": 1332895,
+              "sha256": "e3db0721d34ec973e5d16f5291037f739fe6a78af3757a8ed0504438f42817c8",
+              "path": "Preview.mp4"
+            },
+            {
+              "size": 11442,
+              "sha256": "4715b70de2fcac9170b7d75a3baee57383532776ed9afa349f4d5724d048f0b8",
+              "path": "README.md"
+            },
+            {
+              "size": 433087,
+              "sha256": "d9eff8a1a4f365d8b9cb99e1c1cdf29ac4c1e72cc163ea95eb88b829b0da237f",
+              "path": "Surface-BeamsOn-dark.png"
+            },
+            {
+              "size": 450390,
+              "sha256": "06fbd96a77271f0fe57348033bbfed35e880701bdac9c616ab302ba9202765ff",
+              "path": "Surface-BeamsOn-light.png"
+            },
+            {
+              "size": 6086,
+              "sha256": "8cbb0dc8c4d5d6980f4021cf15c33eed1aae33a3b60c4deda2d63030a89ff643",
+              "path": "TestResults.log"
+            },
+            {
+              "size": 1291,
+              "sha256": "9d024dc591e74a8964f36832bbc0a2d58af23e14479668c9b7ddcaf398b16758",
+              "path": "THIRD_PARTY_NOTICES.md"
+            },
+            {
+              "size": 4336,
+              "sha256": "3d0d20c304cc39d08381aef210a9bfd481f73c4c665349dca7d924dccc510790",
+              "path": "Validation.md"
+            }
+          ]
+        },
+        {
+          "binaryName": "MANIAC_Stagelight 3d.dll",
+          "files": [
+            {
+              "size": 2063,
+              "sha256": "35571f47fb0f18e9141237dc6f857b0262cd8e5824320b73c09d99b953265467",
+              "path": "Baseline-0.1.0.json"
+            },
+            {
+              "size": 3025,
+              "sha256": "74a5eaa1f063a3c56b6e38dd477efb9c9e0300af0daf66f433cdce4eceb46781",
+              "path": "Baseline.json"
+            },
+            {
+              "size": 2708,
+              "sha256": "dada9e110bfc2632857e2004dbe030f16beb9fdf1ca68a33d451045100fca9d6",
+              "path": "Build.json"
+            },
+            {
+              "size": 557,
+              "sha256": "c69fecc4f41ca4dca44cfe98e0d014c96b23c3ac81fa094ff6069190bccce4dc",
+              "path": "Dependencies.json"
+            },
+            {
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "path": "Example.svg"
+            },
+            {
+              "size": 2309,
+              "sha256": "a35c291ac9dd7348b9e83b6065cb5e1079792b6e2dedd484802596166427da61",
+              "path": "licenses/FreeFrame-BSD.txt"
+            },
+            {
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "path": "licenses/LunaSVG-MIT.txt"
+            },
+            {
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "path": "licenses/PlutoVG-MIT.txt"
+            },
+            {
+              "size": 826,
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45",
+              "path": "licenses/TinyXML2-zlib.txt"
+            },
+            {
+              "size": 1272832,
+              "sha256": "9d0d9bb8fcfc5683b946868fa8c1ceae9760c927ae376a8ec40d326a28bff0b3",
+              "path": "MANIAC_Stagelight 3d.dll"
+            },
+            {
+              "size": 736,
+              "sha256": "d0ae5d979c22c4e2b0e8fb110fea5a6eb1984282e26f3c574502e2a81d994edf",
+              "path": "Measurements.txt"
+            },
+            {
+              "size": 445185,
+              "sha256": "38700d889425957ebcde3c28394d3ce9519d1961963c5bd9bdeec81c17278611",
+              "path": "Preset-1-dark.png"
+            },
+            {
+              "size": 459714,
+              "sha256": "51814d27de051b488581ff0ab4372c28df29ff90f91c4e337025ed75290ccf77",
+              "path": "Preset-1-light.png"
+            },
+            {
+              "size": 465673,
+              "sha256": "2d785e19e41923c099937c03272fa047c37e4ddce08aeb967f8125dcc169433f",
+              "path": "Preset-2-dark.png"
+            },
+            {
+              "size": 473492,
+              "sha256": "35d0887cb2eb11e140b819bd9056668e45c8a07307e5c86a551efc057a29447f",
+              "path": "Preset-2-light.png"
+            },
+            {
+              "size": 471806,
+              "sha256": "b6c71a18f0babc53ee924e3069cc25bf572807673766e050aae6ddee81088693",
+              "path": "Preset-3-dark.png"
+            },
+            {
+              "size": 484319,
+              "sha256": "4a34072cc75409ae717f3b280321d7a290d5832a683309b157b65b6ff59caa73",
+              "path": "Preset-3-light.png"
+            },
+            {
+              "size": 465538,
+              "sha256": "b6514d537de98fd514ee991e96bfcc44fa13086195a1c3320f973a442db60086",
+              "path": "Preset-4-dark.png"
+            },
+            {
+              "size": 487813,
+              "sha256": "eb8b9a1a256632d370fb08db6791a06b457b83c448b467697f723ac36f8401b5",
+              "path": "Preset-4-light.png"
+            },
+            {
+              "size": 458841,
+              "sha256": "07bbe416ed6891655aea006335d4413679661d29d6861a59996e5ffc49db29d4",
+              "path": "Preset-5-dark.png"
+            },
+            {
+              "size": 479302,
+              "sha256": "3017ef08f5d6030618e4ec08824414fe383445e8fa854f3a073634d8fcdbfd81",
+              "path": "Preset-5-light.png"
+            },
+            {
+              "size": 488625,
+              "sha256": "7647b5563545a6e0e98ef50d7db8d9faa145a66b098c075215dbeec47b285c1f",
+              "path": "Preset-6-dark.png"
+            },
+            {
+              "size": 502668,
+              "sha256": "24e9c220c90e1a9267c4e657743a87ffbef5ed3c05272ef2639c12bda095ec97",
+              "path": "Preset-6-light.png"
+            },
+            {
+              "size": 278048,
+              "sha256": "77dc7a4becf75fddf4825c935052985427cf93bfefb30632cd1499827a71ccd7",
+              "path": "Preset-7-dark.png"
+            },
+            {
+              "size": 305173,
+              "sha256": "74761fede405ffa783a03790c44210061222ede1d64e315cee970a9126d8188f",
+              "path": "Preset-7-light.png"
+            },
+            {
+              "size": 514118,
+              "sha256": "197d18edfaf84516a63d7f90275bb550eb0ac6049f0002e2cb744a81a87879e9",
+              "path": "Preset-8-dark.png"
+            },
+            {
+              "size": 524634,
+              "sha256": "74edbead705fa3fa41e0a5863dbe0cd36a2152821a96abd60c1ed3d6e827aeb3",
+              "path": "Preset-8-light.png"
+            },
+            {
+              "size": 3205126,
+              "sha256": "8cb65533fb3d16a418e18aa3fa5b1f8346f927c33945efb459b442b7c92f6f53",
+              "path": "Preview-16-4K.png"
+            },
+            {
+              "size": 560973,
+              "sha256": "2d7b9cbbbd4a6192ba5ab6a55385e50b6cb7fa288850506ca7e983aee5d168d4",
+              "path": "Preview-16-dark.png"
+            },
+            {
+              "size": 554483,
+              "sha256": "f31a983f4c3230a547cab133ebbf3bd7fce8d1b73508204ace46f82c1df68abe",
+              "path": "Preview-16-light.png"
+            },
+            {
+              "size": 433087,
+              "sha256": "d9eff8a1a4f365d8b9cb99e1c1cdf29ac4c1e72cc163ea95eb88b829b0da237f",
+              "path": "Preview-4-dark.png"
+            },
+            {
+              "size": 450390,
+              "sha256": "06fbd96a77271f0fe57348033bbfed35e880701bdac9c616ab302ba9202765ff",
+              "path": "Preview-4-light.png"
+            },
+            {
+              "size": 527846,
+              "sha256": "b491f2e4361bc97214fe0ea6285ee035abd968658f7984358cf55e9e2291a950",
+              "path": "Preview-8-dark.png"
+            },
+            {
+              "size": 534418,
+              "sha256": "51a4222e33ade04f163edb4195a59dd65f84e6d390a0ce0bcb9a6e0b2259c66a",
+              "path": "Preview-8-light.png"
+            },
+            {
+              "size": 4645524,
+              "sha256": "cd2b97d194c41b63648a2641fa587e11699ba63cd20a55a52c64af9a5f52d004",
+              "path": "Preview.mp4"
+            },
+            {
+              "size": 10168,
+              "sha256": "fe891b65d1a014bcc04ecad8ba561f5b01d25e6be5a4edbf1a7f6bde4823a37e",
+              "path": "README.md"
+            },
+            {
+              "size": 1340519,
+              "sha256": "411b171d8fdae15c74e47b909891f880f593cb085adcaac66660914383c7f196",
+              "path": "Show-Presets.png"
+            },
+            {
+              "size": 5119,
+              "sha256": "f2c24a361eb782114fb519fcf41245d353a66e9a177fcf8b48a5fd0da66e78a6",
+              "path": "TestResults.log"
+            },
+            {
+              "size": 1289,
+              "sha256": "a79434fe08158dabe43c39d3b460b1fa7b37f243d34cb6aac0fec19cbd982c59",
+              "path": "THIRD_PARTY_NOTICES.md"
+            },
+            {
+              "size": 7436,
+              "sha256": "ea3b3d364681416762256c4e4bf277497c9fb4eff03deeb15c148e3930ef38ca",
+              "path": "Validation.md"
+            }
+          ],
+          "version": "0.2.0"
+        },
+        {
+          "binaryName": "MANIAC_Stagelight 3d.dll",
+          "files": [
+            {
+              "size": 2063,
+              "path": "Baseline.json",
+              "sha256": "35571f47fb0f18e9141237dc6f857b0262cd8e5824320b73c09d99b953265467"
+            },
+            {
+              "size": 2171,
+              "path": "Build.json",
+              "sha256": "e06ccbb5cac0fc5dca0ac33110e562472cfdf7976cc11166e7b4c33f3a3a9680"
+            },
+            {
+              "size": 557,
+              "path": "Dependencies.json",
+              "sha256": "c69fecc4f41ca4dca44cfe98e0d014c96b23c3ac81fa094ff6069190bccce4dc"
+            },
+            {
+              "size": 992639,
+              "path": "Example.svg",
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87"
+            },
+            {
+              "size": 2309,
+              "path": "licenses/FreeFrame-BSD.txt",
+              "sha256": "a35c291ac9dd7348b9e83b6065cb5e1079792b6e2dedd484802596166427da61"
+            },
+            {
+              "size": 1125,
+              "path": "licenses/LunaSVG-MIT.txt",
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b"
+            },
+            {
+              "size": 1125,
+              "path": "licenses/PlutoVG-MIT.txt",
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b"
+            },
+            {
+              "size": 826,
+              "path": "licenses/TinyXML2-zlib.txt",
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45"
+            },
+            {
+              "size": 1266176,
+              "path": "MANIAC_Stagelight 3d.dll",
+              "sha256": "2d2f8742f4d9f40b014c24fdd3a113ed109c1ef6f8b53a3bd61be5df5b988c37"
+            },
+            {
+              "size": 740,
+              "path": "Measurements.txt",
+              "sha256": "3ff8702295945505ae4b1e8bfd96c3cc0e05a46272b1e169db9781af77ba18ea"
+            },
+            {
+              "size": 3240568,
+              "path": "Preview-16-4K.png",
+              "sha256": "1cd29a8a60843375c2ac041176302c749f81276b1ce3715e551f54132f2c2d94"
+            },
+            {
+              "size": 581380,
+              "path": "Preview-16-dark.png",
+              "sha256": "eb3611401c8ac39bb10a9dcb4f365ea8c677b138d75a26240003b1fb889ebd54"
+            },
+            {
+              "size": 562383,
+              "path": "Preview-16-light.png",
+              "sha256": "cb14f33f743748fd05d7717cc946d55b05e74b35ceb4ef46d9555dc1e79abb77"
+            },
+            {
+              "size": 462927,
+              "path": "Preview-4-dark.png",
+              "sha256": "b27ce830ad3d00284c6b616cb7e80e610a1e6e890e6ad52794b4ca219b2bda2d"
+            },
+            {
+              "size": 477695,
+              "path": "Preview-4-light.png",
+              "sha256": "e7a36ff9ae9034c86daa7bd6107f20e01ecd7aca1eec8aac3ea6b2f556b6d7ca"
+            },
+            {
+              "size": 536507,
+              "path": "Preview-8-dark.png",
+              "sha256": "fbbdb02b18bdb0d41255ef85c4064e3c90b2fd3e56a71255e7472cfa12121499"
+            },
+            {
+              "size": 536794,
+              "path": "Preview-8-light.png",
+              "sha256": "1780688e0a7823eb67699785943d74cc6559a8bc20044140a0840a472580dd94"
+            },
+            {
+              "size": 1033469,
+              "path": "Preview.mp4",
+              "sha256": "8b459a0894867fd8eec9406c2090c53745e2a94cf6d99b7df76e01e8db1e2d4d"
+            },
+            {
+              "size": 6991,
+              "path": "README.md",
+              "sha256": "8eb73e1c9e6ef90607d0c7218f38185878f1f9663fb45891a79f995c78f770c7"
+            },
+            {
+              "size": 4197,
+              "path": "TestResults.log",
+              "sha256": "7e2e81662974f591773b64a9128d3cffcd4e1cef4f0a2c732df987dbd0661c50"
+            },
+            {
+              "size": 1130,
+              "path": "THIRD_PARTY_NOTICES.md",
+              "sha256": "1657fced95ec3c846610fe4b580b11093cbfe62062a5301afbbcebd2c745a063"
+            },
+            {
+              "size": 5577,
+              "path": "Validation.md",
+              "sha256": "72829c882ecdfce7aa2ba675c8618d962f30e3db6dc4b64340c1af1a5ec77a6d"
+            }
+          ],
+          "version": "0.1.0"
+        }
+      ]
+    },
+    {
+      "architecture": "win-x64",
+      "assetId": 0,
+      "pluginId": "moireaction",
+      "version": "0.4.1-pkg.2",
+      "sha256": "c8ea33f3a64da12b0195f2ba4d5af317acfd4a20775b5fda852ee3f873bbe2c9",
+      "binaryName": "MANiAC_MOIREACTION.dll",
+      "name": "MANiAC_MOIREACTION",
+      "minimumLauncherVersion": "0.2.9",
+      "assetName": "moireaction-0.4.1-pkg.2.zip",
+      "releaseTag": "plugin-moireaction-v0.4.1-pkg.2",
+      "packageSize": 846460,
+      "minimumHostVersion": "7.26.2",
+      "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.4.0. Moiré und Diffusion mit eigenständiger SVG-Maske, Master Speed und Slow 10% / Very Slow 1%.",
+      "isTestOnly": false,
+      "knownInstallations": [
+        {
+          "version": "0.3.0",
+          "files": [
+            {
+              "size": 3012,
+              "sha256": "71bd72350c87921333743426dfe353dc9e6ae938e54d44fcc201d664ac63faa4",
+              "path": "Baseline.json"
+            },
+            {
+              "size": 2167,
+              "sha256": "45521f61ec948b90bbf25b9ff0c5f8e2cd78170730d1b368d8576a639cc7045e",
+              "path": "Build.json"
+            },
+            {
+              "size": 644632,
+              "sha256": "73e3638437e09b32570b7befbc757cae01ad582595a484fb4c7526bd0f918d87",
+              "path": "Kontrolle-Dunkel.png"
+            },
+            {
+              "size": 665458,
+              "sha256": "8c60273008ed04d00d3f0aa6ff598956ee3f4dbbf186211b00e7378544a49e09",
+              "path": "Kontrolle-Hell.png"
+            },
+            {
+              "size": 651776,
+              "sha256": "657bee3e8dc8f41797354873f6e6ec5c08ecf81d644cbe09a628e0bd16329f13",
+              "path": "MANiAC_MOIREACTION.dll"
+            },
+            {
+              "size": 1392,
+              "sha256": "82a743bad63c6fda32b62ab390fc1374d60c7166efa4934cd35e7e63addb341f",
+              "path": "Parameter-Metadaten.txt"
+            },
+            {
+              "size": 29695,
+              "sha256": "b5d74874afb546a083592b91799fc439c520ce61e8d27196699e550943da5398",
+              "path": "Quellprojekt.zip"
+            },
+            {
+              "size": 4092,
+              "sha256": "55b0d6703787e933cfd09e4a4ec42462cdfc6093407f39b3f42eaf8230e0726e",
+              "path": "README.md"
+            },
+            {
+              "size": 1281,
+              "sha256": "7f9f452e5dff54cb04df36c2ccdc9dd969a67b3092d7c54b9cd3920456c03a09",
+              "path": "SHA256SUMS.txt"
+            },
+            {
+              "size": 232,
+              "sha256": "a43796a3494b29a540e60607387b8d1a8c3d27b39a13ac9bd4a160f2e30277c3",
+              "path": "Tempo-Vergleich.txt"
+            },
+            {
+              "size": 867520,
+              "sha256": "01def09221205c2b3dde52f1581cd9900422e49f91fdc18dff29db2e4e720828",
+              "path": "Testbild.png"
+            },
+            {
+              "size": 676,
+              "sha256": "29a636124eb9da79917e2e8042a24f6dc4666d08aad7ee6902568d879f2a8cd8",
+              "path": "Testprotokoll.txt"
+            },
+            {
+              "size": 3176,
+              "sha256": "f74b911b96a5a8848ed6fb3341f455e98cebe06eb530c90874abf726659d007d",
+              "path": "THIRD-PARTY-NOTICES.txt"
+            },
+            {
+              "size": 975,
+              "sha256": "c6e1e935fa763ca584e585cf9dc03f239de26e237660b5557ae72e7f94e81a71",
+              "path": "Ursprung-Baseline.json"
+            },
+            {
+              "size": 3161,
+              "sha256": "4e05b8226281920fd61771e288dad1c692bf912042f059798b1291d99e443848",
+              "path": "Validierung.md"
+            },
+            {
+              "size": 1272,
+              "sha256": "a9f3cfb2faebc6c82665c6a047f2bcc917def6b6b0369743385842018e71bf51",
+              "path": "webgl-noise-LICENSE.txt"
+            }
+          ],
+          "binaryName": "MANiAC_MOIREACTION.dll"
+        },
+        {
+          "binaryName": "MANiAC_MOIREACTION.dll",
+          "files": [
+            {
+              "size": 975,
+              "sha256": "c6e1e935fa763ca584e585cf9dc03f239de26e237660b5557ae72e7f94e81a71",
+              "path": "Baseline.json"
+            },
+            {
+              "size": 2852,
+              "sha256": "af560246e45d3faec580b22a02512d9c8df4702437cc73eeb3fd552ad7e91079",
+              "path": "Build.json"
+            },
+            {
+              "size": 585,
+              "sha256": "887d3ed089f3d00bd2e80015596bebcdf9db8976d4cf24a82e3c170095f2fdb2",
+              "path": "Kalibrierung.txt"
+            },
+            {
+              "size": 654569,
+              "sha256": "d768b33d0d597c2f9ecedf06cdb7eb1f1f49a442ff9e09f36e3dbc41fa65be9c",
+              "path": "Kontrolle-Dunkel.png"
+            },
+            {
+              "size": 649556,
+              "sha256": "6089bc9fd2b07148b873e2800f6c4a573916bbb14417199525e4ebdc703d47d4",
+              "path": "Kontrolle-Hell.png"
+            },
+            {
+              "size": 651264,
+              "sha256": "83fd0a0ea38189d96981c948a92249ef7301f543cb227507e000d48edb616ff1",
+              "path": "MANiAC_MOIREACTION.dll"
+            },
+            {
+              "size": 1362,
+              "sha256": "56708b9bc9cb903f4ed8d54627ccede3d0dcfe10abe6b89dff9e1c28297747d5",
+              "path": "Parameter-Metadaten.txt"
+            },
+            {
+              "size": 28181,
+              "sha256": "afd1cf065321e9e437389909ecc98e27664705150c154cb5a6b5b4723fb6b6c6",
+              "path": "Quellprojekt.zip"
+            },
+            {
+              "size": 3534,
+              "sha256": "e3b1948e6ff7ca813002e4ee654062531f85165c351eea01632104a2d8bf7074",
+              "path": "README.md"
+            },
+            {
+              "size": 776111,
+              "sha256": "4a2059d674f1a76c3ed7fa9dd5584903912a634b1a0d0d78a27db223f7288290",
+              "path": "Referenz-TD.png"
+            },
+            {
+              "size": 1351,
+              "sha256": "d44eb6cd767b72f46cf5d5cb658b638f7961a1bd1b7c17bb9ec2d3449fa263d6",
+              "path": "SHA256SUMS.txt"
+            },
+            {
+              "size": 867520,
+              "sha256": "01def09221205c2b3dde52f1581cd9900422e49f91fdc18dff29db2e4e720828",
+              "path": "Testbild.png"
+            },
+            {
+              "size": 636,
+              "sha256": "432ca262ad15d555f47558cc1ae8a8043764fa103f8b5bced0bbdda444f85cc2",
+              "path": "Testprotokoll.txt"
+            },
+            {
+              "size": 3117,
+              "sha256": "c170aa6f759325680be65980f485bf2285954aafda0f09fb764d07672f2f6862",
+              "path": "THIRD-PARTY-NOTICES.txt"
+            },
+            {
+              "size": 2535,
+              "sha256": "7481e952b7bdf23d361a762f23737116d21e4f8351b32ca9bda8f1d623705804",
+              "path": "Validierung.md"
+            },
+            {
+              "size": 10871078,
+              "sha256": "af22fc7bbd47941c368dd4c0fb0905b746dbc6aaf5135eb172e6d3459859b92c",
+              "path": "Vorschau.mp4"
+            },
+            {
+              "size": 1272,
+              "sha256": "a9f3cfb2faebc6c82665c6a047f2bcc917def6b6b0369743385842018e71bf51",
+              "path": "webgl-noise-LICENSE.txt"
+            }
+          ],
+          "version": "0.2.0"
+        },
+        {
+          "binaryName": "Moireaction.dll",
+          "version": "0.1.0",
+          "files": [
+            {
+              "size": 975,
+              "path": "Baseline.json",
+              "sha256": "c6e1e935fa763ca584e585cf9dc03f239de26e237660b5557ae72e7f94e81a71"
+            },
+            {
+              "size": 951,
+              "path": "Build.json",
+              "sha256": "825ff6492d952e37360ac52cb9cae9f5e84d222ef21282edb2f87453b01e0f58"
+            },
+            {
+              "size": 545316,
+              "path": "Kontrolle-Dunkel.png",
+              "sha256": "20f8f43e8a164118d32eb96839e99406b9f8697ac7872d9b0f00eb4110306579"
+            },
+            {
+              "size": 544939,
+              "path": "Kontrolle-Hell.png",
+              "sha256": "d37a1329600bb98dbbc96144e2cce5ab218e94ffd172ffedf4be015232fe78c3"
+            },
+            {
+              "size": 645632,
+              "path": "Moireaction.dll",
+              "sha256": "5decf2405e402d24efc373688a6e0d8f49459fa6e6d4c994371e6e3cb5a4c77d"
+            },
+            {
+              "size": 1359,
+              "path": "Parameter-Metadaten.txt",
+              "sha256": "6a5f36fe52d9045457afc5673a21a3ad93da3ddd794bd6c057fad1b6fe937b76"
+            },
+            {
+              "size": 5471,
+              "path": "README.md",
+              "sha256": "ecc8e9bb81c5e35535b88b1718f642efd15098bcde6e3e606fac0c79d028d492"
+            },
+            {
+              "size": 1002,
+              "path": "SHA256SUMS.txt",
+              "sha256": "328598d5278fd91f8e8c7b2929d42ab2104dd976afdac4d02f9f0b14cab56158"
+            },
+            {
+              "size": 366596,
+              "path": "Testbild.png",
+              "sha256": "0f985311ede5bd3beec1b0332a76d8bf567f5e457488c9d16784da651ac5cbe4"
+            },
+            {
+              "size": 580,
+              "path": "Testprotokoll.txt",
+              "sha256": "8ea1889920ee89eb89502557d46df8be532c5a23503ccd1740cb56135d2904da"
+            },
+            {
+              "size": 3108,
+              "path": "THIRD-PARTY-NOTICES.txt",
+              "sha256": "f22a42789b4e2d711fefbf96ab958eb7527bf0f4ef8833c913771465e7c11a2d"
+            },
+            {
+              "size": 4185,
+              "path": "Validierung.md",
+              "sha256": "f320ec1d1d8ee5af03f9b1b05ac3c1bfb608093f2ac95fcbfb7c799db0d1d1b6"
+            },
+            {
+              "size": 2106940,
+              "path": "Vorschau.mp4",
+              "sha256": "ef0fe0f3d3d764d8a75fcbbe1ab13a8b378cb4b5d734ff8996a3d3e9954178f8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "architecture": "win-x64",
+      "assetId": 0,
+      "pluginId": "worm-host-probe",
+      "version": "0.1.1-pkg.2",
+      "sha256": "295655ea68063e26d3d98ed98b269088f11a89c06f572b2231645887de1949b7",
+      "binaryName": "WormHostProbe.dll",
+      "name": "Worm Host Probe",
+      "minimumLauncherVersion": "0.2.9",
+      "assetName": "worm-host-probe-0.1.1-pkg.2.zip",
+      "releaseTag": "plugin-worm-host-probe-v0.1.1-pkg.2",
+      "packageSize": 496420,
+      "minimumHostVersion": "7.26.2",
+      "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.1.0. Diagnose-Prototyp für Eingangstextur, Alpha, Phase und SVG-Laden. Noch kein fertiger Wurm; Arena-Abnahme steht aus.",
+      "isTestOnly": false
+    },
+    {
+      "architecture": "win-x64",
+      "assetId": 0,
+      "pluginId": "maniac-svg-worm",
+      "version": "0.6.2-pkg.2",
+      "sha256": "57efeb58d91e7c3cf4d645b44075acd40da514b01574d6ddcdbb43742a25153d",
+      "binaryName": "MANIAC SVG Worm.dll",
+      "name": "MANIAC SVG Worm",
+      "minimumLauncherVersion": "0.2.9",
+      "assetName": "maniac-svg-worm-0.6.2-pkg.2.zip",
+      "releaseTag": "plugin-maniac-svg-worm-v0.6.2-pkg.2",
+      "packageSize": 710134,
+      "minimumHostVersion": "7.26.2",
+      "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.6.1. Räumlicher Wurm mit bildfüllenden eigenen Zufallsrouten, gemeinsamer Zufallsbahn und sicheren SVG-Durchgängen. Deutsche Bedienung, Low/Mid/High und verbesserte Routen-/Textursteuerung.",
+      "isTestOnly": false,
+      "knownInstallations": [
+        {
+          "version": "0.6.0",
+          "binaryName": "MANIAC SVG Worm.dll",
+          "files": [
+            {
+              "size": 218152,
+              "path": "Baseline.json",
+              "sha256": "1fa613362aa16851ad41b3e80a1bfbec6e8fb965712088f2896524d1f2ed1ae0"
+            },
+            {
+              "size": 113281,
+              "path": "Example.svg",
+              "sha256": "fa9f05d5557c35f2902cd7ff98d5e9f442d2c2742c0fa0e5c58f2f12ab3b3710"
+            },
+            {
+              "size": 2069,
+              "path": "Illustrator-SVGs/boxes.svg",
+              "sha256": "b422afd470b5351cd376002b37b1c596ee3a97b385463a94a5b2525921809328"
+            },
+            {
+              "size": 48832,
+              "path": "Illustrator-SVGs/dneye.svg",
+              "sha256": "c06dfc43db2b3c18dab5e78362c807909afc9c96c56e9d51f24f772b58697ec9"
+            },
+            {
+              "size": 32878,
+              "path": "Illustrator-SVGs/labletters.svg",
+              "sha256": "bcccb49b111544e05710f0a73d195218b43137113cb765578d296073c1cb04d6"
+            },
+            {
+              "size": 4245,
+              "path": "Illustrator-SVGs/mix.svg",
+              "sha256": "8d7aab98cb58add5c6ad8befaa4c1eef3aa5782acd48053c2619ab244a590b7d"
+            },
+            {
+              "size": 66201,
+              "path": "Illustrator-SVGs/organic.svg",
+              "sha256": "592a938068b56574a21b5dcf312aeacfd6cb12de5917728365bf50ee2820f846"
+            },
+            {
+              "size": 193992,
+              "path": "Illustrator-SVGs/portal2.svg",
+              "sha256": "6e51cd9f4b6d1e972ab3e61a791380795846d615fee74880dfc37bd4e89d4146"
+            },
+            {
+              "size": 19727,
+              "path": "Illustrator-SVGs/stageone.svg",
+              "sha256": "aa088974175f58d12d4472b0f2c03274d70c22731f246296f18c503776c6c430"
+            },
+            {
+              "size": 54679,
+              "path": "Illustrator-SVGs/stagex.svg",
+              "sha256": "6e646f07db6c9a4098ef0504fc4b95f4f93d126846b6903cd4ac33cdeacb0298"
+            },
+            {
+              "size": 10431,
+              "path": "Illustrator-SVGs/star8.svg",
+              "sha256": "298784c7b22886b4f9294f7011bccb8428fec775b7ebb7412f83a6307a614578"
+            },
+            {
+              "size": 2676,
+              "path": "IllustratorBaseline.json",
+              "sha256": "5e4b228e9dfbb8d9cef5522cddfce820f25620ad0cb2a64abfc9bf0900da7cca"
+            },
+            {
+              "size": 1617,
+              "path": "Kene.svg",
+              "sha256": "0b3b9bd0f22cc094555b85f72ddebb88bec72c41f8986e976c43be3b660325da"
+            },
+            {
+              "size": 992639,
+              "path": "Komposition_2D_1920x1080_Resolume.svg",
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87"
+            },
+            {
+              "size": 183,
+              "path": "Lizenzen/Clipper2-source.txt",
+              "sha256": "67019b18f51b26c4495600fb9127c283d8980392f44cfc335abe2043c05258ba"
+            },
+            {
+              "size": 1361,
+              "path": "Lizenzen/Clipper2.txt",
+              "sha256": "beb8e42e9d6b4284e03304d05a81a0755200a965fc8d0a5e0aea1e84cf805d6e"
+            },
+            {
+              "size": 2517,
+              "path": "Lizenzen/FreeFrame-FFGL.txt",
+              "sha256": "d4daa83dd8f8ae2d46cedf478d09c80b93c36ece9b501be112bbfe0f0fbbc013"
+            },
+            {
+              "size": 1156,
+              "path": "Lizenzen/glload.txt",
+              "sha256": "754b7c3b960bc81f3e989ecb39216125d30ff9f5b030a97f03fa832359b7ca76"
+            },
+            {
+              "size": 1125,
+              "path": "Lizenzen/lunasvg.txt",
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b"
+            },
+            {
+              "size": 1125,
+              "path": "Lizenzen/plutovg.txt",
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b"
+            },
+            {
+              "size": 1081,
+              "path": "Lizenzen/Three.js.txt",
+              "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+            },
+            {
+              "size": 826,
+              "path": "Lizenzen/tinyxml2.txt",
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45"
+            },
+            {
+              "size": 1509888,
+              "path": "MANIAC SVG Worm.dll",
+              "sha256": "d7aaef6ec80ace66ae4ce86814eac17699ffb08034d38ba1b613a10b2f7be1c3"
+            },
+            {
+              "size": 1976,
+              "path": "Native-Tests.txt",
+              "sha256": "634eac7cd8f473f26685e410d9e22a80c60f904f27822660d68dfca0b6061d0c"
+            },
+            {
+              "size": 65,
+              "path": "Packaged-DLL-Test.txt",
+              "sha256": "92c1348f39304756ed3a9042916fa76fe15b9e7be26bf00cf910b5e4a876f667"
+            },
+            {
+              "size": 42,
+              "path": "Packaged-Funktions-Test.txt",
+              "sha256": "42d59ebceb8cf67f2657f475d5bdf9b86bb9f6a3747a2927c2d737a1d36a5470"
+            },
+            {
+              "size": 64,
+              "path": "Packaged-UI-Test.txt",
+              "sha256": "78faf6d80f96e7943f49b339ff4c37bc51234631c75d712b0ecc8344b05b89e1"
+            },
+            {
+              "size": 503,
+              "path": "PortalScene.svg",
+              "sha256": "9be837c33d272c69d9ce38475e8c6aa1ec3c768e06b007752270917c6f0014d2"
+            },
+            {
+              "size": 5763,
+              "path": "README.md",
+              "sha256": "a220a90d27865500ac0316eb081415d806bc384cb02ac7b8161b04931f360069"
+            },
+            {
+              "size": 544,
+              "path": "ReleaseBaseline.json",
+              "sha256": "eaa20127ec24e704c2e630d1ca8e81099c000a6c6eed0f6c0de87ef23d7d9672"
+            },
+            {
+              "size": 4028,
+              "path": "SHA256.json",
+              "sha256": "6013c2ac61ad96b69986eb29a94f54e34e48cd9f3547e1e7f968a514695093bd"
+            },
+            {
+              "size": 2376,
+              "path": "Text-fuer-andere-Chats.md",
+              "sha256": "70bc13915a8b3bf91fe7ab4a4e3e630ed10448dcd9df8b44b3e929f20b7e97b5"
+            },
+            {
+              "size": 310,
+              "path": "UserCompositionBaseline.json",
+              "sha256": "ed6a18300796a1d594b0575994e3915a2f957721301c68414e227007fce1d3c2"
+            },
+            {
+              "size": 2183,
+              "path": "Validation.json",
+              "sha256": "23fdc1e157153f026fa68e7fc55f913befb0f2f250a74647626d6854d0c7dec6"
+            },
+            {
+              "size": 55240,
+              "path": "Vorschau/dll-illustrator-boxes.png",
+              "sha256": "a4400ef30439d11791c12a4aca18b88d9bf324b42065bb1e7f4118ad7b144dfd"
+            },
+            {
+              "size": 149010,
+              "path": "Vorschau/dll-independent-four.png",
+              "sha256": "8d285d52a41af55f81a00c06d6e619b0c4f9dafd23311cac225d152c3069898b"
+            },
+            {
+              "size": 184500,
+              "path": "Vorschau/dll-open-gaps-thick.png",
+              "sha256": "fd4bae39b158a13d288d08dbf6182ad51318e8c1add152596a39ef886a6d7d9f"
+            },
+            {
+              "size": 125249,
+              "path": "Vorschau/dll-shared-four.png",
+              "sha256": "0afbddd62bdfd27d0a41e46e427c3074b2dea6a9fa722cd17675863386211778"
+            },
+            {
+              "size": 51801,
+              "path": "Vorschau/dll-through-holes.png",
+              "sha256": "c3ff1fe1653794688c63ba21613cf3553328bcba467821bfd7c8cd6c475dfa17"
+            },
+            {
+              "size": 3046698,
+              "path": "Vorschau/Eigene-3D-Routen.gif",
+              "sha256": "1ff8a1d2dc100bbb9800aad71a0d078612308cd20991a64596b38ee58a6928f0"
+            },
+            {
+              "size": 310,
+              "path": "Vorschau/Info.txt",
+              "sha256": "b8dad5fe57eeea5693e255863e5ba3a36b6f8664ab82c189b6883b6b656eaf96"
+            },
+            {
+              "size": 13426,
+              "path": "Workflow/SKILL.md",
+              "sha256": "814289b9140fda2036c875886e95253c5f9717694285b1bd022dccd05ef65459"
+            }
+          ]
+        },
+        {
+          "version": "0.5.0",
+          "binaryName": "MANIAC SVG Worm.dll",
+          "files": [
+            {
+              "sha256": "1fa613362aa16851ad41b3e80a1bfbec6e8fb965712088f2896524d1f2ed1ae0",
+              "path": "Baseline.json",
+              "size": 218152
+            },
+            {
+              "sha256": "fa9f05d5557c35f2902cd7ff98d5e9f442d2c2742c0fa0e5c58f2f12ab3b3710",
+              "path": "Example.svg",
+              "size": 113281
+            },
+            {
+              "sha256": "b422afd470b5351cd376002b37b1c596ee3a97b385463a94a5b2525921809328",
+              "path": "Illustrator-SVGs/boxes.svg",
+              "size": 2069
+            },
+            {
+              "sha256": "c06dfc43db2b3c18dab5e78362c807909afc9c96c56e9d51f24f772b58697ec9",
+              "path": "Illustrator-SVGs/dneye.svg",
+              "size": 48832
+            },
+            {
+              "sha256": "bcccb49b111544e05710f0a73d195218b43137113cb765578d296073c1cb04d6",
+              "path": "Illustrator-SVGs/labletters.svg",
+              "size": 32878
+            },
+            {
+              "sha256": "8d7aab98cb58add5c6ad8befaa4c1eef3aa5782acd48053c2619ab244a590b7d",
+              "path": "Illustrator-SVGs/mix.svg",
+              "size": 4245
+            },
+            {
+              "sha256": "592a938068b56574a21b5dcf312aeacfd6cb12de5917728365bf50ee2820f846",
+              "path": "Illustrator-SVGs/organic.svg",
+              "size": 66201
+            },
+            {
+              "sha256": "6e51cd9f4b6d1e972ab3e61a791380795846d615fee74880dfc37bd4e89d4146",
+              "path": "Illustrator-SVGs/portal2.svg",
+              "size": 193992
+            },
+            {
+              "sha256": "aa088974175f58d12d4472b0f2c03274d70c22731f246296f18c503776c6c430",
+              "path": "Illustrator-SVGs/stageone.svg",
+              "size": 19727
+            },
+            {
+              "sha256": "6e646f07db6c9a4098ef0504fc4b95f4f93d126846b6903cd4ac33cdeacb0298",
+              "path": "Illustrator-SVGs/stagex.svg",
+              "size": 54679
+            },
+            {
+              "sha256": "298784c7b22886b4f9294f7011bccb8428fec775b7ebb7412f83a6307a614578",
+              "path": "Illustrator-SVGs/star8.svg",
+              "size": 10431
+            },
+            {
+              "sha256": "5e4b228e9dfbb8d9cef5522cddfce820f25620ad0cb2a64abfc9bf0900da7cca",
+              "path": "IllustratorBaseline.json",
+              "size": 2676
+            },
+            {
+              "sha256": "0b3b9bd0f22cc094555b85f72ddebb88bec72c41f8986e976c43be3b660325da",
+              "path": "Kene.svg",
+              "size": 1617
+            },
+            {
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "path": "Komposition_2D_1920x1080_Resolume.svg",
+              "size": 992639
+            },
+            {
+              "sha256": "67019b18f51b26c4495600fb9127c283d8980392f44cfc335abe2043c05258ba",
+              "path": "Lizenzen/Clipper2-source.txt",
+              "size": 183
+            },
+            {
+              "sha256": "beb8e42e9d6b4284e03304d05a81a0755200a965fc8d0a5e0aea1e84cf805d6e",
+              "path": "Lizenzen/Clipper2.txt",
+              "size": 1361
+            },
+            {
+              "sha256": "d4daa83dd8f8ae2d46cedf478d09c80b93c36ece9b501be112bbfe0f0fbbc013",
+              "path": "Lizenzen/FreeFrame-FFGL.txt",
+              "size": 2517
+            },
+            {
+              "sha256": "754b7c3b960bc81f3e989ecb39216125d30ff9f5b030a97f03fa832359b7ca76",
+              "path": "Lizenzen/glload.txt",
+              "size": 1156
+            },
+            {
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "path": "Lizenzen/lunasvg.txt",
+              "size": 1125
+            },
+            {
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "path": "Lizenzen/plutovg.txt",
+              "size": 1125
+            },
+            {
+              "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+              "path": "Lizenzen/Three.js.txt",
+              "size": 1081
+            },
+            {
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45",
+              "path": "Lizenzen/tinyxml2.txt",
+              "size": 826
+            },
+            {
+              "sha256": "f54f08c8868c3ded0d3399617316cafb9b84e667ccf8759cb9bcbccf93561717",
+              "path": "MANIAC SVG Worm.dll",
+              "size": 1500672
+            },
+            {
+              "sha256": "f274079ff4ed880b13ab4debb253cb8e37f4476c4bf8beb41225f00a52464636",
+              "path": "Native-Testdetails.txt",
+              "size": 12524
+            },
+            {
+              "sha256": "f0b035f8d4e24d7f89f51d79a988d5d45416273b717164c1d068a126856c0f9a",
+              "path": "Native-Tests.txt",
+              "size": 1762
+            },
+            {
+              "sha256": "92c1348f39304756ed3a9042916fa76fe15b9e7be26bf00cf910b5e4a876f667",
+              "path": "Packaged-DLL-Test.txt",
+              "size": 65
+            },
+            {
+              "sha256": "78faf6d80f96e7943f49b339ff4c37bc51234631c75d712b0ecc8344b05b89e1",
+              "path": "Packaged-UI-Test.txt",
+              "size": 64
+            },
+            {
+              "sha256": "9be837c33d272c69d9ce38475e8c6aa1ec3c768e06b007752270917c6f0014d2",
+              "path": "PortalScene.svg",
+              "size": 503
+            },
+            {
+              "sha256": "2fd6fe23543f1694da0631a47c3ba6a6b3c29b6df75930d903ece52da6cce65b",
+              "path": "README.md",
+              "size": 6051
+            },
+            {
+              "sha256": "a3af09620f52acf15d3f9094a8c6bc0f9e1fa3ba3f10a75f4adddb112efd6090",
+              "path": "ReleaseBaseline.json",
+              "size": 671
+            },
+            {
+              "sha256": "8902be289566ca25f5caa7d8fcff9194ed5a1cbe83ef359e3b9521294196dd5a",
+              "path": "SHA256.json",
+              "size": 4627
+            },
+            {
+              "sha256": "41072aece6befabf26480614bba81254306667d8cc541491873d59b3f107e9b3",
+              "path": "Text-fuer-andere-Chats.md",
+              "size": 1940
+            },
+            {
+              "sha256": "277430801c35cea16200f92ca51424c2a2fa1bc3ac5869364d48b395101d3e11",
+              "path": "UI-Schema.json",
+              "size": 10693
+            },
+            {
+              "sha256": "ed6a18300796a1d594b0575994e3915a2f957721301c68414e227007fce1d3c2",
+              "path": "UserCompositionBaseline.json",
+              "size": 310
+            },
+            {
+              "sha256": "c7e658e9e2e05454175d455be8ced138926b10a47ca0372dbd165b5dd0c5e5ed",
+              "path": "Validation.json",
+              "size": 2938
+            },
+            {
+              "sha256": "219780646e7266f0971f1990fff4894cc741f757a532a8d7d96635bdfcfe970e",
+              "path": "Vorschau/High-boxes-actual-dll.gif",
+              "size": 1918893
+            },
+            {
+              "sha256": "cbec3d9533d592b21adc4ed3089c68cea713c1a87bb737e78fcd0e8aac354f6c",
+              "path": "Vorschau/High-boxes-dunkel.png",
+              "size": 54686
+            },
+            {
+              "sha256": "1fee156092391e717dba5e65ad8e93dd895bb03e14214789b1bf75aae01c2629",
+              "path": "Vorschau/High-boxes-hell.png",
+              "size": 58339
+            },
+            {
+              "sha256": "05da0e228a202484dd758a6b65af43088fd773002617374b4bd8f14e90d925fc",
+              "path": "Vorschau/High-organic-dunkel.png",
+              "size": 211973
+            },
+            {
+              "sha256": "8447fdcc9aae72f616a8654dfe52934217fa75a4a0026a267529a2c429254234",
+              "path": "Vorschau/High-organic-hell.png",
+              "size": 382681
+            },
+            {
+              "sha256": "ff0cb87e97f6f48960b6a0f7935f37bf1cb045e2d31dbed890ce5498df077fa8",
+              "path": "Vorschau/High-portal2-dunkel.png",
+              "size": 261986
+            },
+            {
+              "sha256": "f64d111d9814bd462780b33b4d8a0fa3988eb9d15a9ccf661f846bf413340dd4",
+              "path": "Vorschau/High-portal2-hell.png",
+              "size": 246203
+            },
+            {
+              "sha256": "4b406524e80bca8201b3c062241347e5a714267ed7f4a00e5167bead2b9b25ba",
+              "path": "Vorschau/Low-Mid-High-actual-dll.png",
+              "size": 196187
+            },
+            {
+              "sha256": "a4ba428bd090a8c551015fc3031017bf3632ddf8302ed8074850cec6f611cc07",
+              "path": "Vorschau/portal2-0.png",
+              "size": 258452
+            },
+            {
+              "sha256": "1e1a2405b9a8ecc1007fc7eefc9b135257ce19ba8407f5181b18184146410ff5",
+              "path": "Vorschau/portal2-1.png",
+              "size": 258495
+            },
+            {
+              "sha256": "f3a499957978ffe6120aa1abd404c08992fe0cd5b13a475094e568490dc743a3",
+              "path": "Vorschau/portal2-2.png",
+              "size": 258392
+            },
+            {
+              "sha256": "5d683d6182834db2afad85c12dae71fcbf4652d01faec3e045b7775bfed82460",
+              "path": "Workflow/SKILL.md",
+              "size": 12358
+            },
+            {
+              "sha256": "1772b996a30e60bfc058fd2edf53193f292116e49934bd602b13f41b9b1c461f",
+              "path": "Workflow/SkillUpdate.json",
+              "size": 448
+            }
+          ]
+        },
+        {
+          "files": [
+            {
+              "sha256": "1fa613362aa16851ad41b3e80a1bfbec6e8fb965712088f2896524d1f2ed1ae0",
+              "size": 218152,
+              "path": "Baseline.json"
+            },
+            {
+              "sha256": "fa9f05d5557c35f2902cd7ff98d5e9f442d2c2742c0fa0e5c58f2f12ab3b3710",
+              "size": 113281,
+              "path": "Example.svg"
+            },
+            {
+              "sha256": "67ef289b7dd40f6fb874adb2085acde5a16d481894951d73cd494f5c0f9b83b0",
+              "size": 3663,
+              "path": "Historical-Baseline-Audit.json"
+            },
+            {
+              "sha256": "b422afd470b5351cd376002b37b1c596ee3a97b385463a94a5b2525921809328",
+              "size": 2069,
+              "path": "Illustrator-SVGs/boxes.svg"
+            },
+            {
+              "sha256": "c06dfc43db2b3c18dab5e78362c807909afc9c96c56e9d51f24f772b58697ec9",
+              "size": 48832,
+              "path": "Illustrator-SVGs/dneye.svg"
+            },
+            {
+              "sha256": "bcccb49b111544e05710f0a73d195218b43137113cb765578d296073c1cb04d6",
+              "size": 32878,
+              "path": "Illustrator-SVGs/labletters.svg"
+            },
+            {
+              "sha256": "8d7aab98cb58add5c6ad8befaa4c1eef3aa5782acd48053c2619ab244a590b7d",
+              "size": 4245,
+              "path": "Illustrator-SVGs/mix.svg"
+            },
+            {
+              "sha256": "592a938068b56574a21b5dcf312aeacfd6cb12de5917728365bf50ee2820f846",
+              "size": 66201,
+              "path": "Illustrator-SVGs/organic.svg"
+            },
+            {
+              "sha256": "6e51cd9f4b6d1e972ab3e61a791380795846d615fee74880dfc37bd4e89d4146",
+              "size": 193992,
+              "path": "Illustrator-SVGs/portal2.svg"
+            },
+            {
+              "sha256": "aa088974175f58d12d4472b0f2c03274d70c22731f246296f18c503776c6c430",
+              "size": 19727,
+              "path": "Illustrator-SVGs/stageone.svg"
+            },
+            {
+              "sha256": "6e646f07db6c9a4098ef0504fc4b95f4f93d126846b6903cd4ac33cdeacb0298",
+              "size": 54679,
+              "path": "Illustrator-SVGs/stagex.svg"
+            },
+            {
+              "sha256": "298784c7b22886b4f9294f7011bccb8428fec775b7ebb7412f83a6307a614578",
+              "size": 10431,
+              "path": "Illustrator-SVGs/star8.svg"
+            },
+            {
+              "sha256": "5e4b228e9dfbb8d9cef5522cddfce820f25620ad0cb2a64abfc9bf0900da7cca",
+              "size": 2676,
+              "path": "IllustratorBaseline.json"
+            },
+            {
+              "sha256": "0b3b9bd0f22cc094555b85f72ddebb88bec72c41f8986e976c43be3b660325da",
+              "size": 1617,
+              "path": "Kene.svg"
+            },
+            {
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "size": 992639,
+              "path": "Komposition_2D_1920x1080_Resolume.svg"
+            },
+            {
+              "sha256": "67019b18f51b26c4495600fb9127c283d8980392f44cfc335abe2043c05258ba",
+              "size": 183,
+              "path": "Lizenzen/Clipper2-source.txt"
+            },
+            {
+              "sha256": "beb8e42e9d6b4284e03304d05a81a0755200a965fc8d0a5e0aea1e84cf805d6e",
+              "size": 1361,
+              "path": "Lizenzen/Clipper2.txt"
+            },
+            {
+              "sha256": "d4daa83dd8f8ae2d46cedf478d09c80b93c36ece9b501be112bbfe0f0fbbc013",
+              "size": 2517,
+              "path": "Lizenzen/FreeFrame-FFGL.txt"
+            },
+            {
+              "sha256": "754b7c3b960bc81f3e989ecb39216125d30ff9f5b030a97f03fa832359b7ca76",
+              "size": 1156,
+              "path": "Lizenzen/glload.txt"
+            },
+            {
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "size": 1125,
+              "path": "Lizenzen/lunasvg.txt"
+            },
+            {
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "size": 1125,
+              "path": "Lizenzen/plutovg.txt"
+            },
+            {
+              "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+              "size": 1081,
+              "path": "Lizenzen/Three.js.txt"
+            },
+            {
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45",
+              "size": 826,
+              "path": "Lizenzen/tinyxml2.txt"
+            },
+            {
+              "sha256": "643b3b6268b7a3e16efa628a96745fd38fb8e48baf3357b90854383aa75dbc4d",
+              "size": 1486848,
+              "path": "MANIAC SVG Worm.dll"
+            },
+            {
+              "sha256": "3e170fd7b716965babab824356eb5582295cd092e9b2f5235673ea68807d8023",
+              "size": 1561,
+              "path": "Native-Tests.txt"
+            },
+            {
+              "sha256": "92c1348f39304756ed3a9042916fa76fe15b9e7be26bf00cf910b5e4a876f667",
+              "size": 65,
+              "path": "Packaged-DLL-Test.txt"
+            },
+            {
+              "sha256": "9be837c33d272c69d9ce38475e8c6aa1ec3c768e06b007752270917c6f0014d2",
+              "size": 503,
+              "path": "PortalScene.svg"
+            },
+            {
+              "sha256": "1f8764372190ce5176d649818385101133f27ea1a2dd5bee29f0c8e9d5d684a4",
+              "size": 4952,
+              "path": "README.md"
+            },
+            {
+              "sha256": "ad96a810857f2ce9dc53eb49e37444a6931d6fbc246f1bde39ddfd1ae2c55edc",
+              "size": 602,
+              "path": "ReleaseBaseline.json"
+            },
+            {
+              "sha256": "3ea3281b32577cfbadf64b182bc3d9b3214f1a8a1c97efd6c6cb1a7fb7a69317",
+              "size": 4131,
+              "path": "SHA256.json"
+            },
+            {
+              "sha256": "b12c893671104ea46847b8023c7302efc00e670486e1898b35b522ab8b6d2d2f",
+              "size": 1164,
+              "path": "SVG-Import-Tests.txt"
+            },
+            {
+              "sha256": "ed6a18300796a1d594b0575994e3915a2f957721301c68414e227007fce1d3c2",
+              "size": 310,
+              "path": "UserCompositionBaseline.json"
+            },
+            {
+              "sha256": "59745a05011f91b3c21610b28599c0b0c5f67c2939baded833e6049374f860d5",
+              "size": 2360,
+              "path": "Validation.json"
+            },
+            {
+              "sha256": "cbec3d9533d592b21adc4ed3089c68cea713c1a87bb737e78fcd0e8aac354f6c",
+              "size": 54686,
+              "path": "Vorschau/boxes-dunkel.png"
+            },
+            {
+              "sha256": "1fee156092391e717dba5e65ad8e93dd895bb03e14214789b1bf75aae01c2629",
+              "size": 58339,
+              "path": "Vorschau/boxes-hell.png"
+            },
+            {
+              "sha256": "efbd5033129c8649ec7509b9b828afe1914b58bc4bacb0d9d6dedfd1296909bd",
+              "size": 581079,
+              "path": "Vorschau/illustrator-actual-dll.png"
+            },
+            {
+              "sha256": "219780646e7266f0971f1990fff4894cc741f757a532a8d7d96635bdfcfe970e",
+              "size": 1918893,
+              "path": "Vorschau/illustrator-boxes-actual-dll.gif"
+            },
+            {
+              "sha256": "05da0e228a202484dd758a6b65af43088fd773002617374b4bd8f14e90d925fc",
+              "size": 211973,
+              "path": "Vorschau/organic-dunkel.png"
+            },
+            {
+              "sha256": "8447fdcc9aae72f616a8654dfe52934217fa75a4a0026a267529a2c429254234",
+              "size": 382681,
+              "path": "Vorschau/organic-hell.png"
+            },
+            {
+              "sha256": "b03e04c1c0a802d0c49f1b06ec17860cc0554b054b721f948e37f01a1170f07a",
+              "size": 262003,
+              "path": "Vorschau/portal2-dunkel.png"
+            },
+            {
+              "sha256": "fc0d2ae697165f1462e9b1d60b22049adfa7a74edc73e64c48e2bd9509a3687d",
+              "size": 246217,
+              "path": "Vorschau/portal2-hell.png"
+            },
+            {
+              "sha256": "0e47aaf4eddb427e0bb81e0c4a16a2ba060afc33715ff12f51bd1c2667e68d7d",
+              "size": 8667,
+              "path": "Workflow/SKILL.md"
+            },
+            {
+              "sha256": "4f6717b5c0e352c9fbcafe335ee03e182e50a641e915bbd681d4325d68e0c04c",
+              "size": 274,
+              "path": "Workflow/SkillUpdate.json"
+            }
+          ],
+          "binaryName": "MANIAC SVG Worm.dll",
+          "version": "0.4.1"
+        },
+        {
+          "files": [
+            {
+              "sha256": "1fa613362aa16851ad41b3e80a1bfbec6e8fb965712088f2896524d1f2ed1ae0",
+              "size": 218152,
+              "path": "Baseline.json"
+            },
+            {
+              "sha256": "fa9f05d5557c35f2902cd7ff98d5e9f442d2c2742c0fa0e5c58f2f12ab3b3710",
+              "size": 113281,
+              "path": "Example.svg"
+            },
+            {
+              "sha256": "0b3b9bd0f22cc094555b85f72ddebb88bec72c41f8986e976c43be3b660325da",
+              "size": 1617,
+              "path": "Kene.svg"
+            },
+            {
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "size": 992639,
+              "path": "Komposition_2D_1920x1080_Resolume.svg"
+            },
+            {
+              "sha256": "67019b18f51b26c4495600fb9127c283d8980392f44cfc335abe2043c05258ba",
+              "size": 183,
+              "path": "Lizenzen/Clipper2-source.txt"
+            },
+            {
+              "sha256": "beb8e42e9d6b4284e03304d05a81a0755200a965fc8d0a5e0aea1e84cf805d6e",
+              "size": 1361,
+              "path": "Lizenzen/Clipper2.txt"
+            },
+            {
+              "sha256": "d4daa83dd8f8ae2d46cedf478d09c80b93c36ece9b501be112bbfe0f0fbbc013",
+              "size": 2517,
+              "path": "Lizenzen/FreeFrame-FFGL.txt"
+            },
+            {
+              "sha256": "754b7c3b960bc81f3e989ecb39216125d30ff9f5b030a97f03fa832359b7ca76",
+              "size": 1156,
+              "path": "Lizenzen/glload.txt"
+            },
+            {
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "size": 1125,
+              "path": "Lizenzen/lunasvg.txt"
+            },
+            {
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "size": 1125,
+              "path": "Lizenzen/plutovg.txt"
+            },
+            {
+              "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+              "size": 1081,
+              "path": "Lizenzen/Three.js.txt"
+            },
+            {
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45",
+              "size": 826,
+              "path": "Lizenzen/tinyxml2.txt"
+            },
+            {
+              "sha256": "513c1c64025d70dded7e31830fa5bf9a41674b6706d395de42f4239e798ee9d5",
+              "size": 1452544,
+              "path": "MANIAC SVG Worm.dll"
+            },
+            {
+              "sha256": "aee33b8b273095b9c93953b8f870b3d264ebcfce45c8889d9828b25c6ab83e3f",
+              "size": 1338,
+              "path": "Native-Tests.txt"
+            },
+            {
+              "sha256": "9be837c33d272c69d9ce38475e8c6aa1ec3c768e06b007752270917c6f0014d2",
+              "size": 503,
+              "path": "PortalScene.svg"
+            },
+            {
+              "sha256": "e72fda4c404fb207bc52e6cdd8d8b70b57a13c03a340f86c25761d2663d44947",
+              "size": 5708,
+              "path": "README.md"
+            },
+            {
+              "sha256": "ed6a18300796a1d594b0575994e3915a2f957721301c68414e227007fce1d3c2",
+              "size": 310,
+              "path": "UserCompositionBaseline.json"
+            },
+            {
+              "sha256": "051182f31688983bc280b32979efe474d62479e6d30db9a8365131f69d7ebc32",
+              "size": 884,
+              "path": "Validation.json"
+            },
+            {
+              "sha256": "807207e6b9e367043790204f3286a9aa7d5df3ec965f2a47089abf840ae4a9f5",
+              "size": 1035,
+              "path": "VisualBaseline.json"
+            },
+            {
+              "sha256": "414ca4c44444580b0e9dbe0fe62f219c174c1f3c7c6545957f9e9f52957eae76",
+              "size": 178626,
+              "path": "Vorschau/dll-open-gaps-on-dark.png"
+            },
+            {
+              "sha256": "68b50f5835a5799e4f307568ede47d95707635e0b93112f7ea6c0e3254aaf465",
+              "size": 185896,
+              "path": "Vorschau/dll-open-gaps-on-light.png"
+            },
+            {
+              "sha256": "01d586665c3b144ca95a8348d47889efdcd2bf7c821a798f7811455c427db714",
+              "size": 196061,
+              "path": "Vorschau/dll-open-gaps-thick-on-dark.png"
+            },
+            {
+              "sha256": "31d32e4cae1af5cd5f7592ae261b4e5203d97409815923f4ad109b8a7bbe43de",
+              "size": 203820,
+              "path": "Vorschau/dll-open-gaps-thick-on-light.png"
+            },
+            {
+              "sha256": "29f74e5825319b90129b6938beeb9ece54d4b1e02462229bb13a909137e91886",
+              "size": 300352,
+              "path": "Vorschau/dll-open-gaps-thick.png"
+            },
+            {
+              "sha256": "9cb724244a7d339eb6c9864a7b934e69e9d668d370d48dcd8f3300e52973eb33",
+              "size": 276125,
+              "path": "Vorschau/dll-open-gaps.png"
+            },
+            {
+              "sha256": "895a0bc419c8b9c222e48315b556d8c86843430a39378b9ca9f2c73291b6e87d",
+              "size": 3082962,
+              "path": "Vorschau/open-gaps-actual-dll.gif"
+            }
+          ],
+          "version": "0.4.0",
+          "binaryName": "MANIAC SVG Worm.dll"
+        },
+        {
+          "version": "0.3.1",
+          "binaryName": "MANIAC SVG Worm.dll",
+          "files": [
+            {
+              "size": 218152,
+              "path": "Baseline.json",
+              "sha256": "1fa613362aa16851ad41b3e80a1bfbec6e8fb965712088f2896524d1f2ed1ae0"
+            },
+            {
+              "size": 113281,
+              "path": "Example.svg",
+              "sha256": "fa9f05d5557c35f2902cd7ff98d5e9f442d2c2742c0fa0e5c58f2f12ab3b3710"
+            },
+            {
+              "size": 1617,
+              "path": "Kene.svg",
+              "sha256": "0b3b9bd0f22cc094555b85f72ddebb88bec72c41f8986e976c43be3b660325da"
+            },
+            {
+              "size": 992639,
+              "path": "Komposition_2D_1920x1080_Resolume.svg",
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87"
+            },
+            {
+              "size": 183,
+              "path": "Lizenzen/Clipper2-source.txt",
+              "sha256": "67019b18f51b26c4495600fb9127c283d8980392f44cfc335abe2043c05258ba"
+            },
+            {
+              "size": 1361,
+              "path": "Lizenzen/Clipper2.txt",
+              "sha256": "beb8e42e9d6b4284e03304d05a81a0755200a965fc8d0a5e0aea1e84cf805d6e"
+            },
+            {
+              "size": 2517,
+              "path": "Lizenzen/FreeFrame-FFGL.txt",
+              "sha256": "d4daa83dd8f8ae2d46cedf478d09c80b93c36ece9b501be112bbfe0f0fbbc013"
+            },
+            {
+              "size": 1156,
+              "path": "Lizenzen/glload.txt",
+              "sha256": "754b7c3b960bc81f3e989ecb39216125d30ff9f5b030a97f03fa832359b7ca76"
+            },
+            {
+              "size": 1125,
+              "path": "Lizenzen/lunasvg.txt",
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b"
+            },
+            {
+              "size": 1125,
+              "path": "Lizenzen/plutovg.txt",
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b"
+            },
+            {
+              "size": 1081,
+              "path": "Lizenzen/Three.js.txt",
+              "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+            },
+            {
+              "size": 826,
+              "path": "Lizenzen/tinyxml2.txt",
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45"
+            },
+            {
+              "size": 1434112,
+              "path": "MANIAC SVG Worm.dll",
+              "sha256": "d3e5f676e2b65cfa80dcd9259cb1a91863ea3e6ba8661e352d8f81413f7432af"
+            },
+            {
+              "size": 1234,
+              "path": "Native-Tests.txt",
+              "sha256": "a8eee3751c9f2b596530e528398574ab66794bb291e0f0996d0eae6f4e517bf0"
+            },
+            {
+              "size": 503,
+              "path": "PortalScene.svg",
+              "sha256": "9be837c33d272c69d9ce38475e8c6aa1ec3c768e06b007752270917c6f0014d2"
+            },
+            {
+              "size": 5902,
+              "path": "README.md",
+              "sha256": "3b3f16b4075bea9ddbbe2604e07a460cfa01050ac56b5d0cdf5410207749e995"
+            },
+            {
+              "size": 310,
+              "path": "UserCompositionBaseline.json",
+              "sha256": "ed6a18300796a1d594b0575994e3915a2f957721301c68414e227007fce1d3c2"
+            },
+            {
+              "size": 929,
+              "path": "Validation.json",
+              "sha256": "32d9e0e55519fc78db055db05161ea130e6b1e0848ec1c04d009a1d5554feb5d"
+            },
+            {
+              "size": 1035,
+              "path": "VisualBaseline.json",
+              "sha256": "807207e6b9e367043790204f3286a9aa7d5df3ec965f2a47089abf840ae4a9f5"
+            },
+            {
+              "size": 822177,
+              "path": "Vorschau/composition-actual-dll.gif",
+              "sha256": "d5873f9f5719f4dc51c6f4f4bee8c27607113d62c9271d65eac2f2e61358337e"
+            },
+            {
+              "size": 7372142,
+              "path": "Vorschau/composition-detail-dll.gif",
+              "sha256": "6cadaa354c9ba8c36025a259a4d17f28a7dec769088067e9b6152d6f7b170d84"
+            },
+            {
+              "size": 136616,
+              "path": "Vorschau/composition-on-dark.png",
+              "sha256": "a66c38f9a5ac87c60360b45f01bc93c86d5cee220004d977d91d6c831a30c3ed"
+            },
+            {
+              "size": 143982,
+              "path": "Vorschau/composition-on-light.png",
+              "sha256": "7624cc37f40a6eee0d7917bafabcb509fa89fb53b58f1f523a87c8ca6237351b"
+            },
+            {
+              "size": 56378,
+              "path": "Vorschau/dll-sides-center.png",
+              "sha256": "b100488f10b7fcae7e6d6595a6cacdfd3d88d70f19fead194582ba44fdbbe62e"
+            },
+            {
+              "size": 98073,
+              "path": "Vorschau/dll-through-holes.png",
+              "sha256": "0aa28da8bc94da2799ee3999ce692980fa2e33419f8f6331d8313f3788574360"
+            },
+            {
+              "size": 217651,
+              "path": "Vorschau/dll-user-composition.png",
+              "sha256": "e371f9b657ab51a10faa8a105a33221f1b976611a0c205e20229cefe6a76756b"
+            }
+          ]
+        },
+        {
+          "files": [
+            {
+              "path": "Baseline.json",
+              "size": 218152,
+              "sha256": "1fa613362aa16851ad41b3e80a1bfbec6e8fb965712088f2896524d1f2ed1ae0"
+            },
+            {
+              "path": "Example.svg",
+              "size": 113281,
+              "sha256": "fa9f05d5557c35f2902cd7ff98d5e9f442d2c2742c0fa0e5c58f2f12ab3b3710"
+            },
+            {
+              "path": "Kene.svg",
+              "size": 1617,
+              "sha256": "0b3b9bd0f22cc094555b85f72ddebb88bec72c41f8986e976c43be3b660325da"
+            },
+            {
+              "path": "Lizenzen/FreeFrame-FFGL.txt",
+              "size": 2517,
+              "sha256": "d4daa83dd8f8ae2d46cedf478d09c80b93c36ece9b501be112bbfe0f0fbbc013"
+            },
+            {
+              "path": "Lizenzen/glload.txt",
+              "size": 1156,
+              "sha256": "754b7c3b960bc81f3e989ecb39216125d30ff9f5b030a97f03fa832359b7ca76"
+            },
+            {
+              "path": "Lizenzen/lunasvg.txt",
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b"
+            },
+            {
+              "path": "Lizenzen/plutovg.txt",
+              "size": 1125,
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b"
+            },
+            {
+              "path": "Lizenzen/Three.js.txt",
+              "size": 1081,
+              "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+            },
+            {
+              "path": "Lizenzen/tinyxml2.txt",
+              "size": 826,
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45"
+            },
+            {
+              "path": "MANIAC SVG Worm.dll",
+              "size": 1353728,
+              "sha256": "e5be023e95c2977c9f84bda8ecae44b316cfc3a5993091008525684b238e77d8"
+            },
+            {
+              "path": "Native-Tests.txt",
+              "size": 974,
+              "sha256": "85215c42c061e1625b049805046c99554b97589cef84a408f099193a3a042ef6"
+            },
+            {
+              "path": "PortalScene.svg",
+              "size": 503,
+              "sha256": "9be837c33d272c69d9ce38475e8c6aa1ec3c768e06b007752270917c6f0014d2"
+            },
+            {
+              "path": "README.md",
+              "size": 7249,
+              "sha256": "2facc13ced49011fe2ad3b275251b2d32b529f06489f6571569c7ee7ed7e4e9d"
+            },
+            {
+              "path": "Validation.json",
+              "size": 603,
+              "sha256": "c6517c10b44c129bce62214ef9559017073f52354ce35725a5a9370dc1ccdbe8"
+            },
+            {
+              "path": "VisualBaseline.json",
+              "size": 1035,
+              "sha256": "807207e6b9e367043790204f3286a9aa7d5df3ec965f2a47089abf840ae4a9f5"
+            },
+            {
+              "path": "Vorschau/dll-sides-center.png",
+              "size": 56378,
+              "sha256": "b100488f10b7fcae7e6d6595a6cacdfd3d88d70f19fead194582ba44fdbbe62e"
+            },
+            {
+              "path": "Vorschau/dll-through-holes.png",
+              "size": 98073,
+              "sha256": "0aa28da8bc94da2799ee3999ce692980fa2e33419f8f6331d8313f3788574360"
+            },
+            {
+              "path": "Vorschau/dll-worm-and-svg.png",
+              "size": 468086,
+              "sha256": "454816501b0a450cb5f93fe9e3215781b2eafd266619eaf29931790feb5eb007"
+            },
+            {
+              "path": "Vorschau/dll-worm-only.png",
+              "size": 93249,
+              "sha256": "9acf5d7d2efa04c59e2ec3063a35b42aa2b3db4c15a90e632136e06f7f18caef"
+            },
+            {
+              "path": "Vorschau/holes-actual-dll.gif",
+              "size": 1096486,
+              "sha256": "3b735668fd4b375188c5f267aaf169a7e85eccf07a00aa421cb940ae14744e42"
+            },
+            {
+              "path": "Vorschau/sides-actual-dll.gif",
+              "size": 470267,
+              "sha256": "25414ecd02e218e228df7118fa9f50d155a2b4fc01aab09b2edefa437d530389"
+            }
+          ],
+          "binaryName": "MANIAC SVG Worm.dll",
+          "version": "0.3.0"
+        },
+        {
+          "binaryName": "MANIAC SVG Worm.dll",
+          "version": "0.2.0",
+          "files": [
+            {
+              "path": "Baseline.json",
+              "sha256": "1fa613362aa16851ad41b3e80a1bfbec6e8fb965712088f2896524d1f2ed1ae0",
+              "size": 218152
+            },
+            {
+              "path": "Example.svg",
+              "sha256": "fa9f05d5557c35f2902cd7ff98d5e9f442d2c2742c0fa0e5c58f2f12ab3b3710",
+              "size": 113281
+            },
+            {
+              "path": "Kene.svg",
+              "sha256": "0b3b9bd0f22cc094555b85f72ddebb88bec72c41f8986e976c43be3b660325da",
+              "size": 1617
+            },
+            {
+              "path": "Lizenzen/FreeFrame-FFGL.txt",
+              "sha256": "d4daa83dd8f8ae2d46cedf478d09c80b93c36ece9b501be112bbfe0f0fbbc013",
+              "size": 2517
+            },
+            {
+              "path": "Lizenzen/glload.txt",
+              "sha256": "754b7c3b960bc81f3e989ecb39216125d30ff9f5b030a97f03fa832359b7ca76",
+              "size": 1156
+            },
+            {
+              "path": "Lizenzen/lunasvg.txt",
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "size": 1125
+            },
+            {
+              "path": "Lizenzen/plutovg.txt",
+              "sha256": "8472fe0abf72389f09f4992ed4bfeb631e1f3cc49ad74d7711b75781c2c3464b",
+              "size": 1125
+            },
+            {
+              "path": "Lizenzen/Three.js.txt",
+              "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+              "size": 1081
+            },
+            {
+              "path": "Lizenzen/tinyxml2.txt",
+              "sha256": "035a1f2fd2f6dba120f3c25cd2d04f9987f32405c847c0cb4859fe33e6148f45",
+              "size": 826
+            },
+            {
+              "path": "MANIAC SVG Worm.dll",
+              "sha256": "2ee76570d795035d5e8088ac2e706471dee595352533dd1ed5d2af976e649ec9",
+              "size": 1192448
+            },
+            {
+              "path": "Native-Tests.txt",
+              "sha256": "95134ba18126abb927bf8bba720e2c99ddeff8c2deca8388b76f34e958815b06",
+              "size": 687
+            },
+            {
+              "path": "README.md",
+              "sha256": "0649547fdbfe6bddfe10ccf2cebb8ea4f14e1d89916e19c59989197fec6a1681",
+              "size": 4789
+            },
+            {
+              "path": "VisualBaseline.json",
+              "sha256": "807207e6b9e367043790204f3286a9aa7d5df3ec965f2a47089abf840ae4a9f5",
+              "size": 1035
+            },
+            {
+              "path": "Vorschau/dll-worm-and-svg.png",
+              "sha256": "454816501b0a450cb5f93fe9e3215781b2eafd266619eaf29931790feb5eb007",
+              "size": 468086
+            },
+            {
+              "path": "Vorschau/dll-worm-only.png",
+              "sha256": "9acf5d7d2efa04c59e2ec3063a35b42aa2b3db4c15a90e632136e06f7f18caef",
+              "size": 93249
+            },
+            {
+              "path": "Vorschau/worm-and-ornament.png",
+              "sha256": "6589439eec03189e644df19a7257c987934bcb73f1df039f5c98989c4289b68b",
+              "size": 329394
+            },
+            {
+              "path": "Vorschau/worm-input-green.png",
+              "sha256": "321250e04174798c31e61f7e2157ef33dcde88735001c7783fd048280f35311d",
+              "size": 53850
+            },
+            {
+              "path": "Vorschau/worm-only.png",
+              "sha256": "27f16f94592d9534ad908d1431c3664faf30a5ebec5504d3f453ebbe99261002",
+              "size": 93264
+            },
+            {
+              "path": "Vorschau/worm-shadow-on-light.png",
+              "sha256": "2c47c584b35669dba3c7529014e9235667070d14387db12e6ce05b02a06f58ca",
+              "size": 100682
+            },
+            {
+              "path": "Vorschau/worm-three.png",
+              "sha256": "240ba2d72e4a7367678f3c8856a64326e67db34eac5f3e7bd93b1135440043dd",
+              "size": 408466
+            },
+            {
+              "path": "Vorschau/worm-with-shadow.png",
+              "sha256": "934abb8004a18204226743d43fcb28a04ee64349a5147ee5386104f0a8fe14f3",
+              "size": 99498
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "architecture": "win-x64",
+      "assetId": 0,
+      "pluginId": "maniac-slowmo",
+      "version": "0.1.1-pkg.2",
+      "sha256": "a7274fe3992b6c1601e9e193dc428b5e2a1cd4203eb27d62cbf91a8d08537d9e",
+      "binaryName": "MANIAC Slowmo.dll",
+      "name": "MANIAC Slowmo",
+      "minimumLauncherVersion": "0.2.9",
+      "assetName": "maniac-slowmo-0.1.1-pkg.2.zip",
+      "releaseTag": "plugin-maniac-slowmo-v0.1.1-pkg.2",
+      "packageSize": 133294,
+      "minimumHostVersion": "7.26.2",
+      "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.1.0. Experimenteller Prototyp für bewegungskompensierte Zwischenbilder verlangsamter Clips. Zusätzliche Bildverzögerung; noch keine Arena-Abnahme.",
+      "isTestOnly": false
+    }
+  ],
+  "launcher": {
+    "version": "0.2.9",
+    "releaseTag": "launcher-v0.2.9",
+    "assetId": 0,
+    "packageSize": 48676548,
+    "sha256": "fb6ec84a7a5b2cc81a37dabde9b75bae64913d3d46fe65a9af14ddc674d70158",
+    "assetName": "MANIAC-Launcher-0.2.9-Setup.exe"
+  },
+  "schemaVersion": 1
+}
