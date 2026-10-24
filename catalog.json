@@ -4,14 +4,14 @@
       "architecture": "win-x64",
       "assetId": 0,
       "pluginId": "maniac-svg-slime",
-      "version": "0.6.1-pkg.2",
-      "sha256": "b198e3c69dbda78f179da71f8ff38bdacda13d12567b23020d13993d65ab2592",
+      "version": "0.6.1-pkg.3",
+      "sha256": "c4939aefdefd78c7fa2ab932822eda1c289d5f69a1a8511a3e0c6d05627bfad0",
       "binaryName": "MANIAC_SVG SLIME.dll",
       "name": "MANIAC_SVG SLIME",
-      "minimumLauncherVersion": "0.2.9",
-      "assetName": "maniac-svg-slime-0.6.1-pkg.2.zip",
-      "releaseTag": "plugin-maniac-svg-slime-v0.6.1-pkg.2",
-      "packageSize": 414032,
+      "minimumLauncherVersion": "0.3.0",
+      "assetName": "maniac-svg-slime-0.6.1-pkg.3.zip",
+      "releaseTag": "plugin-maniac-svg-slime-v0.6.1-pkg.3",
+      "packageSize": 414029,
       "minimumHostVersion": "7.26.2",
       "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.6.0. Verbesserter SVG-Import mit Illustrator-CSS, Vererbung, Farbverläufen und erhaltenen Löchern. Eigene SVG laden; Testmotiv-Sammlung wird nicht installiert.",
       "isTestOnly": false,
@@ -144,20 +144,21 @@
           "version": "0.4.0"
         }
       ],
+      "isDeveloperOnly": false,
       "isInDevelopment": false
     },
     {
       "architecture": "win-x64",
       "assetId": 0,
       "pluginId": "maniac-svg-fluid",
-      "version": "0.1.2-pkg.2",
-      "sha256": "96de764f5876f0cde0bf3387c8d19477b55ea5b5be2e50cb2935e0473f08cda8",
+      "version": "0.1.2-pkg.3",
+      "sha256": "1b01990ef8d5af5027cf6ccb0b57a64117e8bda9ac5566991b73a29206f04e2d",
       "binaryName": "MANIAC_SVG Fluid.dll",
       "name": "MANIAC_SVG Fluid",
-      "minimumLauncherVersion": "0.2.9",
-      "assetName": "maniac-svg-fluid-0.1.2-pkg.2.zip",
-      "releaseTag": "plugin-maniac-svg-fluid-v0.1.2-pkg.2",
-      "packageSize": 383594,
+      "minimumLauncherVersion": "0.3.0",
+      "assetName": "maniac-svg-fluid-0.1.2-pkg.3.zip",
+      "releaseTag": "plugin-maniac-svg-fluid-v0.1.2-pkg.3",
+      "packageSize": 383576,
       "minimumHostVersion": "7.26.2",
       "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.1.1. Animierte Farbspuren und Wirbel innerhalb geschlossener SVG-Formen, mit transparentem Hintergrund und zwölf Emitterbahnen.",
       "isTestOnly": false,
@@ -229,6 +230,7 @@
           "version": "0.1.0"
         }
       ],
+      "isDeveloperOnly": false,
       "isInDevelopment": false
     },
     {
@@ -563,6 +565,7 @@
           ]
         }
       ],
+      "isDeveloperOnly": false,
       "isInDevelopment": false
     },
     {
@@ -1463,6 +1466,7 @@
           ]
         }
       ],
+      "isDeveloperOnly": false,
       "isInDevelopment": false
     },
     {
@@ -1925,6 +1929,7 @@
           "version": "0.1.0"
         }
       ],
+      "isDeveloperOnly": false,
       "isInDevelopment": false
     },
     {
@@ -2192,6 +2197,7 @@
           ]
         }
       ],
+      "isDeveloperOnly": false,
       "isInDevelopment": false
     },
     {
@@ -3388,33 +3394,36 @@
           ]
         }
       ],
+      "isDeveloperOnly": false,
       "isInDevelopment": false
     },
     {
       "architecture": "win-x64",
       "assetId": 0,
       "pluginId": "maniac-slowmo",
-      "version": "0.1.1-pkg.2",
-      "sha256": "a7274fe3992b6c1601e9e193dc428b5e2a1cd4203eb27d62cbf91a8d08537d9e",
+      "version": "0.1.1-pkg.3",
+      "sha256": "ac95dd864be3af6af9250dd28c506912ce205607d74be97e8e28df3816fcad44",
       "binaryName": "MANIAC Slowmo.dll",
       "name": "MANIAC Slowmo",
-      "minimumLauncherVersion": "0.2.9",
-      "assetName": "maniac-slowmo-0.1.1-pkg.2.zip",
-      "releaseTag": "plugin-maniac-slowmo-v0.1.1-pkg.2",
-      "packageSize": 133294,
+      "minimumLauncherVersion": "0.3.0",
+      "assetName": "maniac-slowmo-0.1.1-pkg.3.zip",
+      "releaseTag": "plugin-maniac-slowmo-v0.1.1-pkg.3",
+      "packageSize": 133270,
       "minimumHostVersion": "7.26.2",
       "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.1.0. Experimenteller Prototyp für bewegungskompensierte Zwischenbilder verlangsamter Clips. Zusätzliche Bildverzögerung; noch keine Arena-Abnahme.",
       "isTestOnly": false,
+      "isDeveloperOnly": false,
       "isInDevelopment": true
     }
   ],
   "launcher": {
-    "version": "0.2.9",
-    "releaseTag": "launcher-v0.2.9",
+    "version": "0.3.0",
+    "releaseTag": "launcher-v0.3.0",
     "assetId": 0,
-    "packageSize": 48676548,
-    "sha256": "fb6ec84a7a5b2cc81a37dabde9b75bae64913d3d46fe65a9af14ddc674d70158",
-    "assetName": "MANIAC-Launcher-0.2.9-Setup.exe"
+    "packageSize": 48582269,
+    "sha256": "eb4c541fc3dc781d1b49972b4791b635706fc3eae62f75085fbd1f647f0b9082",
+    "assetName": "MANIAC-Launcher-0.3.0-Setup.exe",
+    "channel": "public"
   },
   "schemaVersion": 1
 }
