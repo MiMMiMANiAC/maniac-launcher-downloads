@@ -1,23 +1,17 @@
 # MANIAC Launcher
 
-Resolume-Plugins für Windows x64 installieren und aktualisieren.
+Eigene Resolume-Plugins unter Windows x64 installieren und aktualisieren.
 
-## Download
+[**Aktuellen MANIAC Launcher herunterladen**](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/latest)
 
-[**MANIAC Launcher 0.2.9 für Windows herunterladen**](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/download/launcher-v0.2.9/MANIAC-Launcher-0.2.9-Setup.exe)
+1. Den Windows-Installer herunterladen und ausführen.
+2. Launcher öffnen und unter Einstellungen Arena/Avenue sowie den gewünschten Pluginordner prüfen.
+3. Resolume schließen und gewünschte Plugins installieren. Bereits vorhandene Installationen nur ausdrücklich übernehmen; ihre Dateien bleiben bei der Übernahme unverändert.
 
-1. Den Installer herunterladen und ausführen.
-2. MANIAC Launcher öffnen. Unter Einstellungen Arena oder Avenue und den passenden Pluginordner prüfen.
-3. Resolume schließen und gewünschte Plugins installieren. Spätere Updates erscheinen im Launcher; „Alle Updates installieren“ aktualisiert verwaltete Plugins.
+Kein GitHub-Konto und kein Zugriffsschlüssel nötig. Beim Start prüft der Launcher auf neue Launcher- und Pluginversionen und zeigt verfügbare Updates an. Du entscheidest, wann du aktualisierst. „Alle Updates installieren“ aktualisiert die dafür freigegebenen verwalteten Plugins.
 
-Ein GitHub-Konto oder Zugangsschlüssel ist nicht nötig. Bereits vorhandene Installationen werden nur ausdrücklich übernommen. Die Übernahme verändert keine vorhandenen Dateien. Test-/Diagnosepakete sind entsprechend gekennzeichnet und gehören nicht zur normalen Sammelinstallation.
+MANIAC Slowmo ist **In Entwicklung** und wird bewusst einzeln installiert. Alle Vorschaubilder zeigen ausschließlich die eigene Bühnen-SVG und tatsächliche Plugin-Ausgabe. Private Entwicklerwerkzeuge sind in dieser Ausgabe nicht enthalten. Der Launcher-Quellcode bleibt privat.
 
-Windows kann beim noch nicht signierten Installer einen Hinweis anzeigen. Einige Plugins benötigen zusätzlich die Microsoft Visual-C++-Laufzeit für x64.
+Vollständige Drittanbieter-Lizenztexte liegen in den Pluginpaketen. Der Launcher verwaltet sie gemeinsam unter `MANIAC/third-party-notices.txt` im ausgewählten Plugin-Stammordner. Plugin-Unterordner und eigene Zusatzdateien bleiben erhalten. Eine Launcher-Aktualisierung allein verändert keine installierten Plugins.
 
-## Lizenzhinweise und Updates
-
-Die vollständigen Drittanbieter-Lizenztexte liegen in jedem Pluginpaket. Ab Launcher 0.2.9 werden sie beim Installieren oder Aktualisieren gemeinsam unter `MANIAC/third-party-notices.txt` im ausgewählten Plugin-Stammordner verwaltet. Die Plugin-Unterordner bleiben erhalten. Eigene Zusatzdateien bleiben unverwaltet.
-
-Eine Launcher-Aktualisierung allein ändert keine installierten Plugins. Pluginupdates werden bewusst gestartet und benötigen geschlossenes Resolume. Eine vorhandene oder bearbeitete fremde Lizenzdatei wird nicht überschrieben.
-
-Dieser Downloadbereich enthält Installer, Pluginpakete und den Katalog. Der Launcher-Quellcode bleibt privat.
+Windows kann beim noch nicht signierten Installer einen Herausgeberhinweis anzeigen. Einige Plugins benötigen zusätzlich die Microsoft-Visual-C++-Laufzeit für x64.
