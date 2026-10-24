@@ -143,7 +143,8 @@
           "binaryName": "MANIAC_SVG SLIME.dll",
           "version": "0.4.0"
         }
-      ]
+      ],
+      "isInDevelopment": false
     },
     {
       "architecture": "win-x64",
@@ -227,23 +228,8 @@
           "binaryName": "SVG Fluid.dll",
           "version": "0.1.0"
         }
-      ]
-    },
-    {
-      "architecture": "win-x64",
-      "assetId": 0,
-      "pluginId": "surface-flow-test",
-      "version": "0.1.1-pkg.2",
-      "sha256": "421dd766ea53eed3df61f3f39383406b117a0e6c71c4c7ef9f02d411f78348a2",
-      "binaryName": "SurfaceFlow.dll",
-      "name": "Surface Flow · SVG 0.1 (Testpaket)",
-      "minimumLauncherVersion": "0.2.9",
-      "assetName": "surface-flow-test-0.1.1-pkg.2.zip",
-      "releaseTag": "plugin-surface-flow-test-v0.1.1-pkg.2",
-      "packageSize": 358354,
-      "minimumHostVersion": "7.26.2",
-      "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.1.0. SVG-Quelle mit Alpha-Ausgabe. Separates Testpaket; vorhandene Surface-Flow-Installation bleibt erhalten.",
-      "isTestOnly": true
+      ],
+      "isInDevelopment": false
     },
     {
       "architecture": "win-x64",
@@ -576,7 +562,8 @@
             }
           ]
         }
-      ]
+      ],
+      "isInDevelopment": false
     },
     {
       "architecture": "win-x64",
@@ -1475,7 +1462,8 @@
             }
           ]
         }
-      ]
+      ],
+      "isInDevelopment": false
     },
     {
       "architecture": "win-x64",
@@ -1936,7 +1924,8 @@
           ],
           "version": "0.1.0"
         }
-      ]
+      ],
+      "isInDevelopment": false
     },
     {
       "architecture": "win-x64",
@@ -2202,23 +2191,8 @@
             }
           ]
         }
-      ]
-    },
-    {
-      "architecture": "win-x64",
-      "assetId": 0,
-      "pluginId": "worm-host-probe",
-      "version": "0.1.1-pkg.2",
-      "sha256": "295655ea68063e26d3d98ed98b269088f11a89c06f572b2231645887de1949b7",
-      "binaryName": "WormHostProbe.dll",
-      "name": "Worm Host Probe",
-      "minimumLauncherVersion": "0.2.9",
-      "assetName": "worm-host-probe-0.1.1-pkg.2.zip",
-      "releaseTag": "plugin-worm-host-probe-v0.1.1-pkg.2",
-      "packageSize": 496420,
-      "minimumHostVersion": "7.26.2",
-      "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.1.0. Diagnose-Prototyp für Eingangstextur, Alpha, Phase und SVG-Laden. Noch kein fertiger Wurm; Arena-Abnahme steht aus.",
-      "isTestOnly": false
+      ],
+      "isInDevelopment": false
     },
     {
       "architecture": "win-x64",
@@ -3413,7 +3387,8 @@
             }
           ]
         }
-      ]
+      ],
+      "isInDevelopment": false
     },
     {
       "architecture": "win-x64",
@@ -3429,7 +3404,8 @@
       "packageSize": 133294,
       "minimumHostVersion": "7.26.2",
       "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.1.0. Experimenteller Prototyp für bewegungskompensierte Zwischenbilder verlangsamter Clips. Zusätzliche Bildverzögerung; noch keine Arena-Abnahme.",
-      "isTestOnly": false
+      "isTestOnly": false,
+      "isInDevelopment": true
     }
   ],
   "launcher": {
