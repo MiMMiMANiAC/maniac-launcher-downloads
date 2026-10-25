@@ -1,29 +1,29 @@
 {
   "launcher": {
-    "version": "0.3.2",
-    "releaseTag": "launcher-v0.3.2",
+    "version": "0.3.3",
+    "releaseTag": "launcher-v0.3.3",
     "assetId": 0,
-    "packageSize": 48668200,
-    "sha256": "2e2ff590a92b8a922463d95b84c04a43f5212948b586d49ae022328be4e7528e",
-    "assetName": "MANIAC-Launcher-0.3.2-Setup.exe",
+    "packageSize": 48629823,
+    "sha256": "bcbaaa8b062a54b4513ae96c7c9d2640e7b15b7f0835d3fa7757b14b24c62978",
+    "assetName": "MANIAC-Launcher-0.3.3-Setup.exe",
     "channel": "public"
   },
   "schemaVersion": 1,
   "plugins": [
     {
-      "architecture": "win-x64",
-      "assetId": 0,
+      "version": "0.7.2",
+      "minimumLauncherVersion": "0.3.3",
+      "assetName": "maniac-svg-slime-0.7.2.zip",
       "pluginId": "maniac-svg-slime",
-      "version": "0.6.1-pkg.3",
-      "sha256": "c4939aefdefd78c7fa2ab932822eda1c289d5f69a1a8511a3e0c6d05627bfad0",
+      "architecture": "win-x64",
+      "packageSize": 424575,
+      "sha256": "e5ef06cfc19b14d5462337bb100559e10dd00f39f89659885d480451b3d0c2ec",
+      "releaseTag": "plugin-maniac-svg-slime-v0.7.2",
       "binaryName": "MANIAC_SVG SLIME.dll",
       "name": "MANIAC_SVG SLIME",
-      "minimumLauncherVersion": "0.3.0",
-      "assetName": "maniac-svg-slime-0.6.1-pkg.3.zip",
-      "releaseTag": "plugin-maniac-svg-slime-v0.6.1-pkg.3",
-      "packageSize": 414029,
+      "assetId": 0,
       "minimumHostVersion": "7.26.2",
-      "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.6.0. Verbesserter SVG-Import mit Illustrator-CSS, Vererbung, Farbverläufen und erhaltenen Löchern. Eigene SVG laden; Testmotiv-Sammlung wird nicht installiert.",
+      "description": "Aktueller SVG-Import: native Vektorcaches, getrennte Ressourcenbudgets und Erhalt der letzten gültigen Szene. Mindestens 4096 nutzbare Formen nativ geprüft; konkrete Grenzen in der Anleitung.",
       "isTestOnly": false,
       "knownInstallations": [
         {
@@ -152,25 +152,36 @@
           ],
           "binaryName": "MANIAC_SVG SLIME.dll",
           "version": "0.4.0"
+        },
+        {
+          "files": [
+            {
+              "path": "MANIAC_SVG SLIME.dll",
+              "size": 993792,
+              "sha256": "bf09284c7586eb18d2a9194a79db707561f6f8403f4877b6eedcf43629a585ea"
+            }
+          ],
+          "binaryName": "MANIAC_SVG SLIME.dll",
+          "version": "0.6.1-pkg.3"
         }
       ],
       "isDeveloperOnly": false,
       "isInDevelopment": false
     },
     {
-      "architecture": "win-x64",
-      "assetId": 0,
+      "version": "0.2.1",
+      "minimumLauncherVersion": "0.3.3",
+      "assetName": "maniac-svg-fluid-0.2.1.zip",
       "pluginId": "maniac-svg-fluid",
-      "version": "0.1.2-pkg.3",
-      "sha256": "1b01990ef8d5af5027cf6ccb0b57a64117e8bda9ac5566991b73a29206f04e2d",
+      "architecture": "win-x64",
+      "packageSize": 426673,
+      "sha256": "b8d2f88fabcf11e969138770023a100554fa9a218213cc53c4a1559d8ee609ae",
+      "releaseTag": "plugin-maniac-svg-fluid-v0.2.1",
       "binaryName": "MANIAC_SVG Fluid.dll",
       "name": "MANIAC_SVG Fluid",
-      "minimumLauncherVersion": "0.3.0",
-      "assetName": "maniac-svg-fluid-0.1.2-pkg.3.zip",
-      "releaseTag": "plugin-maniac-svg-fluid-v0.1.2-pkg.3",
-      "packageSize": 383576,
+      "assetId": 0,
       "minimumHostVersion": "7.26.2",
-      "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.1.1. Animierte Farbspuren und Wirbel innerhalb geschlossener SVG-Formen, mit transparentem Hintergrund und zwölf Emitterbahnen.",
+      "description": "Aktueller SVG-Import: native Vektorcaches, getrennte Ressourcenbudgets und Erhalt der letzten gültigen Szene. Mindestens 4096 nutzbare Formen nativ geprüft; konkrete Grenzen in der Anleitung.",
       "isTestOnly": false,
       "knownInstallations": [
         {
@@ -238,26 +249,39 @@
           ],
           "binaryName": "SVG Fluid.dll",
           "version": "0.1.0"
+        },
+        {
+          "files": [
+            {
+              "path": "MANIAC_SVG Fluid.dll",
+              "size": 933376,
+              "sha256": "7a690aefb1de4a059e8f4ab4b7aa7c221e9c55db02fca3cc93bf86215d5d3c60"
+            }
+          ],
+          "binaryName": "MANIAC_SVG Fluid.dll",
+          "version": "0.1.2-pkg.3"
         }
       ],
       "isDeveloperOnly": false,
       "isInDevelopment": false
     },
     {
-      "architecture": "win-x64",
-      "assetId": 0,
-      "pluginId": "maniac-svg-flow",
-      "version": "0.6.1-pkg.2",
-      "sha256": "038aaff67c09a8f213c9a6881dac41bd228b4ddf9dd2192ecad6a2f70b8fcd56",
-      "binaryName": "MANIAC SVG FLOW.dll",
-      "name": "MANIAC SVG FLOW",
-      "minimumLauncherVersion": "0.2.9",
-      "assetName": "maniac-svg-flow-0.6.1-pkg.2.zip",
-      "releaseTag": "plugin-maniac-svg-flow-v0.6.1-pkg.2",
-      "packageSize": 794925,
+      "sha256": "275789b201721077e33b05349a7e1fe03f01298c85fa73b1416f4f865c096b52",
+      "releaseTag": "plugin-maniac-svg-flow-v0.7.0",
       "minimumHostVersion": "7.26.2",
-      "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.6.0. Konturen gefüllter Formen werden als reine Lichtlinien genutzt, einschließlich hohler Ringe und offener Innenbereiche.",
+      "name": "MANIAC SVG FLOW",
+      "assetName": "maniac-svg-flow-0.7.0.zip",
+      "pluginId": "maniac-svg-flow",
+      "version": "0.7.0",
+      "description": "Eigenständige Lichtquelle für animierte SVG-Konturen. 0.7.0 erweitert den begrenzten SVG-Import und erhält die letzte gültige Szene bei fehlgeschlagener Ersetzung.",
+      "architecture": "win-x64",
+      "binaryName": "MANIAC SVG FLOW.dll",
+      "packageSize": 796897,
+      "assetId": 0,
+      "minimumLauncherVersion": "0.3.3",
       "isTestOnly": false,
+      "isDeveloperOnly": false,
+      "isInDevelopment": false,
       "knownInstallations": [
         {
           "version": "0.5.0",
@@ -573,26 +597,42 @@
               "sha256": "b144cfe24737ff1d799f9d8772e2d478fc61528c024b79d9830baa0c73f81676"
             }
           ]
+        },
+        {
+          "version": "0.6.1-pkg.2",
+          "files": [
+            {
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "path": "Example.svg"
+            },
+            {
+              "size": 1017344,
+              "sha256": "030845011a434737a6e4d668ddf670ec269e0a1f1e2ae9b28c93f3b302d5e3d3",
+              "path": "MANIAC SVG FLOW.dll"
+            }
+          ],
+          "binaryName": "MANIAC SVG FLOW.dll"
         }
-      ],
-      "isDeveloperOnly": false,
-      "isInDevelopment": false
+      ]
     },
     {
-      "architecture": "win-x64",
-      "assetId": 0,
-      "pluginId": "maniac-svg-3d",
-      "version": "0.3.5-pkg.2",
-      "sha256": "afa2c2736b69717ef66cdfac7c9155e92df17e6b0a777ec32bf8887eb6db6c79",
-      "binaryName": "MANIAC SVG 3D.dll",
-      "name": "MANIAC SVG 3D",
-      "minimumLauncherVersion": "0.2.9",
-      "assetName": "maniac-svg-3d-0.3.5-pkg.2.zip",
-      "releaseTag": "plugin-maniac-svg-3d-v0.3.5-pkg.2",
-      "packageSize": 951898,
+      "sha256": "29e5333d36584da1394dd1b0757d45c5e999f7430259e05ce8f470d95a3bf7cb",
+      "releaseTag": "plugin-maniac-svg-3d-v0.4.1",
       "minimumHostVersion": "7.26.2",
-      "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.3.4. Geordnete deutsche Bedienung mit direkter Extrusion und eindeutig benannten Resets. Reset-Wertmeldungen aktualisieren Host-Regler; native Prüfung und dokumentierte Arena-Teilprüfung. Vektorkonturen, Video, Alpha/Schwarz und MSAA.",
+      "name": "MANIAC SVG 3D",
+      "assetName": "maniac-svg-3d-0.4.1.zip",
+      "pluginId": "maniac-svg-3d",
+      "version": "0.4.1",
+      "description": "FFGL-Effekt für räumlich ausbrechende SVG-Platten mit Vektorkonturen, Videooberflächen und MSAA. 0.4.1 erweitert die Kapazität und schützt die letzte gültige Szene bei fehlgeschlagenen SVG-/GPU-Ersetzungen. Fünf Bereiche und alle 94 Parameteridentitäten bleiben erhalten.",
+      "architecture": "win-x64",
+      "binaryName": "MANIAC SVG 3D.dll",
+      "packageSize": 961173,
+      "assetId": 0,
+      "minimumLauncherVersion": "0.3.3",
       "isTestOnly": false,
+      "isDeveloperOnly": false,
+      "isInDevelopment": false,
       "knownInstallations": [
         {
           "version": "0.3.3",
@@ -1474,26 +1514,42 @@
               "size": 4862
             }
           ]
+        },
+        {
+          "version": "0.3.5-pkg.2",
+          "files": [
+            {
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "path": "Example.svg"
+            },
+            {
+              "size": 1304064,
+              "sha256": "f936a711cca1da8b5923e3dc9557d2a7fde1e7388b239ac2eac00009f5d0d206",
+              "path": "MANIAC SVG 3D.dll"
+            }
+          ],
+          "binaryName": "MANIAC SVG 3D.dll"
         }
-      ],
-      "isDeveloperOnly": false,
-      "isInDevelopment": false
+      ]
     },
     {
-      "architecture": "win-x64",
-      "assetId": 0,
-      "pluginId": "maniac-stagelight-3d",
-      "version": "0.4.1-pkg.2",
-      "sha256": "1d7921dcc1c6ed89becec524ad49b9dea45c0308f3e23cbc3caf86d2a552768c",
-      "binaryName": "MANIAC_Stagelight 3d.dll",
-      "name": "MANIAC_Stagelight 3d",
-      "minimumLauncherVersion": "0.2.9",
-      "assetName": "maniac-stagelight-3d-0.4.1-pkg.2.zip",
-      "releaseTag": "plugin-maniac-stagelight-3d-v0.4.1-pkg.2",
-      "packageSize": 937328,
+      "sha256": "252a18a38ad0b7213a92b6121ff3becbdc0367c4838f070da38f789c860cdd00",
+      "releaseTag": "plugin-maniac-stagelight-3d-v0.5.2",
       "minimumHostVersion": "7.26.2",
-      "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.4.0. Verbesserter Illustrator-Import mit CSS-Klassen, Style-Blöcken und Farbverläufen. Hostname MANIAC_Stage3D; 234 Parameter.",
+      "name": "MANIAC_Stagelight 3d",
+      "assetName": "maniac-stagelight-3d-0.5.2.zip",
+      "pluginId": "maniac-stagelight-3d",
+      "version": "0.5.2",
+      "description": "Eigenständige SVG-Reliefquelle mit automatischen Shows, 4/8/16 Scheinwerfern, Schatten und Nebel. 0.5.2 erhält gültige Szenen auch nach gescheitertem GPU-Tausch und begrenzt native Zwischenbilder. Alle 234 Parameteridentitäten bleiben erhalten.",
+      "architecture": "win-x64",
+      "binaryName": "MANIAC_Stagelight 3d.dll",
+      "packageSize": 938665,
+      "assetId": 0,
+      "minimumLauncherVersion": "0.3.3",
       "isTestOnly": false,
+      "isDeveloperOnly": false,
+      "isInDevelopment": false,
       "knownInstallations": [
         {
           "version": "0.3.0",
@@ -1937,26 +1993,42 @@
             }
           ],
           "version": "0.1.0"
+        },
+        {
+          "version": "0.4.1-pkg.2",
+          "files": [
+            {
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "path": "Example.svg"
+            },
+            {
+              "size": 1278976,
+              "sha256": "154af7f275ccf303723b00b837f5b65060a740366ed8f6d4a026fb6fa458390c",
+              "path": "MANIAC_Stagelight 3d.dll"
+            }
+          ],
+          "binaryName": "MANIAC_Stagelight 3d.dll"
         }
-      ],
-      "isDeveloperOnly": false,
-      "isInDevelopment": false
+      ]
     },
     {
       "architecture": "win-x64",
+      "version": "0.5.1",
       "assetId": 0,
       "pluginId": "moireaction",
-      "version": "0.4.1-pkg.2",
-      "sha256": "c8ea33f3a64da12b0195f2ba4d5af317acfd4a20775b5fda852ee3f873bbe2c9",
+      "packageSize": 905615,
       "binaryName": "MANiAC_MOIREACTION.dll",
-      "name": "MANiAC_MOIREACTION",
-      "minimumLauncherVersion": "0.2.9",
-      "assetName": "moireaction-0.4.1-pkg.2.zip",
-      "releaseTag": "plugin-moireaction-v0.4.1-pkg.2",
-      "packageSize": 846460,
+      "releaseTag": "plugin-moireaction-v0.5.1",
+      "sha256": "07cd42ed87dcac4e1b8ebf679c73fc3e0c99e697ce6dffddc9d61110cd5bb377",
       "minimumHostVersion": "7.26.2",
-      "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.4.0. Moiré und Diffusion mit eigenständiger SVG-Maske, Master Speed und Slow 10% / Very Slow 1%.",
+      "assetName": "moireaction-0.5.1.zip",
+      "minimumLauncherVersion": "0.3.3",
+      "name": "MANiAC_MOIREACTION",
+      "description": "Moiré-/Diffusionseffekt mit einem Bildeingang und optionaler unabhängiger SVG-Maske. 0.5.1 bereitet Masken im Hintergrund vor und erhält die letzte gültige Maske bei Fehlern; alle 55 Parameter bleiben erhalten.",
       "isTestOnly": false,
+      "isDeveloperOnly": false,
+      "isInDevelopment": false,
       "knownInstallations": [
         {
           "version": "0.3.0",
@@ -2205,25 +2277,39 @@
               "sha256": "ef0fe0f3d3d764d8a75fcbbe1ab13a8b378cb4b5d734ff8996a3d3e9954178f8"
             }
           ]
+        },
+        {
+          "version": "0.4.1-pkg.2",
+          "files": [
+            {
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "path": "Komposition_2D_1920x1080_Resolume.svg",
+              "size": 992639
+            },
+            {
+              "sha256": "f85f029538e2cf516c0017f6e07f0a039ec1b60654478d3d96e8350d8ddf3710",
+              "path": "MANiAC_MOIREACTION.dll",
+              "size": 1092608
+            }
+          ],
+          "binaryName": "MANiAC_MOIREACTION.dll"
         }
-      ],
-      "isDeveloperOnly": false,
-      "isInDevelopment": false
+      ]
     },
     {
-      "architecture": "win-x64",
-      "assetId": 0,
+      "version": "0.7.1",
+      "minimumLauncherVersion": "0.3.3",
+      "assetName": "maniac-svg-worm-0.7.1.zip",
       "pluginId": "maniac-svg-worm",
-      "version": "0.6.2-pkg.2",
-      "sha256": "57efeb58d91e7c3cf4d645b44075acd40da514b01574d6ddcdbb43742a25153d",
+      "architecture": "win-x64",
+      "packageSize": 717277,
+      "sha256": "b2cec86faed609c0059f6f65f7557286704c6c13b5ecdffb58544025f8a9d24e",
+      "releaseTag": "plugin-maniac-svg-worm-v0.7.1",
       "binaryName": "MANIAC SVG Worm.dll",
       "name": "MANIAC SVG Worm",
-      "minimumLauncherVersion": "0.2.9",
-      "assetName": "maniac-svg-worm-0.6.2-pkg.2.zip",
-      "releaseTag": "plugin-maniac-svg-worm-v0.6.2-pkg.2",
-      "packageSize": 710134,
+      "assetId": 0,
       "minimumHostVersion": "7.26.2",
-      "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.6.1. Räumlicher Wurm mit bildfüllenden eigenen Zufallsrouten, gemeinsamer Zufallsbahn und sicheren SVG-Durchgängen. Deutsche Bedienung, Low/Mid/High und verbesserte Routen-/Textursteuerung.",
+      "description": "Aktueller SVG-Import: native Vektorcaches, getrennte Ressourcenbudgets und Erhalt der letzten gültigen Szene. Mindestens 4096 nutzbare Formen nativ geprüft; konkrete Grenzen in der Anleitung.",
       "isTestOnly": false,
       "knownInstallations": [
         {
@@ -3402,6 +3488,27 @@
               "size": 99498
             }
           ]
+        },
+        {
+          "files": [
+            {
+              "sha256": "fa9f05d5557c35f2902cd7ff98d5e9f442d2c2742c0fa0e5c58f2f12ab3b3710",
+              "path": "Example.svg",
+              "size": 113281
+            },
+            {
+              "sha256": "0b3b9bd0f22cc094555b85f72ddebb88bec72c41f8986e976c43be3b660325da",
+              "path": "Kene.svg",
+              "size": 1617
+            },
+            {
+              "sha256": "9537b6b7fd5293400b2cdd67f002b35adac712afe0c2a1f14b3246a4357698cf",
+              "path": "MANIAC SVG Worm.dll",
+              "size": 1513472
+            }
+          ],
+          "binaryName": "MANIAC SVG Worm.dll",
+          "version": "0.6.2-pkg.2"
         }
       ],
       "isDeveloperOnly": false,
