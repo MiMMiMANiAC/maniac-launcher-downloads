@@ -1,23 +1,13 @@
 # MANIAC Launcher
 
-Öffentliche Windows-x64-Downloads für Freunde. Kein GitHub-Konto und kein Zugangsschlüssel erforderlich. Programmquellen und persönliche Einstellungen gehören nicht in diesen Downloadbereich.
+Windows-x64-Launcher zum Installieren und Aktualisieren der MANIAC-Plugins und von Pattern Studio.
 
-## Launcher 0.3.4
+**[MANIAC Launcher 0.3.5 herunterladen](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/download/launcher-v0.3.5/MANIAC-Launcher-0.3.5-Setup.exe)**
 
-[MANIAC Launcher herunterladen](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/launcher-v0.3.4)
+Neu: **MANIAC_SVG Fluid 0.2.2** und **MANiAC_MOIREACTION 0.5.2** mit GPU- und CPU-Optimierungen bei unverändertem Aussehen und Tempo. Der GTX-1060-Vergleich bei 1280×720/Mid zeigt gegenüber dem ersten Performance-Testbuild rund 39 % beziehungsweise 13 % weniger GPU-Zeit; keine feste FPS-Zusage für komplette Kompositionen unter weiterer Last.
 
-Installer ausführen und anschließend den Launcher öffnen. Acht reguläre Pluginangebote einschließlich MANIAC Slowmo als „In Entwicklung“; Slowmo bleibt von Sammelaktionen ausgeschlossen. Pluginanleitungen und tatsächliche DLL-Vorschauen auf der eigenen Bühne sind enthalten. Pluginänderungen verlangen geschlossenes Resolume. Der Launcher beendet Resolume nicht.
+Zuerst Launcher 0.3.5 aktualisieren, dann die gewünschten Pluginupdates im Launcher ausdrücklich starten. Vor einer Plugininstallation oder einem Update Resolume selbst schließen. Vorhandene eigene Dateien bleiben erhalten. Keine automatische Installation.
 
-## Pattern Studio 1.1.1
+Pattern Studio 1.1.1 bleibt unverändert im Reiter **Software** und wird getrennt von Resolume-Plugins verwaltet. Slowmo bleibt **In Entwicklung** und außerhalb der Sammelaktionen.
 
-[Pattern Studio, Anleitung und echte Softwarevorschau](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/software-pattern-studio-v1.1.1)
-
-Geometrische Muster, vier Vorschläge mit Variantensteuerung, eigene Zeichnungen, 2D-/3D-Ansicht und SVG-/PNG-Export. Läuft lokal und offline. Zuerst Launcher 0.3.4 aktualisieren; anschließend im Reiter **Software** installieren. Software besitzt eigene Installations-, Update-, Start- und Deinstallationsaktionen. Programmdateien liegen unter `%LOCALAPPDATA%\Programs\pattern-studio`, niemals im Resolume-Pluginordner.
-
-Für eine lokale Launcherinstallation das Laufzeit-ZIP und die daneben angebotene `.software.json` zusammen ablegen. Die EXE ist ein alternativer Windows-Installationsweg. Bitte nicht beide Verwaltungswege gleichzeitig für denselben Programmordner verwenden. Vor Update oder Deinstallation Pattern Studio schließen. Eigene zusätzliche Dateien und die Benutzerablage bleiben erhalten.
-
-## Updates und Lizenzen
-
-Verfügbare Launcher-, Plugin- und Softwareupdates werden nach erfolgreicher Onlineprüfung angezeigt. Installation und Updates erfolgen ausschließlich durch Nutzeraktion. Das Veröffentlichen neuer Downloads installiert nichts auf bestehenden Systemen. Die erste verwaltete Softwareinstallation erweitert die bestehende gemeinsame Datenbank auf Format 4; ältere Launcher können dieses Format nicht verwalten.
-
-Pluginpakete enthalten vollständige Lizenzen separat unter `notices/`. Bei ausdrücklichen Pluginaktionen verwaltet der Launcher die gemeinsame Datei `MANIAC/third-party-notices.txt`. Software bewahrt ihre vollständigen Electron-/Chromium- und weiteren Lizenztexte im Programmordner. Die Windows-Installer sind nicht mit einem Herausgeberzertifikat signiert; Windows kann einen entsprechenden Hinweis anzeigen.
+[Alle Veröffentlichungen und bisherigen Versionen](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases) bleiben verfügbar. Keine alten Releases werden für dieses Update gelöscht oder überschrieben. Für öffentliche Downloads ist kein GitHub-Konto nötig.
