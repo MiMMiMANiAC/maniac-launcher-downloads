@@ -1,11 +1,11 @@
 {
   "launcher": {
-    "version": "0.3.4",
-    "releaseTag": "launcher-v0.3.4",
+    "version": "0.3.5",
+    "releaseTag": "launcher-v0.3.5",
     "assetId": 0,
-    "packageSize": 48649777,
-    "sha256": "2cb03e4f27cf3e96ac0e8689d7bb7b3adf059a4f326015a377f8fd1ef0ef4ba9",
-    "assetName": "MANIAC-Launcher-0.3.4-Setup.exe",
+    "packageSize": 48629225,
+    "sha256": "062ac4feed61a0d94d06b8852f526e90ac11925f89fe092515c96874f4f6f541",
+    "assetName": "MANIAC-Launcher-0.3.5-Setup.exe",
     "channel": "public"
   },
   "schemaVersion": 1,
@@ -169,19 +169,19 @@
       "isInDevelopment": false
     },
     {
-      "version": "0.2.1",
-      "minimumLauncherVersion": "0.3.3",
-      "assetName": "maniac-svg-fluid-0.2.1.zip",
-      "pluginId": "maniac-svg-fluid",
+      "version": "0.2.2",
+      "sha256": "c8314ceff902fa2f2e905d71217adb43c5873fc9a441dffa38ebee9b0d8a79ba",
       "architecture": "win-x64",
-      "packageSize": 426673,
-      "sha256": "b8d2f88fabcf11e969138770023a100554fa9a218213cc53c4a1559d8ee609ae",
-      "releaseTag": "plugin-maniac-svg-fluid-v0.2.1",
-      "binaryName": "MANIAC_SVG Fluid.dll",
+      "assetName": "maniac-svg-fluid-0.2.2.zip",
       "name": "MANIAC_SVG Fluid",
+      "packageSize": 434053,
       "assetId": 0,
+      "pluginId": "maniac-svg-fluid",
       "minimumHostVersion": "7.26.2",
-      "description": "Aktueller SVG-Import: native Vektorcaches, getrennte Ressourcenbudgets und Erhalt der letzten gültigen Szene. Mindestens 4096 nutzbare Formen nativ geprüft; konkrete Grenzen in der Anleitung.",
+      "minimumLauncherVersion": "0.3.5",
+      "description": "GPU- und CPU-optimierte SVG-Flüssigkeit mit unverändertem Aussehen, Tempo und Parametern. GTX-1060-Vergleich: rund 39 % weniger GPU-Zeit bei 720p/Mid; keine feste Resolume-FPS-Zusage.",
+      "binaryName": "MANIAC_SVG Fluid.dll",
+      "releaseTag": "plugin-maniac-svg-fluid-v0.2.2",
       "isTestOnly": false,
       "knownInstallations": [
         {
@@ -260,10 +260,19 @@
           ],
           "binaryName": "MANIAC_SVG Fluid.dll",
           "version": "0.1.2-pkg.3"
+        },
+        {
+          "files": [
+            {
+              "size": 1018880,
+              "path": "MANIAC_SVG Fluid.dll",
+              "sha256": "45af28ec4eba5aeb60068a603bc6c0cd371a4a45e4e383544a38859975eeafd9"
+            }
+          ],
+          "version": "0.2.1",
+          "binaryName": "MANIAC_SVG Fluid.dll"
         }
-      ],
-      "isDeveloperOnly": false,
-      "isInDevelopment": false
+      ]
     },
     {
       "sha256": "275789b201721077e33b05349a7e1fe03f01298c85fa73b1416f4f865c096b52",
@@ -2013,22 +2022,20 @@
       ]
     },
     {
+      "version": "0.5.2",
+      "sha256": "559d7e6b6d8c47fdf84d38aeded142a5fe4686c3c6a5be66d04c9b02bc6561a0",
       "architecture": "win-x64",
-      "version": "0.5.1",
+      "assetName": "moireaction-0.5.2.zip",
+      "name": "MANiAC_MOIREACTION",
+      "packageSize": 909143,
       "assetId": 0,
       "pluginId": "moireaction",
-      "packageSize": 905615,
-      "binaryName": "MANiAC_MOIREACTION.dll",
-      "releaseTag": "plugin-moireaction-v0.5.1",
-      "sha256": "07cd42ed87dcac4e1b8ebf679c73fc3e0c99e697ce6dffddc9d61110cd5bb377",
       "minimumHostVersion": "7.26.2",
-      "assetName": "moireaction-0.5.1.zip",
-      "minimumLauncherVersion": "0.3.3",
-      "name": "MANiAC_MOIREACTION",
-      "description": "Moiré-/Diffusionseffekt mit einem Bildeingang und optionaler unabhängiger SVG-Maske. 0.5.1 bereitet Masken im Hintergrund vor und erhält die letzte gültige Maske bei Fehlern; alle 55 Parameter bleiben erhalten.",
+      "minimumLauncherVersion": "0.3.5",
+      "description": "GPU- und CPU-optimierter Moiré-/Diffusionseffekt mit SVG-Maske. Aussehen, Tempo und Parameter erhalten. GTX-1060-Vergleich: rund 13 % weniger GPU-Zeit bei 720p/Mid.",
+      "binaryName": "MANiAC_MOIREACTION.dll",
+      "releaseTag": "plugin-moireaction-v0.5.2",
       "isTestOnly": false,
-      "isDeveloperOnly": false,
-      "isInDevelopment": false,
       "knownInstallations": [
         {
           "version": "0.3.0",
@@ -2292,6 +2299,22 @@
               "size": 1092608
             }
           ],
+          "binaryName": "MANiAC_MOIREACTION.dll"
+        },
+        {
+          "files": [
+            {
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "size": 992639,
+              "path": "Komposition_2D_1920x1080_Resolume.svg"
+            },
+            {
+              "sha256": "6897e8b702de9cd4f1c8960dfb49fb37e1da9138697cbe1cfa651de6bb2f35d8",
+              "size": 1214464,
+              "path": "MANiAC_MOIREACTION.dll"
+            }
+          ],
+          "version": "0.5.1",
           "binaryName": "MANiAC_MOIREACTION.dll"
         }
       ]
