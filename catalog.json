@@ -1,11 +1,11 @@
 {
   "launcher": {
-    "version": "0.3.8",
-    "releaseTag": "launcher-v0.3.8",
+    "version": "0.3.9",
+    "releaseTag": "launcher-v0.3.9",
     "assetId": 0,
-    "packageSize": 48658667,
-    "sha256": "7a9d7cb32e4167aa7732345fc15b64ad6df716e0226088bd1502a4c5f844feb7",
-    "assetName": "MANIAC-Launcher-0.3.8-Setup.exe",
+    "packageSize": 49070008,
+    "sha256": "5051f2345f48400963548981b64d6bbd763ed88396fba8095edee458dc2ec60a",
+    "assetName": "MANIAC-Launcher-0.3.9-Setup.exe",
     "channel": "public"
   },
   "schemaVersion": 1,
@@ -3654,6 +3654,22 @@
       "isTestOnly": false,
       "isDeveloperOnly": false,
       "isInDevelopment": true
+    },
+    {
+      "architecture": "win-x64",
+      "name": "MANIAC_Chrome",
+      "minimumHostVersion": "7.26.2",
+      "description": "Animiertes farbiges Metallic-Chrome innerhalb eigener SVG-Formen, mit Lichtbändern oder Livevideo, Gesamt- und Pro-Form-Verläufen. Außenbereiche und Löcher bleiben transparent; High ist Standard.",
+      "pluginId": "maniac-chrome",
+      "releaseTag": "plugin-maniac-chrome-v0.1.0",
+      "packageSize": 584874,
+      "assetId": 0,
+      "binaryName": "MANIAC_Chrome.dll",
+      "sha256": "805215d548c70a9c077f1050eeda916a5afc5d8ab355eef7cd2a2ffe531d38a3",
+      "version": "0.1.0",
+      "assetName": "maniac-chrome-0.1.0.zip",
+      "minimumLauncherVersion": "0.3.9",
+      "isTestOnly": false
     }
   ],
   "software": [
