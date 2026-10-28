@@ -1,13 +1,13 @@
 # MANIAC Launcher
 
-Windows-x64-Launcher zum Installieren und Aktualisieren der MANIAC-Plugins und von Pattern Studio.
+Windows-x64-Launcher für MANIAC-Plugins und Pattern Studio.
 
-**[MANIAC Launcher 0.3.5 herunterladen](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/download/launcher-v0.3.5/MANIAC-Launcher-0.3.5-Setup.exe)**
+**[MANIAC Launcher 0.3.6 herunterladen](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/download/launcher-v0.3.6/MANIAC-Launcher-0.3.6-Setup.exe)**
 
-Neu: **MANIAC_SVG Fluid 0.2.2** und **MANiAC_MOIREACTION 0.5.2** mit GPU- und CPU-Optimierungen bei unverändertem Aussehen und Tempo. Der GTX-1060-Vergleich bei 1280×720/Mid zeigt gegenüber dem ersten Performance-Testbuild rund 39 % beziehungsweise 13 % weniger GPU-Zeit; keine feste FPS-Zusage für komplette Kompositionen unter weiterer Last.
+Neu: SVG-Ladekorrekturen für **Slime 0.7.3, Fluid 0.2.3, Flow 0.7.1, SVG 3D 0.4.2, Stagelight 0.5.3 und Moireaction 0.5.3**. Ein bereits vorher gesetzter gewöhnlicher Grafikfehler verwirft keine gültige neue SVG mehr. Aussehen, Tempo und Parameter bleiben erhalten. Der kontrollierte Ladetest ist auf einer GTX 1060 bestanden; die ursprüngliche sporadische Arena-Situation wurde dabei nicht aufgezeichnet.
 
-Zuerst Launcher 0.3.5 aktualisieren, dann die gewünschten Pluginupdates im Launcher ausdrücklich starten. Vor einer Plugininstallation oder einem Update Resolume selbst schließen. Vorhandene eigene Dateien bleiben erhalten. Keine automatische Installation.
+Zuerst Launcher 0.3.6 aktualisieren, dann die gewünschten Pluginupdates ausdrücklich starten. Resolume vor Installation oder Update selbst schließen. Es wird nichts automatisch installiert. Eigene Dateien bleiben erhalten.
 
-Pattern Studio 1.1.1 bleibt unverändert im Reiter **Software** und wird getrennt von Resolume-Plugins verwaltet. Slowmo bleibt **In Entwicklung** und außerhalb der Sammelaktionen.
+Pattern Studio 1.1.1 bleibt unverändert im Reiter **Software** und wird getrennt verwaltet. Slowmo bleibt **In Entwicklung** und außerhalb der Sammelaktionen.
 
-[Alle Veröffentlichungen und bisherigen Versionen](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases) bleiben verfügbar. Keine alten Releases werden für dieses Update gelöscht oder überschrieben. Für öffentliche Downloads ist kein GitHub-Konto nötig.
+[Alle bisherigen Versionen](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases) bleiben verfügbar. Für öffentliche Downloads ist kein GitHub-Konto nötig.
