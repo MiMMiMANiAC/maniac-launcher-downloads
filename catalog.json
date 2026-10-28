@@ -1,29 +1,29 @@
 {
   "launcher": {
-    "version": "0.3.5",
-    "releaseTag": "launcher-v0.3.5",
+    "version": "0.3.6",
+    "releaseTag": "launcher-v0.3.6",
     "assetId": 0,
-    "packageSize": 48629225,
-    "sha256": "062ac4feed61a0d94d06b8852f526e90ac11925f89fe092515c96874f4f6f541",
-    "assetName": "MANIAC-Launcher-0.3.5-Setup.exe",
+    "packageSize": 48628288,
+    "sha256": "488779816c1307fa1f0e458b1b3db378122b4855bcff62b45ba53a0bcc24ced1",
+    "assetName": "MANIAC-Launcher-0.3.6-Setup.exe",
     "channel": "public"
   },
   "schemaVersion": 1,
   "plugins": [
     {
-      "version": "0.7.2",
-      "minimumLauncherVersion": "0.3.3",
-      "assetName": "maniac-svg-slime-0.7.2.zip",
+      "releaseTag": "plugin-maniac-svg-slime-v0.7.3",
       "pluginId": "maniac-svg-slime",
       "architecture": "win-x64",
-      "packageSize": 424575,
-      "sha256": "e5ef06cfc19b14d5462337bb100559e10dd00f39f89659885d480451b3d0c2ec",
-      "releaseTag": "plugin-maniac-svg-slime-v0.7.2",
-      "binaryName": "MANIAC_SVG SLIME.dll",
+      "description": "Aktueller SVG-Import: native Vektorcaches, getrennte Ressourcenbudgets und Erhalt der letzten gültigen Szene. Mindestens 4096 nutzbare Formen nativ geprüft; konkrete Grenzen in der Anleitung. SVG-Ladekorrektur: Ein vorheriger gewöhnlicher Grafikfehler verwirft keine gültige neue SVG mehr; Aussehen und Tempo bleiben erhalten.",
+      "sha256": "4e2500299d4e2fb4f61c06cbf5cb57c892fc09d29ae76e708eca66d813a7be7d",
+      "minimumHostVersion": "7.26.2",
+      "assetName": "maniac-svg-slime-0.7.3.zip",
+      "packageSize": 425638,
       "name": "MANIAC_SVG SLIME",
       "assetId": 0,
-      "minimumHostVersion": "7.26.2",
-      "description": "Aktueller SVG-Import: native Vektorcaches, getrennte Ressourcenbudgets und Erhalt der letzten gültigen Szene. Mindestens 4096 nutzbare Formen nativ geprüft; konkrete Grenzen in der Anleitung.",
+      "version": "0.7.3",
+      "binaryName": "MANIAC_SVG SLIME.dll",
+      "minimumLauncherVersion": "0.3.6",
       "isTestOnly": false,
       "knownInstallations": [
         {
@@ -163,25 +163,34 @@
           ],
           "binaryName": "MANIAC_SVG SLIME.dll",
           "version": "0.6.1-pkg.3"
+        },
+        {
+          "binaryName": "MANIAC_SVG SLIME.dll",
+          "version": "0.7.2",
+          "files": [
+            {
+              "size": 1017856,
+              "path": "MANIAC_SVG SLIME.dll",
+              "sha256": "2ee5958a224019140c051cec3be32de29c15676f87d3ab190d2ea698b6d3dfdb"
+            }
+          ]
         }
-      ],
-      "isDeveloperOnly": false,
-      "isInDevelopment": false
+      ]
     },
     {
-      "version": "0.2.2",
-      "sha256": "c8314ceff902fa2f2e905d71217adb43c5873fc9a441dffa38ebee9b0d8a79ba",
-      "architecture": "win-x64",
-      "assetName": "maniac-svg-fluid-0.2.2.zip",
-      "name": "MANIAC_SVG Fluid",
-      "packageSize": 434053,
-      "assetId": 0,
+      "releaseTag": "plugin-maniac-svg-fluid-v0.2.3",
       "pluginId": "maniac-svg-fluid",
+      "architecture": "win-x64",
+      "description": "GPU- und CPU-optimierte SVG-Flüssigkeit mit unverändertem Aussehen, Tempo und Parametern. GTX-1060-Vergleich: rund 39 % weniger GPU-Zeit bei 720p/Mid; keine feste Resolume-FPS-Zusage. SVG-Ladekorrektur: Ein vorheriger gewöhnlicher Grafikfehler verwirft keine gültige neue SVG mehr; Aussehen und Tempo bleiben erhalten.",
+      "sha256": "c0cdf207f923d7fdf6e4b162377c8fc78a8417bb3f172dfe8d6870af64ebc918",
       "minimumHostVersion": "7.26.2",
-      "minimumLauncherVersion": "0.3.5",
-      "description": "GPU- und CPU-optimierte SVG-Flüssigkeit mit unverändertem Aussehen, Tempo und Parametern. GTX-1060-Vergleich: rund 39 % weniger GPU-Zeit bei 720p/Mid; keine feste Resolume-FPS-Zusage.",
+      "assetName": "maniac-svg-fluid-0.2.3.zip",
+      "packageSize": 435277,
+      "name": "MANIAC_SVG Fluid",
+      "assetId": 0,
+      "version": "0.2.3",
       "binaryName": "MANIAC_SVG Fluid.dll",
-      "releaseTag": "plugin-maniac-svg-fluid-v0.2.2",
+      "minimumLauncherVersion": "0.3.6",
       "isTestOnly": false,
       "knownInstallations": [
         {
@@ -271,26 +280,35 @@
           ],
           "version": "0.2.1",
           "binaryName": "MANIAC_SVG Fluid.dll"
+        },
+        {
+          "binaryName": "MANIAC_SVG Fluid.dll",
+          "version": "0.2.2",
+          "files": [
+            {
+              "sha256": "a23d62f9d32d7b88b5b5d843d8966ae90204059ba1f670eefdb2319eb68d7a3b",
+              "size": 1035776,
+              "path": "MANIAC_SVG Fluid.dll"
+            }
+          ]
         }
       ]
     },
     {
-      "sha256": "275789b201721077e33b05349a7e1fe03f01298c85fa73b1416f4f865c096b52",
-      "releaseTag": "plugin-maniac-svg-flow-v0.7.0",
-      "minimumHostVersion": "7.26.2",
-      "name": "MANIAC SVG FLOW",
-      "assetName": "maniac-svg-flow-0.7.0.zip",
+      "releaseTag": "plugin-maniac-svg-flow-v0.7.1",
       "pluginId": "maniac-svg-flow",
-      "version": "0.7.0",
-      "description": "Eigenständige Lichtquelle für animierte SVG-Konturen. 0.7.0 erweitert den begrenzten SVG-Import und erhält die letzte gültige Szene bei fehlgeschlagener Ersetzung.",
       "architecture": "win-x64",
-      "binaryName": "MANIAC SVG FLOW.dll",
-      "packageSize": 796897,
+      "description": "Eigenständige Lichtquelle für animierte SVG-Konturen. 0.7.0 erweitert den begrenzten SVG-Import und erhält die letzte gültige Szene bei fehlgeschlagener Ersetzung. SVG-Ladekorrektur: Ein vorheriger gewöhnlicher Grafikfehler verwirft keine gültige neue SVG mehr; Aussehen und Tempo bleiben erhalten.",
+      "sha256": "65912a81a422e270b8a7d0f30bdfef9404115290e67021b87bce26ca9b175bf2",
+      "minimumHostVersion": "7.26.2",
+      "assetName": "maniac-svg-flow-0.7.1.zip",
+      "packageSize": 798149,
+      "name": "MANIAC SVG FLOW",
       "assetId": 0,
-      "minimumLauncherVersion": "0.3.3",
+      "version": "0.7.1",
+      "binaryName": "MANIAC SVG FLOW.dll",
+      "minimumLauncherVersion": "0.3.6",
       "isTestOnly": false,
-      "isDeveloperOnly": false,
-      "isInDevelopment": false,
       "knownInstallations": [
         {
           "version": "0.5.0",
@@ -622,26 +640,40 @@
             }
           ],
           "binaryName": "MANIAC SVG FLOW.dll"
+        },
+        {
+          "binaryName": "MANIAC SVG FLOW.dll",
+          "version": "0.7.0",
+          "files": [
+            {
+              "path": "Example.svg",
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "size": 992639
+            },
+            {
+              "path": "MANIAC SVG FLOW.dll",
+              "sha256": "0bd768a8f8880dd3f800b93a01bd203e69a17acaec8d101e6430c9856c4d2980",
+              "size": 1021440
+            }
+          ]
         }
       ]
     },
     {
-      "sha256": "29e5333d36584da1394dd1b0757d45c5e999f7430259e05ce8f470d95a3bf7cb",
-      "releaseTag": "plugin-maniac-svg-3d-v0.4.1",
-      "minimumHostVersion": "7.26.2",
-      "name": "MANIAC SVG 3D",
-      "assetName": "maniac-svg-3d-0.4.1.zip",
+      "releaseTag": "plugin-maniac-svg-3d-v0.4.2",
       "pluginId": "maniac-svg-3d",
-      "version": "0.4.1",
-      "description": "FFGL-Effekt für räumlich ausbrechende SVG-Platten mit Vektorkonturen, Videooberflächen und MSAA. 0.4.1 erweitert die Kapazität und schützt die letzte gültige Szene bei fehlgeschlagenen SVG-/GPU-Ersetzungen. Fünf Bereiche und alle 94 Parameteridentitäten bleiben erhalten.",
       "architecture": "win-x64",
-      "binaryName": "MANIAC SVG 3D.dll",
-      "packageSize": 961173,
+      "description": "FFGL-Effekt für räumlich ausbrechende SVG-Platten mit Vektorkonturen, Videooberflächen und MSAA. 0.4.1 erweitert die Kapazität und schützt die letzte gültige Szene bei fehlgeschlagenen SVG-/GPU-Ersetzungen. Fünf Bereiche und alle 94 Parameteridentitäten bleiben erhalten. SVG-Ladekorrektur: Ein vorheriger gewöhnlicher Grafikfehler verwirft keine gültige neue SVG mehr; Aussehen und Tempo bleiben erhalten.",
+      "sha256": "ceb9b3f6a02da6c666778bfcb69d1f39199868410bd0289e1a699851b0879e77",
+      "minimumHostVersion": "7.26.2",
+      "assetName": "maniac-svg-3d-0.4.2.zip",
+      "packageSize": 963372,
+      "name": "MANIAC SVG 3D",
       "assetId": 0,
-      "minimumLauncherVersion": "0.3.3",
+      "version": "0.4.2",
+      "binaryName": "MANIAC SVG 3D.dll",
+      "minimumLauncherVersion": "0.3.6",
       "isTestOnly": false,
-      "isDeveloperOnly": false,
-      "isInDevelopment": false,
       "knownInstallations": [
         {
           "version": "0.3.3",
@@ -1539,26 +1571,40 @@
             }
           ],
           "binaryName": "MANIAC SVG 3D.dll"
+        },
+        {
+          "binaryName": "MANIAC SVG 3D.dll",
+          "version": "0.4.1",
+          "files": [
+            {
+              "path": "Example.svg",
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "size": 992639
+            },
+            {
+              "path": "MANIAC SVG 3D.dll",
+              "sha256": "c81987c7c39338ee6155da4998275ce830b25f6785aeddd556ced394d539b65f",
+              "size": 1323008
+            }
+          ]
         }
       ]
     },
     {
-      "sha256": "252a18a38ad0b7213a92b6121ff3becbdc0367c4838f070da38f789c860cdd00",
-      "releaseTag": "plugin-maniac-stagelight-3d-v0.5.2",
-      "minimumHostVersion": "7.26.2",
-      "name": "MANIAC_Stagelight 3d",
-      "assetName": "maniac-stagelight-3d-0.5.2.zip",
+      "releaseTag": "plugin-maniac-stagelight-3d-v0.5.3",
       "pluginId": "maniac-stagelight-3d",
-      "version": "0.5.2",
-      "description": "Eigenständige SVG-Reliefquelle mit automatischen Shows, 4/8/16 Scheinwerfern, Schatten und Nebel. 0.5.2 erhält gültige Szenen auch nach gescheitertem GPU-Tausch und begrenzt native Zwischenbilder. Alle 234 Parameteridentitäten bleiben erhalten.",
       "architecture": "win-x64",
-      "binaryName": "MANIAC_Stagelight 3d.dll",
-      "packageSize": 938665,
+      "description": "Eigenständige SVG-Reliefquelle mit automatischen Shows, 4/8/16 Scheinwerfern, Schatten und Nebel. 0.5.2 erhält gültige Szenen auch nach gescheitertem GPU-Tausch und begrenzt native Zwischenbilder. Alle 234 Parameteridentitäten bleiben erhalten. SVG-Ladekorrektur: Ein vorheriger gewöhnlicher Grafikfehler verwirft keine gültige neue SVG mehr; Aussehen und Tempo bleiben erhalten.",
+      "sha256": "afae3ac891574db51b17f9427fb955132eed72f5245ddcd42645a40ab83fb9ea",
+      "minimumHostVersion": "7.26.2",
+      "assetName": "maniac-stagelight-3d-0.5.3.zip",
+      "packageSize": 940800,
+      "name": "MANIAC_Stagelight 3d",
       "assetId": 0,
-      "minimumLauncherVersion": "0.3.3",
+      "version": "0.5.3",
+      "binaryName": "MANIAC_Stagelight 3d.dll",
+      "minimumLauncherVersion": "0.3.6",
       "isTestOnly": false,
-      "isDeveloperOnly": false,
-      "isInDevelopment": false,
       "knownInstallations": [
         {
           "version": "0.3.0",
@@ -2018,23 +2064,39 @@
             }
           ],
           "binaryName": "MANIAC_Stagelight 3d.dll"
+        },
+        {
+          "binaryName": "MANIAC_Stagelight 3d.dll",
+          "version": "0.5.2",
+          "files": [
+            {
+              "path": "Example.svg",
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "size": 992639
+            },
+            {
+              "path": "MANIAC_Stagelight 3d.dll",
+              "sha256": "6f32a36d2c83b64bb5e62a0c85d652365af3c504ca8da2dee0f6153d80f3ad46",
+              "size": 1278464
+            }
+          ]
         }
       ]
     },
     {
-      "version": "0.5.2",
-      "sha256": "559d7e6b6d8c47fdf84d38aeded142a5fe4686c3c6a5be66d04c9b02bc6561a0",
-      "architecture": "win-x64",
-      "assetName": "moireaction-0.5.2.zip",
-      "name": "MANiAC_MOIREACTION",
-      "packageSize": 909143,
-      "assetId": 0,
+      "releaseTag": "plugin-moireaction-v0.5.3",
       "pluginId": "moireaction",
+      "architecture": "win-x64",
+      "description": "GPU- und CPU-optimierter Moiré-/Diffusionseffekt mit SVG-Maske. Aussehen, Tempo und Parameter erhalten. GTX-1060-Vergleich: rund 13 % weniger GPU-Zeit bei 720p/Mid. SVG-Ladekorrektur: Ein vorheriger gewöhnlicher Grafikfehler verwirft keine gültige neue SVG mehr; Aussehen und Tempo bleiben erhalten.",
+      "sha256": "13913b59e1a287e6918ab468f0539522414e34bcb20ded35e482c2ddabe6155d",
       "minimumHostVersion": "7.26.2",
-      "minimumLauncherVersion": "0.3.5",
-      "description": "GPU- und CPU-optimierter Moiré-/Diffusionseffekt mit SVG-Maske. Aussehen, Tempo und Parameter erhalten. GTX-1060-Vergleich: rund 13 % weniger GPU-Zeit bei 720p/Mid.",
+      "assetName": "moireaction-0.5.3.zip",
+      "packageSize": 911234,
+      "name": "MANiAC_MOIREACTION",
+      "assetId": 0,
+      "version": "0.5.3",
       "binaryName": "MANiAC_MOIREACTION.dll",
-      "releaseTag": "plugin-moireaction-v0.5.2",
+      "minimumLauncherVersion": "0.3.6",
       "isTestOnly": false,
       "knownInstallations": [
         {
@@ -2316,6 +2378,22 @@
           ],
           "version": "0.5.1",
           "binaryName": "MANiAC_MOIREACTION.dll"
+        },
+        {
+          "binaryName": "MANiAC_MOIREACTION.dll",
+          "version": "0.5.2",
+          "files": [
+            {
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "size": 992639,
+              "path": "Komposition_2D_1920x1080_Resolume.svg"
+            },
+            {
+              "sha256": "2fb86e77e2f84864ef3a2fe0f2f31d843d538f4616abba911cdc3e967aea4b4e",
+              "size": 1219584,
+              "path": "MANiAC_MOIREACTION.dll"
+            }
+          ]
         }
       ]
     },
