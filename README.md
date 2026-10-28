@@ -1,11 +1,13 @@
 # MANIAC Launcher
 
-**[MANIAC Launcher 0.3.7 herunterladen](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/download/launcher-v0.3.7/MANIAC-Launcher-0.3.7-Setup.exe)**
+**[MANIAC Launcher 0.3.8 herunterladen](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/download/launcher-v0.3.8/MANIAC-Launcher-0.3.8-Setup.exe)**
 
-Neu: **MANIAC_SVG SLIME 0.8.0** mit schwerem Alien-Look, elastischen Fäden und **In Form** für träge Bewegung innerhalb der eigenen SVG-Flächen. Deutsche Regler mit Erweitert/Zurücksetzen, Low/Mid/High mit High als Standard. Die bisherigen Looks bleiben als Presets erhalten. Vollständige neue Anleitung und tatsächliche Bühnenvorschau im Launcher. Keine allgemeine FPS-Zusage.
+**MANIAC_SVG SLIME 0.8.1** korrigiert neun doppelte Parameternamen aus 0.8.0. Elf betroffene neue Aliaslabels haben jetzt eindeutige Gruppenziffern. Alte kanonische Namen und sämtliche numerischen Kennungen bleiben erhalten, ebenso Rendercode, Tempo, Standardwerte und Qualität. Der separate Startscan ohne OpenGL besteht; ein tatsächlicher erfolgreicher Arena-Start nach dem Update muss im jeweiligen Host bestätigt werden.
 
-Zuerst Launcher aktualisieren, danach Slime-Update ausdrücklich starten. Resolume vor Installation oder Update selbst schließen. Es wird nichts automatisch installiert. Eigene Dateien bleiben erhalten. Die sofortige optische Regleraktualisierung nach Presets und ältere Arena-Kompositionen bleiben im Host zu bestätigen; native gespeicherte Werte wurden geprüft.
+Version 0.8.0 wurde im Zusammenhang mit einem Startabbruch beim Laden dieser DLL gemeldet. Bitte die Korrektur 0.8.1 verwenden. Beide Versionen bleiben als historische Downloads erhalten. Vorher mit 0.8.0-Aliasnamen gespeicherte Bindungen können eine Neuzuordnung benötigen.
 
-Die SVG-Ladekorrekturen der anderen Plugins bleiben enthalten. Pattern Studio 1.1.1 unverändert getrennt unter **Software**. Slowmo bleibt **In Entwicklung** und außerhalb Sammelaktionen.
+Zuerst Launcher aktualisieren, danach Slime-Update ausdrücklich starten. Resolume vor Installation oder Update selbst schließen. Keine automatische Installation. Anschließend Resolume selbst starten. Bestehende Programme und Kompositionen werden durch die Veröffentlichung nicht verändert.
 
-[Alle bisherigen Versionen](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases) bleiben verfügbar. Öffentliche Downloads funktionieren ohne GitHub-Anmeldung.
+Schwerer Alien, In Form und die bisherigen Presets bleiben enthalten. Pattern Studio 1.1.1 unverändert unter **Software**, Slowmo weiterhin **In Entwicklung** und außerhalb Sammelaktionen.
+
+[Alle bisherigen Versionen](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases) bleiben verfügbar. Öffentliche Downloads ohne Anmeldung.
