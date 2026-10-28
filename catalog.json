@@ -1,29 +1,29 @@
 {
   "launcher": {
-    "version": "0.3.7",
-    "releaseTag": "launcher-v0.3.7",
+    "version": "0.3.8",
+    "releaseTag": "launcher-v0.3.8",
     "assetId": 0,
-    "packageSize": 48688338,
-    "sha256": "3670c8784368dff80121babda1e4699de0738bfbcc9ac34bf305e44c2ff9e8d1",
-    "assetName": "MANIAC-Launcher-0.3.7-Setup.exe",
+    "packageSize": 48658667,
+    "sha256": "7a9d7cb32e4167aa7732345fc15b64ad6df716e0226088bd1502a4c5f844feb7",
+    "assetName": "MANIAC-Launcher-0.3.8-Setup.exe",
     "channel": "public"
   },
   "schemaVersion": 1,
   "plugins": [
     {
-      "assetId": 0,
-      "version": "0.8.0",
-      "releaseTag": "plugin-maniac-svg-slime-v0.8.0",
-      "pluginId": "maniac-svg-slime",
-      "minimumLauncherVersion": "0.3.7",
-      "architecture": "win-x64",
+      "version": "0.8.1",
+      "description": "Eindeutige Parameternamen für den Startscan; unveränderte Looks und Bewegungen. Zäher Alien-Schleim mit neuem In-Form-Modus, elastischen Fäden, nasser Reliefoberfläche und deutschen Reglern. Bisherige Looks bleiben als Presets erhalten; High ist Standard.",
       "binaryName": "MANIAC_SVG SLIME.dll",
-      "description": "Zäher Alien-Schleim mit neuem In-Form-Modus, elastischen Fäden, nasser Reliefoberfläche und deutschen Reglern. Bisherige Looks bleiben als Presets erhalten; High ist Standard.",
-      "packageSize": 429590,
       "minimumHostVersion": "7.26.2",
-      "assetName": "maniac-svg-slime-0.8.0.zip",
-      "sha256": "5e57faccd66186b14ce1caebd2b803533f1fb414af12af538e781569c8c8831b",
+      "assetId": 0,
+      "pluginId": "maniac-svg-slime",
+      "architecture": "win-x64",
+      "minimumLauncherVersion": "0.3.8",
       "name": "MANIAC_SVG SLIME",
+      "releaseTag": "plugin-maniac-svg-slime-v0.8.1",
+      "packageSize": 429962,
+      "sha256": "eebbea2842ee99779d7c23d5109741dbc421436a61e98c65c203c3c35d0453d8",
+      "assetName": "maniac-svg-slime-0.8.1.zip",
       "isTestOnly": false,
       "knownInstallations": [
         {
@@ -185,6 +185,17 @@
           ],
           "binaryName": "MANIAC_SVG SLIME.dll",
           "version": "0.7.3"
+        },
+        {
+          "version": "0.8.0",
+          "files": [
+            {
+              "sha256": "45bd5e6e41ce64c86e4e744ff164b390423717f249efdbcb8d88c8b40efdc1f9",
+              "path": "MANIAC_SVG SLIME.dll",
+              "size": 1030656
+            }
+          ],
+          "binaryName": "MANIAC_SVG SLIME.dll"
         }
       ]
     },
