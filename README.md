@@ -1,10 +1,10 @@
 # MANIAC Launcher
 
-**[MANIAC Launcher 0.3.10 herunterladen](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/download/launcher-v0.3.10/MANIAC-Launcher-0.3.10-Setup.exe)**
+**[MANIAC Launcher 0.3.11 herunterladen](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/download/launcher-v0.3.11/MANIAC-Launcher-0.3.11-Setup.exe)**
 
-**Pattern Studio 1.2.0** ist verfügbar: eingebetteter Pfadeditor, erweiterte Auswahl und Sperren, Bühnen-/Ebenenbedienung, technische Motivmixe, direkte Farbsteuerung und native Projektdateien mit Speichern/Speichern unter. Anleitung und echte Softwarevorschau sind im Launcher enthalten. Installation und Update ausschließlich unter **Software**; keine Dateien im Resolume-Pluginordner. Update von 1.1.1, Wiederherstellung, Deinstallation sowie ausgewählte tatsächliche Programmabläufe wurden isoliert geprüft. Zuerst den passenden Launcher 0.3.10 aktualisieren, danach Pattern Studio bewusst aktualisieren und vorher schließen. Alte Versionen bleiben verfügbar.
+**Pattern Studio 1.3.1** ist verfügbar: direktes Zeichnen, getrennte Bühnen-/Designbibliothek und Beamerausgabe mit Raster und Übernahme mehrerer Flächen; native Projektdateien mit Speichern/Speichern unter. Anleitung und echte Softwarevorschau sind im Launcher enthalten. Installation und Update ausschließlich unter **Software**; keine Dateien im Resolume-Pluginordner. Update von 1.2.0, Wiederherstellung, Deinstallation sowie ausgewählte tatsächliche Programmabläufe wurden isoliert geprüft. Zuerst den passenden Launcher 0.3.11 aktualisieren, danach Pattern Studio bewusst aktualisieren und vorher schließen. Alte Versionen bleiben verfügbar.
 
-**MANIAC_Chrome 0.1.0** ist neu: animiertes farbiges Metallic-Chrome in eigenen SVG-Formen, mit Lichtbändern oder Livevideo und Gesamt-/Pro-Form-Verläufen. 62 Regler sind im Launcher vollständig erklärt; die Vorschau zeigt die echte DLL mit der originalen Bühne. Native Tests und isolierte Paketprüfung bestanden. Sichtbares Arena-Verhalten bleibt separat zu bestätigen. Zuerst Launcher 0.3.10 aktualisieren und Chrome anschließend bewusst installieren.
+**MANIAC_Chrome 0.1.0** ist neu: animiertes farbiges Metallic-Chrome in eigenen SVG-Formen, mit Lichtbändern oder Livevideo und Gesamt-/Pro-Form-Verläufen. 62 Regler sind im Launcher vollständig erklärt; die Vorschau zeigt die echte DLL mit der originalen Bühne. Native Tests und isolierte Paketprüfung bestanden. Sichtbares Arena-Verhalten bleibt separat zu bestätigen. Zuerst Launcher 0.3.11 aktualisieren und Chrome anschließend bewusst installieren.
 
 **MANIAC_SVG SLIME 0.8.1** korrigiert neun doppelte Parameternamen aus 0.8.0. Elf betroffene neue Aliaslabels haben jetzt eindeutige Gruppenziffern. Alte kanonische Namen und sämtliche numerischen Kennungen bleiben erhalten, ebenso Rendercode, Tempo, Standardwerte und Qualität. Der separate Startscan ohne OpenGL besteht; ein tatsächlicher erfolgreicher Arena-Start nach dem Update muss im jeweiligen Host bestätigt werden.
 
@@ -12,6 +12,6 @@ Version 0.8.0 wurde im Zusammenhang mit einem Startabbruch beim Laden dieser DLL
 
 Zuerst Launcher aktualisieren, danach Slime-Update ausdrücklich starten. Resolume vor Installation oder Update selbst schließen. Keine automatische Installation. Anschließend Resolume selbst starten. Bestehende Programme und Kompositionen werden durch die Veröffentlichung nicht verändert.
 
-Schwerer Alien, In Form und die bisherigen Presets bleiben enthalten. Pattern Studio 1.2.0 unter **Software**, Slowmo weiterhin **In Entwicklung** und außerhalb Sammelaktionen.
+Schwerer Alien, In Form und die bisherigen Presets bleiben enthalten. Pattern Studio 1.3.1 unter **Software**, Slowmo weiterhin **In Entwicklung** und außerhalb Sammelaktionen.
 
 [Alle bisherigen Versionen](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases) bleiben verfügbar. Öffentliche Downloads ohne Anmeldung.
