@@ -317,19 +317,19 @@
       ]
     },
     {
-      "releaseTag": "plugin-maniac-svg-flow-v0.7.1",
-      "pluginId": "maniac-svg-flow",
+      "packageSize": 805332,
       "architecture": "win-x64",
-      "description": "Eigenständige Lichtquelle für animierte SVG-Konturen. 0.7.0 erweitert den begrenzten SVG-Import und erhält die letzte gültige Szene bei fehlgeschlagener Ersetzung. SVG-Ladekorrektur: Ein vorheriger gewöhnlicher Grafikfehler verwirft keine gültige neue SVG mehr; Aussehen und Tempo bleiben erhalten.",
-      "sha256": "65912a81a422e270b8a7d0f30bdfef9404115290e67021b87bce26ca9b175bf2",
-      "minimumHostVersion": "7.26.2",
-      "assetName": "maniac-svg-flow-0.7.1.zip",
-      "packageSize": 798149,
-      "name": "MANIAC SVG FLOW",
+      "sha256": "ab8436c196972f4ea13de2d94daff8204167afb2d9945e279b4fee80576a338a",
       "assetId": 0,
-      "version": "0.7.1",
-      "binaryName": "MANIAC SVG FLOW.dll",
+      "version": "0.7.2",
       "minimumLauncherVersion": "0.3.6",
+      "description": "Eigenständige Lichtquelle für animierte SVG-Konturen. 0.7.0 erweitert den begrenzten SVG-Import und erhält die letzte gültige Szene bei fehlgeschlagener Ersetzung. Speicherarme SVG-Vorbereitung für große Motive; vorhandenes Aussehen und Animation bleiben erhalten.",
+      "pluginId": "maniac-svg-flow",
+      "minimumHostVersion": "7.26.2",
+      "binaryName": "MANIAC SVG FLOW.dll",
+      "name": "MANIAC SVG FLOW",
+      "assetName": "maniac-svg-flow-0.7.2.zip",
+      "releaseTag": "plugin-maniac-svg-flow-v0.7.2",
       "isTestOnly": false,
       "knownInstallations": [
         {
@@ -678,6 +678,22 @@
               "size": 1021440
             }
           ]
+        },
+        {
+          "version": "0.7.1",
+          "files": [
+            {
+              "path": "Example.svg",
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87"
+            },
+            {
+              "path": "MANIAC SVG FLOW.dll",
+              "size": 1023488,
+              "sha256": "af4454ab668cb6572056f1a83a251b64eb001fe6157f6e397e554dd1d0029041"
+            }
+          ],
+          "binaryName": "MANIAC SVG FLOW.dll"
         }
       ]
     },
@@ -1613,19 +1629,19 @@
       ]
     },
     {
-      "releaseTag": "plugin-maniac-stagelight-3d-v0.5.3",
-      "pluginId": "maniac-stagelight-3d",
+      "packageSize": 944297,
       "architecture": "win-x64",
-      "description": "Eigenständige SVG-Reliefquelle mit automatischen Shows, 4/8/16 Scheinwerfern, Schatten und Nebel. 0.5.2 erhält gültige Szenen auch nach gescheitertem GPU-Tausch und begrenzt native Zwischenbilder. Alle 234 Parameteridentitäten bleiben erhalten. SVG-Ladekorrektur: Ein vorheriger gewöhnlicher Grafikfehler verwirft keine gültige neue SVG mehr; Aussehen und Tempo bleiben erhalten.",
-      "sha256": "afae3ac891574db51b17f9427fb955132eed72f5245ddcd42645a40ab83fb9ea",
-      "minimumHostVersion": "7.26.2",
-      "assetName": "maniac-stagelight-3d-0.5.3.zip",
-      "packageSize": 940800,
-      "name": "MANIAC_Stagelight 3d",
+      "sha256": "3e9a706b8b1af8b8086b7412f5dbfb153a30ddd0e401d80dc70156be9c58b31b",
       "assetId": 0,
-      "version": "0.5.3",
-      "binaryName": "MANIAC_Stagelight 3d.dll",
+      "version": "0.5.4",
       "minimumLauncherVersion": "0.3.6",
+      "description": "Eigenständige SVG-Reliefquelle mit automatischen Shows, 4/8/16 Scheinwerfern, Schatten und Nebel. 0.5.2 erhält gültige Szenen auch nach gescheitertem GPU-Tausch und begrenzt native Zwischenbilder. Alle 234 Parameteridentitäten bleiben erhalten. Speicherarme SVG-Vorbereitung für große Motive; vorhandenes Aussehen und Animation bleiben erhalten.",
+      "pluginId": "maniac-stagelight-3d",
+      "minimumHostVersion": "7.26.2",
+      "binaryName": "MANIAC_Stagelight 3d.dll",
+      "name": "MANIAC_Stagelight 3d",
+      "assetName": "maniac-stagelight-3d-0.5.4.zip",
+      "releaseTag": "plugin-maniac-stagelight-3d-v0.5.4",
       "isTestOnly": false,
       "knownInstallations": [
         {
@@ -2102,6 +2118,22 @@
               "size": 1278464
             }
           ]
+        },
+        {
+          "version": "0.5.3",
+          "files": [
+            {
+              "path": "Example.svg",
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87"
+            },
+            {
+              "path": "MANIAC_Stagelight 3d.dll",
+              "size": 1282048,
+              "sha256": "0dbdea3815ee5f1d97c48f7be1f501993d9dc1aff53662d0ca5d603e232668cd"
+            }
+          ],
+          "binaryName": "MANIAC_Stagelight 3d.dll"
         }
       ]
     },
@@ -2420,20 +2452,22 @@
       ]
     },
     {
-      "version": "0.7.1",
-      "minimumLauncherVersion": "0.3.3",
-      "assetName": "maniac-svg-worm-0.7.1.zip",
-      "pluginId": "maniac-svg-worm",
+      "packageSize": 729406,
       "architecture": "win-x64",
-      "packageSize": 717277,
-      "sha256": "b2cec86faed609c0059f6f65f7557286704c6c13b5ecdffb58544025f8a9d24e",
-      "releaseTag": "plugin-maniac-svg-worm-v0.7.1",
+      "sha256": "676625122a319ff4020ab2d2364ea14bda67902637cd762390ece8d3ba840cd7",
+      "assetId": 0,
+      "version": "0.7.2",
+      "minimumLauncherVersion": "0.3.3",
+      "description": "Aktueller SVG-Import: native Vektorcaches, getrennte Ressourcenbudgets und Erhalt der letzten gültigen Szene. Mindestens 4096 nutzbare Formen nativ geprüft; konkrete Grenzen in der Anleitung. Speicherarme SVG-Vorbereitung für große Motive; vorhandenes Aussehen und Animation bleiben erhalten.",
+      "pluginId": "maniac-svg-worm",
+      "minimumHostVersion": "7.26.2",
       "binaryName": "MANIAC SVG Worm.dll",
       "name": "MANIAC SVG Worm",
-      "assetId": 0,
-      "minimumHostVersion": "7.26.2",
-      "description": "Aktueller SVG-Import: native Vektorcaches, getrennte Ressourcenbudgets und Erhalt der letzten gültigen Szene. Mindestens 4096 nutzbare Formen nativ geprüft; konkrete Grenzen in der Anleitung.",
+      "assetName": "maniac-svg-worm-0.7.2.zip",
+      "releaseTag": "plugin-maniac-svg-worm-v0.7.2",
       "isTestOnly": false,
+      "isDeveloperOnly": false,
+      "isInDevelopment": false,
       "knownInstallations": [
         {
           "version": "0.6.0",
@@ -3632,10 +3666,29 @@
           ],
           "binaryName": "MANIAC SVG Worm.dll",
           "version": "0.6.2-pkg.2"
+        },
+        {
+          "version": "0.7.1",
+          "files": [
+            {
+              "size": 113281,
+              "path": "Example.svg",
+              "sha256": "fa9f05d5557c35f2902cd7ff98d5e9f442d2c2742c0fa0e5c58f2f12ab3b3710"
+            },
+            {
+              "size": 1617,
+              "path": "Kene.svg",
+              "sha256": "0b3b9bd0f22cc094555b85f72ddebb88bec72c41f8986e976c43be3b660325da"
+            },
+            {
+              "size": 1528832,
+              "path": "MANIAC SVG Worm.dll",
+              "sha256": "f7704da0fabf89c6a55772246ab64f01b2298255b4e16764e33e2de523e927b4"
+            }
+          ],
+          "binaryName": "MANIAC SVG Worm.dll"
         }
-      ],
-      "isDeveloperOnly": false,
-      "isInDevelopment": false
+      ]
     },
     {
       "architecture": "win-x64",
@@ -3656,46 +3709,64 @@
       "isInDevelopment": true
     },
     {
+      "packageSize": 594191,
       "architecture": "win-x64",
-      "name": "MANIAC_Chrome",
-      "minimumHostVersion": "7.26.2",
-      "description": "Animiertes farbiges Metallic-Chrome innerhalb eigener SVG-Formen, mit Lichtbändern oder Livevideo, Gesamt- und Pro-Form-Verläufen. Außenbereiche und Löcher bleiben transparent; High ist Standard.",
-      "pluginId": "maniac-chrome",
-      "releaseTag": "plugin-maniac-chrome-v0.1.0",
-      "packageSize": 584874,
+      "sha256": "910c59cf8069657aa883cb5c4178797cc26fab719361e1b018b6261b13181571",
       "assetId": 0,
-      "binaryName": "MANIAC_Chrome.dll",
-      "sha256": "805215d548c70a9c077f1050eeda916a5afc5d8ab355eef7cd2a2ffe531d38a3",
-      "version": "0.1.0",
-      "assetName": "maniac-chrome-0.1.0.zip",
+      "version": "0.1.1",
       "minimumLauncherVersion": "0.3.9",
-      "isTestOnly": false
+      "description": "Animiertes farbiges Metallic-Chrome innerhalb eigener SVG-Formen, mit Lichtbändern oder Livevideo, Gesamt- und Pro-Form-Verläufen. Außenbereiche und Löcher bleiben transparent; High ist Standard. Speicherarme SVG-Vorbereitung für große Motive; vorhandenes Aussehen und Animation bleiben erhalten.",
+      "pluginId": "maniac-chrome",
+      "minimumHostVersion": "7.26.2",
+      "binaryName": "MANIAC_Chrome.dll",
+      "name": "MANIAC_Chrome",
+      "assetName": "maniac-chrome-0.1.1.zip",
+      "releaseTag": "plugin-maniac-chrome-v0.1.1",
+      "isTestOnly": false,
+      "knownInstallations": [
+        {
+          "version": "0.1.0",
+          "files": [
+            {
+              "size": 637,
+              "path": "Example.svg",
+              "sha256": "25b1af83d3aa62af07f852167288d08278c6e1db6e4d3c508714201c99d39cec"
+            },
+            {
+              "size": 1321984,
+              "path": "MANIAC_Chrome.dll",
+              "sha256": "bad4b34934afae9e3ff4fd7a05ff4cdcfe16e7439442da9b7e2fc87ec7c6409c"
+            }
+          ],
+          "binaryName": "MANIAC_Chrome.dll"
+        }
+      ]
     }
   ],
   "software": [
     {
       "softwareId": "pattern-studio",
       "name": "Pattern Studio",
-      "description": "Geometrische Muster, Foto-Nachzeichnen und Bühnenflächen; 2D-/3D-Animation und SVG-/PNG-Export. Lokal und offline.",
-      "version": "1.3.3",
+      "description": "Geometrische Muster und Motivarchitektur, Foto-Nachzeichnen und Bühnenflächen; 2D-/3D-Animation sowie SVG-/PNG-Export. Lokal und offline.",
+      "version": "1.4.0",
       "architecture": "win-x64",
       "minimumLauncherVersion": "0.4.0",
-      "releaseTag": "software-pattern-studio-v1.3.3",
+      "releaseTag": "software-pattern-studio-v1.4.0",
       "assetId": 0,
-      "packageSize": 158941905,
-      "sha256": "3e67caa539c091fe766d144693c2f0c811bcb93813f64e2e2be914f7a5918107",
-      "assetName": "Pattern-Studio-1.3.3.zip",
+      "packageSize": 158958799,
+      "sha256": "ed6dedaf284043fd51f9d7cec245f2e96c92cc52f186978ca1c41230c747dcfc",
+      "assetName": "Pattern-Studio-1.4.0.zip",
       "executableName": "Pattern Studio.exe",
       "installDirectoryName": "pattern-studio",
       "packageFormat": "runtime-zip"
     }
   ],
   "presentation": {
-    "assetId": 0,
-    "packageSize": 2286252,
+    "assetName": "MANIAC-Content-20261104-Public.zip",
+    "sha256": "ca7e92ad235d0561e2f9e0909b831a15e49e720a27b16ec6053b465de2d931cd",
     "channel": "public",
-    "assetName": "MANIAC-Content-20261103-2-public.zip",
-    "sha256": "402f84180359a3f6e0c6e72e14ac0f731e8570ea26cc4d92d8f233626129651a",
-    "releaseTag": "presentation-20261103-2-public"
+    "packageSize": 2683977,
+    "assetId": 0,
+    "releaseTag": "presentation-20261104-import-public"
   }
 }
