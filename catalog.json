@@ -698,19 +698,19 @@
       ]
     },
     {
-      "sha256": "47dc0c1df8436f3f2d93f92424b79eb038dcb1d54aa1a0333ae716bb6d0ad5e4",
-      "architecture": "win-x64",
-      "description": "Räumliche SVG-Platten mit Videooberfläche, Kantenglättung und Klappen um sechs Drehachsen. Acht Wellenrichtungen; bisherige Plattenbewegung und korrigierte SVG-Ladegrenzen bleiben erhalten.",
-      "binaryName": "MANIAC SVG 3D.dll",
-      "minimumLauncherVersion": "0.4.0",
-      "version": "0.5.1",
-      "name": "MANIAC SVG 3D",
-      "pluginId": "maniac-svg-3d",
-      "assetId": 0,
-      "packageSize": 964917,
-      "assetName": "maniac-svg-3d-0.5.1.zip",
       "minimumHostVersion": "7.26.2",
-      "releaseTag": "plugin-maniac-svg-3d-v0.5.1",
+      "pluginId": "maniac-svg-3d",
+      "packageSize": 978703,
+      "sha256": "2eb4781ad9ed84803d79dec796abbebd82132af557dcba2d5c5050fc9d806788",
+      "minimumLauncherVersion": "0.4.0",
+      "description": "Räumliche SVG-Platten mit gruppiertem Klappen, wählbaren Drehpunkten und Tiefenfahrt. Originalfarben oder Videooberfläche; bisherige Bewegungen und korrigierte SVG-Ladegrenzen bleiben erhalten.",
+      "name": "MANIAC SVG 3D",
+      "binaryName": "MANIAC SVG 3D.dll",
+      "assetName": "maniac-svg-3d-0.6.1.zip",
+      "architecture": "win-x64",
+      "releaseTag": "plugin-maniac-svg-3d-v0.6.1",
+      "version": "0.6.1",
+      "assetId": 0,
       "knownInstallations": [
         {
           "version": "0.3.3",
@@ -1639,6 +1639,22 @@
               "sha256": "ed349f079d1fcff2e1f48d55842be698348ffe9e47e4cacec179c90e84f3f5ff"
             }
           ],
+          "binaryName": "MANIAC SVG 3D.dll"
+        },
+        {
+          "files": [
+            {
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "path": "Example.svg",
+              "size": 992639
+            },
+            {
+              "sha256": "ad969e923bfbec07115556d2a559d9deaef30eb951294dc5ee00d27fad01719e",
+              "path": "MANIAC SVG 3D.dll",
+              "size": 1328128
+            }
+          ],
+          "version": "0.5.1",
           "binaryName": "MANIAC SVG 3D.dll"
         }
       ]
@@ -3777,11 +3793,11 @@
     }
   ],
   "presentation": {
+    "sha256": "38185f69ba0616fde01893ff5404e9c032e427eb85cc9871772b2c1a7c6718a4",
+    "packageSize": 2668031,
     "assetId": 0,
-    "releaseTag": "presentation-20261106-public",
-    "channel": "public",
-    "assetName": "MANIAC-Content-20261106-Public.zip",
-    "packageSize": 2674314,
-    "sha256": "f16125a4f79ab8a8a352e0e714a1fe351c0854224285645e799cd5c01772de62"
+    "assetName": "MANIAC-Content-20261106b-Public.zip",
+    "releaseTag": "presentation-20261106b-public",
+    "channel": "public"
   }
 }
