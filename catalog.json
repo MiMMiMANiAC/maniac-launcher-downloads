@@ -698,20 +698,19 @@
       ]
     },
     {
-      "releaseTag": "plugin-maniac-svg-3d-v0.4.2",
-      "pluginId": "maniac-svg-3d",
+      "sha256": "47dc0c1df8436f3f2d93f92424b79eb038dcb1d54aa1a0333ae716bb6d0ad5e4",
       "architecture": "win-x64",
-      "description": "FFGL-Effekt für räumlich ausbrechende SVG-Platten mit Vektorkonturen, Videooberflächen und MSAA. 0.4.1 erweitert die Kapazität und schützt die letzte gültige Szene bei fehlgeschlagenen SVG-/GPU-Ersetzungen. Fünf Bereiche und alle 94 Parameteridentitäten bleiben erhalten. SVG-Ladekorrektur: Ein vorheriger gewöhnlicher Grafikfehler verwirft keine gültige neue SVG mehr; Aussehen und Tempo bleiben erhalten.",
-      "sha256": "ceb9b3f6a02da6c666778bfcb69d1f39199868410bd0289e1a699851b0879e77",
-      "minimumHostVersion": "7.26.2",
-      "assetName": "maniac-svg-3d-0.4.2.zip",
-      "packageSize": 963372,
-      "name": "MANIAC SVG 3D",
-      "assetId": 0,
-      "version": "0.4.2",
+      "description": "Räumliche SVG-Platten mit Videooberfläche, Kantenglättung und Klappen um sechs Drehachsen. Acht Wellenrichtungen; bisherige Plattenbewegung und korrigierte SVG-Ladegrenzen bleiben erhalten.",
       "binaryName": "MANIAC SVG 3D.dll",
-      "minimumLauncherVersion": "0.3.6",
-      "isTestOnly": false,
+      "minimumLauncherVersion": "0.4.0",
+      "version": "0.5.1",
+      "name": "MANIAC SVG 3D",
+      "pluginId": "maniac-svg-3d",
+      "assetId": 0,
+      "packageSize": 964917,
+      "assetName": "maniac-svg-3d-0.5.1.zip",
+      "minimumHostVersion": "7.26.2",
+      "releaseTag": "plugin-maniac-svg-3d-v0.5.1",
       "knownInstallations": [
         {
           "version": "0.3.3",
@@ -1625,6 +1624,22 @@
               "size": 1323008
             }
           ]
+        },
+        {
+          "version": "0.4.2",
+          "files": [
+            {
+              "path": "Example.svg",
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87"
+            },
+            {
+              "path": "MANIAC SVG 3D.dll",
+              "size": 1327616,
+              "sha256": "ed349f079d1fcff2e1f48d55842be698348ffe9e47e4cacec179c90e84f3f5ff"
+            }
+          ],
+          "binaryName": "MANIAC SVG 3D.dll"
         }
       ]
     },
@@ -3762,11 +3777,11 @@
     }
   ],
   "presentation": {
-    "assetName": "MANIAC-Content-20261104-Public.zip",
-    "sha256": "ca7e92ad235d0561e2f9e0909b831a15e49e720a27b16ec6053b465de2d931cd",
-    "channel": "public",
-    "packageSize": 2683977,
     "assetId": 0,
-    "releaseTag": "presentation-20261104-import-public"
+    "releaseTag": "presentation-20261106-public",
+    "channel": "public",
+    "assetName": "MANIAC-Content-20261106-Public.zip",
+    "packageSize": 2674314,
+    "sha256": "f16125a4f79ab8a8a352e0e714a1fe351c0854224285645e799cd5c01772de62"
   }
 }
