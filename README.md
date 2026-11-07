@@ -1,5 +1,7 @@
 # MANIAC Launcher
 
+**MANIAC SVG Worm 0.8.0** ergänzt Durchflug-Portal und Zufällig durch Formen. Beide Modi verwenden SVG-Formziele und wurden mit der Chevron-SVG bei Low, Mid und High geprüft. Die bisherigen Flugarten bleiben verfügbar.
+
 **[MANIAC Launcher 0.4.0 herunterladen](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/download/launcher-v0.4.0/MANIAC-Launcher-0.4.0-Setup.exe)**
 
 **MANIAC SVG 3D 0.8.1** ergänzt ganze Drehungen, örtliche Segmentscharniere, neun Drehpunkte und drei ausdrücklich geladene Bewegungspresets. 57 sichtbare Regler sind vollständig erklärt; die aktuelle tatsächliche Gruppenvorschau zeigt die unveränderte Nutzerbühne. Die korrigierte Ausgabe erhält die bewährten SVG-Ladefehlergrenzen. Native Prüfungen, isoliertes Vorgängerupdate/Wiederherstellung/Deinstallation und Offline-Inhalte sind geprüft. Im Launcher ausdrücklich aktualisieren; Resolume zur Plugininstallation selbst schließen. Frühere Versionen bleiben verfügbar.
