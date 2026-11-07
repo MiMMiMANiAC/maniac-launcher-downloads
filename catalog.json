@@ -2509,19 +2509,19 @@
       ]
     },
     {
+      "releaseTag": "plugin-maniac-svg-worm-v0.8.1",
+      "assetName": "maniac-svg-worm-0.8.1.zip",
       "name": "MANIAC SVG Worm",
-      "description": "Portalflug nach Pattern Studio. Zwei Formziele auswählen oder automatisch durch mehrere SVG-Formen fliegen. Bisherige Flugarten bleiben verfügbar.",
-      "binaryName": "MANIAC SVG Worm.dll",
-      "minimumHostVersion": "7.26.2",
-      "sha256": "c1aa553f9d41c37cbbef117d77b039ea8e940a36da22431dd9396f3407a84b3f",
-      "assetName": "maniac-svg-worm-0.8.0.zip",
-      "assetId": 0,
-      "version": "0.8.0",
       "architecture": "win-x64",
+      "description": "Formportalflug auf der Originalbühne und synchrones horizontales Spiegelpaar. Die bisherigen Flugarten bleiben verfügbar.",
+      "packageSize": 744368,
+      "assetId": 0,
       "pluginId": "maniac-svg-worm",
+      "minimumHostVersion": "7.26.2",
       "minimumLauncherVersion": "0.4.0",
-      "releaseTag": "plugin-maniac-svg-worm-v0.8.0",
-      "packageSize": 742289,
+      "version": "0.8.1",
+      "binaryName": "MANIAC SVG Worm.dll",
+      "sha256": "268000631c53aed191f51e2be59e7f41695d2cce75648979287addf4c148739f",
       "knownInstallations": [
         {
           "version": "0.6.0",
@@ -3762,6 +3762,27 @@
           ],
           "version": "0.7.2",
           "binaryName": "MANIAC SVG Worm.dll"
+        },
+        {
+          "version": "0.8.0",
+          "files": [
+            {
+              "sha256": "fa9f05d5557c35f2902cd7ff98d5e9f442d2c2742c0fa0e5c58f2f12ab3b3710",
+              "path": "Example.svg",
+              "size": 113281
+            },
+            {
+              "sha256": "0b3b9bd0f22cc094555b85f72ddebb88bec72c41f8986e976c43be3b660325da",
+              "path": "Kene.svg",
+              "size": 1617
+            },
+            {
+              "sha256": "0a064bf1b4b91cd9cf969e3749b60c1627a03909024825b2ca95b44814632e31",
+              "path": "MANIAC SVG Worm.dll",
+              "size": 1577984
+            }
+          ],
+          "binaryName": "MANIAC SVG Worm.dll"
         }
       ]
     },
@@ -3837,11 +3858,11 @@
     }
   ],
   "presentation": {
-    "packageSize": 2108686,
-    "channel": "public",
-    "assetName": "MANIAC-Content-20261107b-Public.zip",
+    "releaseTag": "presentation-20261107c-public",
+    "sha256": "7374e0b4c834d374554c1f87365bcedc84cf7bb605131278c5bfddd3047234cf",
     "assetId": 0,
-    "sha256": "b15b8be7fc02c9525122921d3389901c405ef465888c2a93d620299f8757bf14",
-    "releaseTag": "presentation-20261107b-public"
+    "packageSize": 2110160,
+    "assetName": "MANIAC-Content-20261107c-Public.zip",
+    "channel": "public"
   }
 }
