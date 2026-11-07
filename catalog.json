@@ -200,19 +200,19 @@
       ]
     },
     {
-      "binaryName": "MANIAC_SVG Fluid.dll",
-      "name": "MANIAC_SVG Fluid",
-      "version": "0.2.4",
-      "minimumLauncherVersion": "0.4.0",
-      "releaseTag": "plugin-maniac-svg-fluid-v0.2.4",
+      "version": "0.2.5",
+      "binaryName": "MANIAC_SVG FLUID.dll",
       "minimumHostVersion": "7.26.2",
-      "assetId": 0,
       "description": "Transparente SVG-Farbströmungen mit geglätteter Ausgabe und sauberen SVG-Grenzen. Simulation, Tempo, Emitter und Qualitätsraster bleiben unverändert.",
+      "packageSize": 440369,
+      "assetName": "maniac-svg-fluid-0.2.5.zip",
+      "name": "MANIAC_SVG FLUID",
+      "assetId": 0,
+      "sha256": "6f78ae7280ec55ff356065638cfdb91ff5287b00aa4e18fd1b34e78964a209bf",
+      "releaseTag": "plugin-maniac-svg-fluid-v0.2.5",
       "architecture": "win-x64",
+      "minimumLauncherVersion": "0.4.0",
       "pluginId": "maniac-svg-fluid",
-      "assetName": "maniac-svg-fluid-0.2.4.zip",
-      "packageSize": 440366,
-      "sha256": "5ae4dff9e49198537136faaa87d087ea3b956327c0caaf9fe4525f9eb18a5d28",
       "knownInstallations": [
         {
           "files": [
@@ -323,23 +323,34 @@
           ],
           "binaryName": "MANIAC_SVG Fluid.dll",
           "version": "0.2.3"
+        },
+        {
+          "binaryName": "MANIAC_SVG Fluid.dll",
+          "files": [
+            {
+              "sha256": "f17d48c51b58d58233e09044c533b8c8c802d3a815f4cd64719e10abbe1d694e",
+              "path": "MANIAC_SVG Fluid.dll",
+              "size": 1049600
+            }
+          ],
+          "version": "0.2.4"
         }
       ]
     },
     {
-      "packageSize": 805332,
-      "architecture": "win-x64",
-      "sha256": "ab8436c196972f4ea13de2d94daff8204167afb2d9945e279b4fee80576a338a",
-      "assetId": 0,
-      "version": "0.7.2",
       "minimumLauncherVersion": "0.3.6",
-      "description": "Eigenständige Lichtquelle für animierte SVG-Konturen. 0.7.0 erweitert den begrenzten SVG-Import und erhält die letzte gültige Szene bei fehlgeschlagener Ersetzung. Speicherarme SVG-Vorbereitung für große Motive; vorhandenes Aussehen und Animation bleiben erhalten.",
+      "version": "0.7.3",
       "pluginId": "maniac-svg-flow",
+      "assetId": 0,
+      "packageSize": 805402,
       "minimumHostVersion": "7.26.2",
-      "binaryName": "MANIAC SVG FLOW.dll",
-      "name": "MANIAC SVG FLOW",
-      "assetName": "maniac-svg-flow-0.7.2.zip",
-      "releaseTag": "plugin-maniac-svg-flow-v0.7.2",
+      "name": "MANIAC_SVG LINES",
+      "sha256": "7b3968cecdfd5454e90f4feb486cfe95569a818a2948a093fab66e9e32e5fb0e",
+      "description": "Eigenständige Lichtquelle für animierte SVG-Konturen. 0.7.0 erweitert den begrenzten SVG-Import und erhält die letzte gültige Szene bei fehlgeschlagener Ersetzung. Speicherarme SVG-Vorbereitung für große Motive; vorhandenes Aussehen und Animation bleiben erhalten.",
+      "binaryName": "MANIAC_SVG LINES.dll",
+      "assetName": "maniac-svg-flow-0.7.3.zip",
+      "releaseTag": "plugin-maniac-svg-flow-v0.7.3",
+      "architecture": "win-x64",
       "isTestOnly": false,
       "knownInstallations": [
         {
@@ -704,23 +715,39 @@
             }
           ],
           "binaryName": "MANIAC SVG FLOW.dll"
+        },
+        {
+          "binaryName": "MANIAC SVG FLOW.dll",
+          "files": [
+            {
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "path": "Example.svg"
+            },
+            {
+              "size": 1035776,
+              "sha256": "cdfe5794d1d67b4b35c17a3310f3575c0f14d09ca279edbe1d014847457de03b",
+              "path": "MANIAC SVG FLOW.dll"
+            }
+          ],
+          "version": "0.7.2"
         }
       ]
     },
     {
-      "assetId": 0,
-      "packageSize": 982082,
-      "version": "0.8.2",
-      "name": "MANIAC SVG 3D",
-      "minimumHostVersion": "7.26.2",
       "minimumLauncherVersion": "0.4.0",
-      "assetName": "maniac-svg-3d-0.8.2.zip",
-      "binaryName": "MANIAC SVG 3D.dll",
+      "version": "0.8.3",
       "pluginId": "maniac-svg-3d",
-      "releaseTag": "plugin-maniac-svg-3d-v0.8.2",
-      "architecture": "win-x64",
-      "sha256": "ff1f4d27f87e2009b170687ae22255a17e61e97da02c0230ba6d33e297ea0b0e",
+      "assetId": 0,
+      "packageSize": 982064,
+      "minimumHostVersion": "7.26.2",
+      "name": "MANIAC_SVG 3D",
+      "sha256": "99d01a33a85e6148e41497d49b669b86dcb75a48393a6283d9c7be8f9e20eca9",
       "description": "Extrudierte SVG-Platten mit geschlossener Rückfläche. Löcher und Aussparungen bleiben erhalten.",
+      "binaryName": "MANIAC_SVG 3D.dll",
+      "assetName": "maniac-svg-3d-0.8.3.zip",
+      "releaseTag": "plugin-maniac-svg-3d-v0.8.3",
+      "architecture": "win-x64",
       "knownInstallations": [
         {
           "version": "0.3.3",
@@ -1698,23 +1725,39 @@
           ],
           "version": "0.8.1",
           "binaryName": "MANIAC SVG 3D.dll"
+        },
+        {
+          "binaryName": "MANIAC SVG 3D.dll",
+          "files": [
+            {
+              "path": "Example.svg",
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87"
+            },
+            {
+              "path": "MANIAC SVG 3D.dll",
+              "size": 1364480,
+              "sha256": "e943c862d72a2dff58115ebeafaa03dbd9459c3dc3248380c7955c23de833144"
+            }
+          ],
+          "version": "0.8.2"
         }
       ]
     },
     {
-      "packageSize": 944297,
-      "architecture": "win-x64",
-      "sha256": "3e9a706b8b1af8b8086b7412f5dbfb153a30ddd0e401d80dc70156be9c58b31b",
-      "assetId": 0,
-      "version": "0.5.4",
       "minimumLauncherVersion": "0.3.6",
-      "description": "Eigenständige SVG-Reliefquelle mit automatischen Shows, 4/8/16 Scheinwerfern, Schatten und Nebel. 0.5.2 erhält gültige Szenen auch nach gescheitertem GPU-Tausch und begrenzt native Zwischenbilder. Alle 234 Parameteridentitäten bleiben erhalten. Speicherarme SVG-Vorbereitung für große Motive; vorhandenes Aussehen und Animation bleiben erhalten.",
+      "version": "0.5.5",
       "pluginId": "maniac-stagelight-3d",
+      "assetId": 0,
+      "packageSize": 944315,
       "minimumHostVersion": "7.26.2",
-      "binaryName": "MANIAC_Stagelight 3d.dll",
-      "name": "MANIAC_Stagelight 3d",
-      "assetName": "maniac-stagelight-3d-0.5.4.zip",
-      "releaseTag": "plugin-maniac-stagelight-3d-v0.5.4",
+      "name": "MANIAC_SVG LT 3D",
+      "sha256": "63c6f244f7d43697b0fc0b122fea95e8ee7177ff196feb25e43b9b8f6042de9a",
+      "description": "Eigenständige SVG-Reliefquelle mit automatischen Shows, 4/8/16 Scheinwerfern, Schatten und Nebel. 0.5.2 erhält gültige Szenen auch nach gescheitertem GPU-Tausch und begrenzt native Zwischenbilder. Alle 234 Parameteridentitäten bleiben erhalten. Speicherarme SVG-Vorbereitung für große Motive; vorhandenes Aussehen und Animation bleiben erhalten.",
+      "binaryName": "MANIAC_SVG LT 3D.dll",
+      "assetName": "maniac-stagelight-3d-0.5.5.zip",
+      "releaseTag": "plugin-maniac-stagelight-3d-v0.5.5",
+      "architecture": "win-x64",
       "isTestOnly": false,
       "knownInstallations": [
         {
@@ -2207,23 +2250,39 @@
             }
           ],
           "binaryName": "MANIAC_Stagelight 3d.dll"
+        },
+        {
+          "binaryName": "MANIAC_Stagelight 3d.dll",
+          "files": [
+            {
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "path": "Example.svg"
+            },
+            {
+              "size": 1289728,
+              "sha256": "5865f4afb6ef502798a7468b015b27c62fa17116cc51863f9dd8c924c0997fd2",
+              "path": "MANIAC_Stagelight 3d.dll"
+            }
+          ],
+          "version": "0.5.4"
         }
       ]
     },
     {
-      "releaseTag": "plugin-moireaction-v0.5.3",
-      "pluginId": "moireaction",
-      "architecture": "win-x64",
-      "description": "GPU- und CPU-optimierter Moiré-/Diffusionseffekt mit SVG-Maske. Aussehen, Tempo und Parameter erhalten. GTX-1060-Vergleich: rund 13 % weniger GPU-Zeit bei 720p/Mid. SVG-Ladekorrektur: Ein vorheriger gewöhnlicher Grafikfehler verwirft keine gültige neue SVG mehr; Aussehen und Tempo bleiben erhalten.",
-      "sha256": "13913b59e1a287e6918ab468f0539522414e34bcb20ded35e482c2ddabe6155d",
-      "minimumHostVersion": "7.26.2",
-      "assetName": "moireaction-0.5.3.zip",
-      "packageSize": 911234,
-      "name": "MANiAC_MOIREACTION",
-      "assetId": 0,
-      "version": "0.5.3",
-      "binaryName": "MANiAC_MOIREACTION.dll",
       "minimumLauncherVersion": "0.3.6",
+      "version": "0.5.4",
+      "pluginId": "moireaction",
+      "assetId": 0,
+      "packageSize": 911223,
+      "minimumHostVersion": "7.26.2",
+      "name": "MANIAC_SVG MOIRE",
+      "sha256": "41e7976ed7d3188f5063be455d846b0e82060970583c711dd4b9e1103dbe481b",
+      "description": "GPU- und CPU-optimierter Moiré-/Diffusionseffekt mit SVG-Maske. Aussehen, Tempo und Parameter erhalten. GTX-1060-Vergleich: rund 13 % weniger GPU-Zeit bei 720p/Mid. SVG-Ladekorrektur: Ein vorheriger gewöhnlicher Grafikfehler verwirft keine gültige neue SVG mehr; Aussehen und Tempo bleiben erhalten.",
+      "binaryName": "MANIAC_SVG MOIRE.dll",
+      "assetName": "moireaction-0.5.4.zip",
+      "releaseTag": "plugin-moireaction-v0.5.4",
+      "architecture": "win-x64",
       "isTestOnly": false,
       "knownInstallations": [
         {
@@ -2521,23 +2580,39 @@
               "path": "MANiAC_MOIREACTION.dll"
             }
           ]
+        },
+        {
+          "binaryName": "MANiAC_MOIREACTION.dll",
+          "files": [
+            {
+              "path": "Komposition_2D_1920x1080_Resolume.svg",
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87"
+            },
+            {
+              "path": "MANiAC_MOIREACTION.dll",
+              "size": 1223168,
+              "sha256": "4daa23f43389169c443eab8e11c6ae7e77388b87c603bfbd4ac8af5abb610a0d"
+            }
+          ],
+          "version": "0.5.3"
         }
       ]
     },
     {
-      "releaseTag": "plugin-maniac-svg-worm-v0.8.1",
-      "assetName": "maniac-svg-worm-0.8.1.zip",
-      "name": "MANIAC SVG Worm",
-      "architecture": "win-x64",
-      "description": "Formportalflug auf der Originalbühne und synchrones horizontales Spiegelpaar. Die bisherigen Flugarten bleiben verfügbar.",
-      "packageSize": 744368,
-      "assetId": 0,
-      "pluginId": "maniac-svg-worm",
-      "minimumHostVersion": "7.26.2",
       "minimumLauncherVersion": "0.4.0",
-      "version": "0.8.1",
-      "binaryName": "MANIAC SVG Worm.dll",
-      "sha256": "268000631c53aed191f51e2be59e7f41695d2cce75648979287addf4c148739f",
+      "version": "0.8.2",
+      "pluginId": "maniac-svg-worm",
+      "assetId": 0,
+      "packageSize": 744398,
+      "minimumHostVersion": "7.26.2",
+      "name": "MANIAC_SVG WRM3D",
+      "sha256": "5ac0a1a1bd0fdbe807f7cbb3dd6eefb3a7aa59b1eff8b746554c2ac33364ff82",
+      "description": "Formportalflug auf der Originalbühne und synchrones horizontales Spiegelpaar. Die bisherigen Flugarten bleiben verfügbar.",
+      "binaryName": "MANIAC_SVG WRM3D.dll",
+      "assetName": "maniac-svg-worm-0.8.2.zip",
+      "releaseTag": "plugin-maniac-svg-worm-v0.8.2",
+      "architecture": "win-x64",
       "knownInstallations": [
         {
           "version": "0.6.0",
@@ -3799,41 +3874,75 @@
             }
           ],
           "binaryName": "MANIAC SVG Worm.dll"
+        },
+        {
+          "binaryName": "MANIAC SVG Worm.dll",
+          "files": [
+            {
+              "path": "Example.svg",
+              "sha256": "fa9f05d5557c35f2902cd7ff98d5e9f442d2c2742c0fa0e5c58f2f12ab3b3710",
+              "size": 113281
+            },
+            {
+              "path": "Kene.svg",
+              "sha256": "0b3b9bd0f22cc094555b85f72ddebb88bec72c41f8986e976c43be3b660325da",
+              "size": 1617
+            },
+            {
+              "path": "MANIAC SVG Worm.dll",
+              "sha256": "3502e8c5195b3bceba7dcf5e439030291dadb0bb5d331f850ed0d3352faaef4c",
+              "size": 1582080
+            }
+          ],
+          "version": "0.8.1"
         }
       ]
     },
     {
-      "architecture": "win-x64",
-      "assetId": 0,
-      "pluginId": "maniac-slowmo",
-      "version": "0.1.1-pkg.3",
-      "sha256": "ac95dd864be3af6af9250dd28c506912ce205607d74be97e8e28df3816fcad44",
-      "binaryName": "MANIAC Slowmo.dll",
-      "name": "MANIAC Slowmo",
       "minimumLauncherVersion": "0.3.0",
-      "assetName": "maniac-slowmo-0.1.1-pkg.3.zip",
-      "releaseTag": "plugin-maniac-slowmo-v0.1.1-pkg.3",
-      "packageSize": 133270,
+      "version": "0.1.2",
+      "pluginId": "maniac-slowmo",
+      "assetId": 0,
+      "packageSize": 133310,
       "minimumHostVersion": "7.26.2",
-      "description": "Bereinigtes Laufzeitpaket; DLL unverändert aus 0.1.0. Experimenteller Prototyp für bewegungskompensierte Zwischenbilder verlangsamter Clips. Zusätzliche Bildverzögerung; noch keine Arena-Abnahme.",
+      "name": "MANIAC_SVG SLOMO",
+      "sha256": "31e49f5e0eb0176dbd1dd00b593fbb9ae836747cfc211f3789d8003ecebe260b",
+      "description": "Experimenteller Prototyp für bewegungskompensierte Zwischenbilder verlangsamter Clips. Zusätzliche Bildverzögerung. In Version 0.1.2 heißt das Plugin im Launcher und in Resolume MANIAC_SVG SLOMO.",
+      "binaryName": "MANIAC_SVG SLOMO.dll",
+      "assetName": "maniac-slowmo-0.1.2.zip",
+      "releaseTag": "plugin-maniac-slowmo-v0.1.2",
+      "architecture": "win-x64",
       "isTestOnly": false,
       "isDeveloperOnly": false,
-      "isInDevelopment": true
+      "isInDevelopment": true,
+      "knownInstallations": [
+        {
+          "binaryName": "MANIAC Slowmo.dll",
+          "files": [
+            {
+              "path": "MANIAC Slowmo.dll",
+              "size": 428544,
+              "sha256": "bcde2344838faab5124fc698e26619fdf5bc9501024c9469ed5a3826de611fc8"
+            }
+          ],
+          "version": "0.1.1-pkg.3"
+        }
+      ]
     },
     {
-      "packageSize": 594191,
-      "architecture": "win-x64",
-      "sha256": "910c59cf8069657aa883cb5c4178797cc26fab719361e1b018b6261b13181571",
-      "assetId": 0,
-      "version": "0.1.1",
       "minimumLauncherVersion": "0.3.9",
-      "description": "Animiertes farbiges Metallic-Chrome innerhalb eigener SVG-Formen, mit Lichtbändern oder Livevideo, Gesamt- und Pro-Form-Verläufen. Außenbereiche und Löcher bleiben transparent; High ist Standard. Speicherarme SVG-Vorbereitung für große Motive; vorhandenes Aussehen und Animation bleiben erhalten.",
+      "version": "0.1.2",
       "pluginId": "maniac-chrome",
+      "assetId": 0,
+      "packageSize": 594201,
       "minimumHostVersion": "7.26.2",
-      "binaryName": "MANIAC_Chrome.dll",
-      "name": "MANIAC_Chrome",
-      "assetName": "maniac-chrome-0.1.1.zip",
-      "releaseTag": "plugin-maniac-chrome-v0.1.1",
+      "name": "MANIAC_SVG CHRME",
+      "sha256": "1482007362babb37c0167cb095c086e1023531a09aa06ced92a70e7cb816038c",
+      "description": "Animiertes farbiges Metallic-Chrome innerhalb eigener SVG-Formen, mit Lichtbändern oder Livevideo, Gesamt- und Pro-Form-Verläufen. Außenbereiche und Löcher bleiben transparent; High ist Standard. Speicherarme SVG-Vorbereitung für große Motive; vorhandenes Aussehen und Animation bleiben erhalten.",
+      "binaryName": "MANIAC_SVG CHRME.dll",
+      "assetName": "maniac-chrome-0.1.2.zip",
+      "releaseTag": "plugin-maniac-chrome-v0.1.2",
+      "architecture": "win-x64",
       "isTestOnly": false,
       "knownInstallations": [
         {
@@ -3851,8 +3960,39 @@
             }
           ],
           "binaryName": "MANIAC_Chrome.dll"
+        },
+        {
+          "binaryName": "MANIAC_Chrome.dll",
+          "files": [
+            {
+              "size": 637,
+              "sha256": "25b1af83d3aa62af07f852167288d08278c6e1db6e4d3c508714201c99d39cec",
+              "path": "Example.svg"
+            },
+            {
+              "size": 1339392,
+              "sha256": "2457df173aec447051d895e02e61a26408302116f4182455b536893638e2d764",
+              "path": "MANIAC_Chrome.dll"
+            }
+          ],
+          "version": "0.1.1"
         }
       ]
+    },
+    {
+      "version": "0.1.0",
+      "minimumLauncherVersion": "0.4.0",
+      "architecture": "win-x64",
+      "assetName": "maniac-offset-0.1.0.zip",
+      "name": "MANIAC_Offset",
+      "releaseTag": "plugin-maniac-offset-v0.1.0",
+      "description": "Animierte SVG-Konturlinien mit Abstand, Pendelbewegung, Rainbow und eigenem Keyer.",
+      "minimumHostVersion": "7.26.2",
+      "binaryName": "MANIAC_Offset.dll",
+      "sha256": "fdd521d79c82f9269340245655d1f3db5b509d84dff6cf3e5f2399662eb6a8be",
+      "assetId": 0,
+      "pluginId": "maniac-offset",
+      "packageSize": 902461
     }
   ],
   "software": [
@@ -3874,11 +4014,11 @@
     }
   ],
   "presentation": {
-    "sha256": "8f873fe3a08efe6e526debe86ed41df2785edf77d2985f706d461fbb7124a2ef",
-    "assetId": 0,
     "channel": "public",
-    "assetName": "MANIAC-Content-20261107d-Public.zip",
-    "releaseTag": "presentation-20261107d-public",
-    "packageSize": 2148253
+    "sha256": "64718ee10a6097a59809900b4f2be77bee50e73ed4a6902c641bbfe40ac4d4b5",
+    "assetId": 0,
+    "packageSize": 2312405,
+    "releaseTag": "presentation-20261107f-public",
+    "assetName": "MANIAC-Content-20261107f-Public.zip"
   }
 }
