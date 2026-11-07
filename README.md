@@ -4,7 +4,7 @@
 
 **[MANIAC Launcher 0.4.0 herunterladen](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/download/launcher-v0.4.0/MANIAC-Launcher-0.4.0-Setup.exe)**
 
-**MANIAC SVG 3D 0.8.1** ergänzt ganze Drehungen, örtliche Segmentscharniere, neun Drehpunkte und drei ausdrücklich geladene Bewegungspresets. 57 sichtbare Regler sind vollständig erklärt; die aktuelle tatsächliche Gruppenvorschau zeigt die unveränderte Nutzerbühne. Die korrigierte Ausgabe erhält die bewährten SVG-Ladefehlergrenzen. Native Prüfungen, isoliertes Vorgängerupdate/Wiederherstellung/Deinstallation und Offline-Inhalte sind geprüft. Im Launcher ausdrücklich aktualisieren; Resolume zur Plugininstallation selbst schließen. Frühere Versionen bleiben verfügbar.
+**MANIAC SVG 3D 0.8.2** schließt die Rückseite extrudierter Platten. SVG-Löcher und Aussparungen bleiben frei. Die Rückseite wurde bei 180° Drehung in Low, Mid und High geprüft.
 
 **MANIAC_SVG Fluid 0.2.4** glättet die Farbausgabe innerhalb derselben SVG-Region. SVG-Abdeckung und Löcher begrenzen das Ergebnis; Simulationsraster, Emitterbahnen und Tempo bleiben unverändert. Simulationsdaten und Zeitwerte wurden über Low/Mid/High verglichen. Die Ausgabe benötigt zusätzliche Renderzeit; native Messung auf RTX 5060 Ti, keine Laptop- oder Gesamt-FPS-Zusage. Frühere 0.2.3 bleibt erhalten. Vollständige Anleitung und echte aktuelle Bühnenvorschau separat und offline verfügbar; Installation nur ausdrücklich im Launcher.
 
