@@ -1,6 +1,6 @@
 # MANIAC Launcher
 
-**MANIAC SVG Worm 0.8.0** ergänzt Durchflug-Portal und Zufällig durch Formen. Beide Modi verwenden SVG-Formziele und wurden mit der Chevron-SVG bei Low, Mid und High geprüft. Die bisherigen Flugarten bleiben verfügbar.
+**MANIAC SVG Worm 0.8.1** behebt das Geometrie-Suchlimit der Formportale auf der Originalbühne. Unter Form → Spiegelpaar lässt sich ein synchroner, horizontal gespiegelter Partner einschalten. Die bisherigen Flugarten bleiben verfügbar.
 
 **[MANIAC Launcher 0.4.0 herunterladen](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/download/launcher-v0.4.0/MANIAC-Launcher-0.4.0-Setup.exe)**
 
