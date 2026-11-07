@@ -3804,26 +3804,26 @@
     {
       "softwareId": "pattern-studio",
       "name": "Pattern Studio",
-      "description": "Geometrische Muster und Motivarchitektur, Objekt-Snap und Hilfslinien, Bühnenflächen sowie 2D-/3D-Animation und SVG-/PNG-Export. Lokal und offline.",
-      "version": "1.4.1",
+      "description": "Geometrische Muster, nummerierte und gruppierbare Bühnenflächen, Objekt-Snap sowie 2D-/3D-Animation und SVG-/PNG-Export. Lokal und offline.",
+      "version": "1.4.5",
       "architecture": "win-x64",
       "minimumLauncherVersion": "0.4.0",
-      "releaseTag": "software-pattern-studio-v1.4.1",
+      "releaseTag": "software-pattern-studio-v1.4.5",
       "assetId": 0,
-      "packageSize": 159049681,
-      "sha256": "24c51a24e324981faa0b664c9225114fdf01877f75215aeda0b0adb9a365d2f7",
-      "assetName": "Pattern-Studio-1.4.1.zip",
+      "packageSize": 159052953,
+      "sha256": "c1554ede21feb7fdd0228e15a39807d6b18e42646c17767282fd1c29d8560973",
+      "assetName": "Pattern-Studio-1.4.5.zip",
       "executableName": "Pattern Studio.exe",
       "installDirectoryName": "pattern-studio",
       "packageFormat": "runtime-zip"
     }
   ],
   "presentation": {
-    "releaseTag": "presentation-20261106c-public",
-    "sha256": "b9cfff42d36dca1603a444007ccd372bf75d6682418c98ef5e6db1fec55d3143",
-    "packageSize": 2126516,
-    "assetName": "MANIAC-Content-20261106c-Public.zip",
+    "releaseTag": "presentation-20261107-public",
+    "assetName": "MANIAC-Content-20261107-Public.zip",
+    "packageSize": 2141873,
     "channel": "public",
+    "sha256": "360b05a45e337d57db00edaa8cdff4d50ad931c060677f98f91ac4662f7e636f",
     "assetId": 0
   }
 }
