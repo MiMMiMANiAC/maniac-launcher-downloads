@@ -200,20 +200,19 @@
       ]
     },
     {
-      "releaseTag": "plugin-maniac-svg-fluid-v0.2.3",
-      "pluginId": "maniac-svg-fluid",
-      "architecture": "win-x64",
-      "description": "GPU- und CPU-optimierte SVG-Flüssigkeit mit unverändertem Aussehen, Tempo und Parametern. GTX-1060-Vergleich: rund 39 % weniger GPU-Zeit bei 720p/Mid; keine feste Resolume-FPS-Zusage. SVG-Ladekorrektur: Ein vorheriger gewöhnlicher Grafikfehler verwirft keine gültige neue SVG mehr; Aussehen und Tempo bleiben erhalten.",
-      "sha256": "c0cdf207f923d7fdf6e4b162377c8fc78a8417bb3f172dfe8d6870af64ebc918",
-      "minimumHostVersion": "7.26.2",
-      "assetName": "maniac-svg-fluid-0.2.3.zip",
-      "packageSize": 435277,
-      "name": "MANIAC_SVG Fluid",
-      "assetId": 0,
-      "version": "0.2.3",
       "binaryName": "MANIAC_SVG Fluid.dll",
-      "minimumLauncherVersion": "0.3.6",
-      "isTestOnly": false,
+      "name": "MANIAC_SVG Fluid",
+      "version": "0.2.4",
+      "minimumLauncherVersion": "0.4.0",
+      "releaseTag": "plugin-maniac-svg-fluid-v0.2.4",
+      "minimumHostVersion": "7.26.2",
+      "assetId": 0,
+      "description": "Transparente SVG-Farbströmungen mit geglätteter Ausgabe und sauberen SVG-Grenzen. Simulation, Tempo, Emitter und Qualitätsraster bleiben unverändert.",
+      "architecture": "win-x64",
+      "pluginId": "maniac-svg-fluid",
+      "assetName": "maniac-svg-fluid-0.2.4.zip",
+      "packageSize": 440366,
+      "sha256": "5ae4dff9e49198537136faaa87d087ea3b956327c0caaf9fe4525f9eb18a5d28",
       "knownInstallations": [
         {
           "files": [
@@ -313,6 +312,17 @@
               "path": "MANIAC_SVG Fluid.dll"
             }
           ]
+        },
+        {
+          "files": [
+            {
+              "path": "MANIAC_SVG Fluid.dll",
+              "size": 1037824,
+              "sha256": "3a495e275765d0a0608251e15b23b18b4a787b340c2d64291e9b4315c0df7e09"
+            }
+          ],
+          "binaryName": "MANIAC_SVG Fluid.dll",
+          "version": "0.2.3"
         }
       ]
     },
@@ -698,19 +708,19 @@
       ]
     },
     {
-      "minimumHostVersion": "7.26.2",
-      "pluginId": "maniac-svg-3d",
-      "packageSize": 978703,
-      "sha256": "2eb4781ad9ed84803d79dec796abbebd82132af557dcba2d5c5050fc9d806788",
-      "minimumLauncherVersion": "0.4.0",
-      "description": "Räumliche SVG-Platten mit gruppiertem Klappen, wählbaren Drehpunkten und Tiefenfahrt. Originalfarben oder Videooberfläche; bisherige Bewegungen und korrigierte SVG-Ladegrenzen bleiben erhalten.",
-      "name": "MANIAC SVG 3D",
       "binaryName": "MANIAC SVG 3D.dll",
-      "assetName": "maniac-svg-3d-0.6.1.zip",
-      "architecture": "win-x64",
-      "releaseTag": "plugin-maniac-svg-3d-v0.6.1",
-      "version": "0.6.1",
+      "name": "MANIAC SVG 3D",
+      "version": "0.8.1",
+      "minimumLauncherVersion": "0.4.0",
+      "releaseTag": "plugin-maniac-svg-3d-v0.8.1",
+      "minimumHostVersion": "7.26.2",
       "assetId": 0,
+      "description": "Räumliche SVG-Platten mit ganzen Drehungen, örtlichen Segmentscharnieren und drei Bewegungspresets. Originalfarben oder Videooberfläche; Gruppen, Tiefenfahrt und korrigierte SVG-Ladegrenzen bleiben erhalten.",
+      "architecture": "win-x64",
+      "pluginId": "maniac-svg-3d",
+      "assetName": "maniac-svg-3d-0.8.1.zip",
+      "packageSize": 981061,
+      "sha256": "54c7a560eaa7271312444d6c2ea180c291a0bbf02400a3656a067b7bb0a2bacb",
       "knownInstallations": [
         {
           "version": "0.3.3",
@@ -1656,6 +1666,22 @@
           ],
           "version": "0.5.1",
           "binaryName": "MANIAC SVG 3D.dll"
+        },
+        {
+          "files": [
+            {
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "size": 992639,
+              "path": "Example.svg"
+            },
+            {
+              "sha256": "ba1ce7d8903a5846369315ae3515955351c6e2a21a4b6611436365f2476e4ed1",
+              "size": 1358336,
+              "path": "MANIAC SVG 3D.dll"
+            }
+          ],
+          "binaryName": "MANIAC SVG 3D.dll",
+          "version": "0.6.1"
         }
       ]
     },
@@ -3778,26 +3804,26 @@
     {
       "softwareId": "pattern-studio",
       "name": "Pattern Studio",
-      "description": "Geometrische Muster und Motivarchitektur, Foto-Nachzeichnen und Bühnenflächen; 2D-/3D-Animation sowie SVG-/PNG-Export. Lokal und offline.",
-      "version": "1.4.0",
+      "description": "Geometrische Muster und Motivarchitektur, Objekt-Snap und Hilfslinien, Bühnenflächen sowie 2D-/3D-Animation und SVG-/PNG-Export. Lokal und offline.",
+      "version": "1.4.1",
       "architecture": "win-x64",
       "minimumLauncherVersion": "0.4.0",
-      "releaseTag": "software-pattern-studio-v1.4.0",
+      "releaseTag": "software-pattern-studio-v1.4.1",
       "assetId": 0,
-      "packageSize": 158958799,
-      "sha256": "ed6dedaf284043fd51f9d7cec245f2e96c92cc52f186978ca1c41230c747dcfc",
-      "assetName": "Pattern-Studio-1.4.0.zip",
+      "packageSize": 159049681,
+      "sha256": "24c51a24e324981faa0b664c9225114fdf01877f75215aeda0b0adb9a365d2f7",
+      "assetName": "Pattern-Studio-1.4.1.zip",
       "executableName": "Pattern Studio.exe",
       "installDirectoryName": "pattern-studio",
       "packageFormat": "runtime-zip"
     }
   ],
   "presentation": {
-    "sha256": "38185f69ba0616fde01893ff5404e9c032e427eb85cc9871772b2c1a7c6718a4",
-    "packageSize": 2668031,
-    "assetId": 0,
-    "assetName": "MANIAC-Content-20261106b-Public.zip",
-    "releaseTag": "presentation-20261106b-public",
-    "channel": "public"
+    "releaseTag": "presentation-20261106c-public",
+    "sha256": "b9cfff42d36dca1603a444007ccd372bf75d6682418c98ef5e6db1fec55d3143",
+    "packageSize": 2126516,
+    "assetName": "MANIAC-Content-20261106c-Public.zip",
+    "channel": "public",
+    "assetId": 0
   }
 }
