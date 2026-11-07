@@ -6,7 +6,7 @@
 
 **MANIAC_SVG Fluid 0.2.4** glättet die Farbausgabe innerhalb derselben SVG-Region. SVG-Abdeckung und Löcher begrenzen das Ergebnis; Simulationsraster, Emitterbahnen und Tempo bleiben unverändert. Simulationsdaten und Zeitwerte wurden über Low/Mid/High verglichen. Die Ausgabe benötigt zusätzliche Renderzeit; native Messung auf RTX 5060 Ti, keine Laptop- oder Gesamt-FPS-Zusage. Frühere 0.2.3 bleibt erhalten. Vollständige Anleitung und echte aktuelle Bühnenvorschau separat und offline verfügbar; Installation nur ausdrücklich im Launcher.
 
-**Pattern Studio 1.4.1** ist verfügbar: Objekt-Snap zum Ausrichten sowie Hilfslinien, die im Projekt gespeichert und beim SVG-Export nicht mitgezeichnet werden. Die bisherigen Motivarchitektur-Aufbauten, Beamerzeichnung und mehrteiligen Resolume-SVG-Exporte bleiben erhalten. Einmalig den passenden **Launcher 0.4.0** aktualisieren, danach unter **Software** bewusst installieren/aktualisieren. Tatsächliche Softwareansicht und Anleitung separat nach Download offline verfügbar. Installation, Update, Rücksetzen, Wiederherstellung und Deinstallation isoliert geprüft; alte Versionen bleiben erhalten. Keine automatische Installation und keine Softwaredateien im Resolume-Pluginordner.
+**Pattern Studio 1.4.5** zeigt nummerierte Bühnenflächen in der Zeichenfläche. Einzelne Outlines lassen sich auswählen, gruppieren und gemeinsam als Ziel für ein Motiv verwenden. Zwischenräume und Aussparungen bleiben transparent. Unter **Software** im MANIAC Launcher 0.4.0 installieren oder aktualisieren. Anleitung und tatsächliche Vorschau sind nach dem Download offline verfügbar. Installation, Update, Wiederherstellung und Deinstallation sind isoliert geprüft. Version 1.4.1 bleibt als eigener Download erhalten.
 
 **SVG-Importkorrekturen:** Flow **0.7.2**, Stagelight **0.5.4**, Chrome **0.1.1** und Worm **0.7.2** laden die geprüften großen Architektur-SVGs. Geprüfte Alt-/Neu-Effektbilder bleiben unverändert; alte Releases bleiben verfügbar. Neue minimale Pakete, Update, Rücksetzen, Wiederherstellung, Deinstallation und Erhalt eigener Dateien sind isoliert geprüft. Kein neuer Laptop-Benchmark und keine zugesicherte Gesamt-FPS. Im Launcher ausdrücklich aktualisieren; Resolume zur Plugininstallation selbst schließen.
 
@@ -18,6 +18,6 @@ Version 0.8.0 wurde im Zusammenhang mit einem Startabbruch beim Laden dieser DLL
 
 Zuerst Launcher aktualisieren, danach Slime-Update ausdrücklich starten. Resolume vor Installation oder Update selbst schließen. Keine automatische Installation. Anschließend Resolume selbst starten. Bestehende Programme und Kompositionen werden durch die Veröffentlichung nicht verändert.
 
-Schwerer Alien, In Form und die bisherigen Presets bleiben enthalten. Pattern Studio 1.4.1 unter **Software**, Slowmo weiterhin **In Entwicklung** und außerhalb Sammelaktionen.
+Schwerer Alien, In Form und die bisherigen Presets bleiben enthalten. Pattern Studio 1.4.5 unter **Software**, Slowmo weiterhin **In Entwicklung** und außerhalb Sammelaktionen.
 
 [Alle bisherigen Versionen](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases) bleiben verfügbar. Öffentliche Downloads ohne Anmeldung.
