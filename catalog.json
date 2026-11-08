@@ -1,12 +1,12 @@
 {
   "launcher": {
-    "version": "0.4.0",
-    "releaseTag": "launcher-v0.4.0",
+    "sha256": "595acefec8bf1e1a2a7ca1cb488c898c4a8ad91201d4260ea88740b272cea811",
+    "releaseTag": "launcher-v0.4.1",
+    "packageSize": 49064535,
+    "channel": "public",
+    "version": "0.4.1",
     "assetId": 0,
-    "packageSize": 49066724,
-    "sha256": "e10897e6ae8a33d14503b5448be0c23ab1d472ca0319cd3534b0a83cd3b1dbf2",
-    "assetName": "MANIAC-Launcher-0.4.0-Setup.exe",
-    "channel": "public"
+    "assetName": "MANIAC-Launcher-0.4.1-Setup.exe"
   },
   "schemaVersion": 1,
   "plugins": [
@@ -3993,6 +3993,23 @@
       "assetId": 0,
       "pluginId": "maniac-offset",
       "packageSize": 902461
+    },
+    {
+      "minimumLauncherVersion": "0.4.1",
+      "description": "Animierte Neon-Konturen mit wandernder Maske, Nachziehern und transparentem Hintergrund für Bild und Video.",
+      "pluginKind": "wire",
+      "packageSize": 61448,
+      "assetName": "maniac-svg-neon-fog-0.3.0.zip",
+      "wirePatchId": "deb8194e-335e-4fa6-b6b5-6e1f2da5fc60",
+      "sha256": "ec17163d1e4af31574cc4bee87ed29fed124f654f5b6e63e03dffee63f2411ab",
+      "version": "0.3.0",
+      "binaryName": "MANIAC_SVG Neon Fog.cwired",
+      "releaseTag": "plugin-maniac-svg-neon-fog-v0.3.0",
+      "minimumHostVersion": "7.26.2",
+      "architecture": "win-x64",
+      "pluginId": "maniac-svg-neon-fog",
+      "assetId": 0,
+      "name": "MANIAC_SVG Neon Fog"
     }
   ],
   "software": [
@@ -4014,11 +4031,11 @@
     }
   ],
   "presentation": {
+    "releaseTag": "presentation-20261108-neon-fog-public",
+    "packageSize": 3452802,
     "channel": "public",
-    "sha256": "64718ee10a6097a59809900b4f2be77bee50e73ed4a6902c641bbfe40ac4d4b5",
+    "sha256": "6fb1ef6a80858adb72d8e58d968716e6145ac31a588dfdbef70990d6b2c5668d",
     "assetId": 0,
-    "packageSize": 2312405,
-    "releaseTag": "presentation-20261107f-public",
-    "assetName": "MANIAC-Content-20261107f-Public.zip"
+    "assetName": "MANIAC-Content-20261108-NeonFog-Public.zip"
   }
 }
