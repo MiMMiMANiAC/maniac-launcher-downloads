@@ -1,12 +1,12 @@
 {
   "launcher": {
-    "sha256": "595acefec8bf1e1a2a7ca1cb488c898c4a8ad91201d4260ea88740b272cea811",
-    "releaseTag": "launcher-v0.4.1",
-    "packageSize": 49064535,
-    "channel": "public",
-    "version": "0.4.1",
+    "releaseTag": "launcher-v0.4.2",
     "assetId": 0,
-    "assetName": "MANIAC-Launcher-0.4.1-Setup.exe"
+    "packageSize": 49074027,
+    "version": "0.4.2",
+    "channel": "public",
+    "sha256": "23a53014a8386a97f392aac1ef792b4a1755ee35c62ce61fba1d56b7738eed0b",
+    "assetName": "MANIAC-Launcher-0.4.2-Setup.exe"
   },
   "schemaVersion": 1,
   "plugins": [
@@ -4028,14 +4028,30 @@
       "executableName": "Pattern Studio.exe",
       "installDirectoryName": "pattern-studio",
       "packageFormat": "runtime-zip"
+    },
+    {
+      "packageFormat": "runtime-zip",
+      "assetId": 0,
+      "installDirectoryName": "maniac-audio-monitor",
+      "assetName": "MANIAC-Audio-Monitor-0.3.0.zip",
+      "packageSize": 65497140,
+      "releaseTag": "software-maniac-audio-monitor-v0.3.0",
+      "softwareId": "maniac-audio-monitor",
+      "minimumLauncherVersion": "0.4.2",
+      "executableName": "MANIAC Audio Monitor.exe",
+      "description": "Live-Spektrogramm, BPM, DJ-Referenz und Pegelverlauf. Ableton Link und 3-Band-EQ für die Audioausgabe an Resolume.",
+      "version": "0.3.0",
+      "name": "MANIAC Audio Monitor",
+      "architecture": "win-x64",
+      "sha256": "0dbdde0000c141d92852d35e1bc18ecda257e3f0260beb1ce9200ee66c0cc343"
     }
   ],
   "presentation": {
-    "releaseTag": "presentation-20261108-neon-fog-public",
-    "packageSize": 3452802,
+    "assetName": "MANIAC-Content-20261108-AudioMonitor-Final-Public.zip",
     "channel": "public",
-    "sha256": "6fb1ef6a80858adb72d8e58d968716e6145ac31a588dfdbef70990d6b2c5668d",
-    "assetId": 0,
-    "assetName": "MANIAC-Content-20261108-NeonFog-Public.zip"
+    "sha256": "2d8130f1bb461da4c54876121c0cb81eca56d39fd87267379a9e70c81f2b4c52",
+    "releaseTag": "presentation-20261108-audio-monitor-public",
+    "packageSize": 3538175,
+    "assetId": 0
   }
 }
