@@ -1,5 +1,8 @@
 # MANIAC Launcher
 
+**Aktuell:** [MANIAC Launcher 0.4.2](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/launcher-v0.4.2). Unter **Software** ist [MANIAC Audio Monitor 0.3.0](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/software-maniac-audio-monitor-v0.3.0) verfügbar. Unter **Plugins** steht [MANIAC_SVG Neon Fog 0.3.0](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/plugin-maniac-svg-neon-fog-v0.3.0).
+
+
 **Neu im Launcher:** [MANIAC_Offset 0.1.0](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/plugin-maniac-offset-v0.1.0) animiert gestaffelte Linien innerhalb deiner SVG-Formen. Dazu kommen acht Versionen mit einheitlichen Namen in Launcher und Resolume, darunter **MANIAC_SVG LINES** (bisher Flow) und **MANIAC_SVG LT 3D** (bisher Stagelight). Frühere Versionen bleiben als Downloads verfügbar. Falls Resolume ein umbenanntes Plugin in einer älteren Komposition nicht zuordnet, füge es neu hinzu.
 
 **MANIAC SVG Worm 0.8.1** behebt das Geometrie-Suchlimit der Formportale auf der Originalbühne. Unter Form → Spiegelpaar lässt sich ein synchroner, horizontal gespiegelter Partner einschalten. Die bisherigen Flugarten bleiben verfügbar.
