@@ -1,12 +1,12 @@
 {
   "launcher": {
-    "releaseTag": "launcher-v0.4.2",
-    "assetId": 0,
-    "packageSize": 49074027,
-    "version": "0.4.2",
     "channel": "public",
-    "sha256": "23a53014a8386a97f392aac1ef792b4a1755ee35c62ce61fba1d56b7738eed0b",
-    "assetName": "MANIAC-Launcher-0.4.2-Setup.exe"
+    "assetId": 0,
+    "sha256": "d8b95be2af98f0b166567b1489453fbb59528b4ee22b42558c306ccfa8afd04b",
+    "assetName": "MANIAC-Launcher-0.4.3-Setup.exe",
+    "releaseTag": "launcher-v0.4.3",
+    "packageSize": 49064412,
+    "version": "0.4.3"
   },
   "schemaVersion": 1,
   "plugins": [
@@ -4047,11 +4047,11 @@
     }
   ],
   "presentation": {
-    "assetName": "MANIAC-Content-20261108-AudioMonitor-Final-Public.zip",
-    "channel": "public",
-    "sha256": "2d8130f1bb461da4c54876121c0cb81eca56d39fd87267379a9e70c81f2b4c52",
-    "releaseTag": "presentation-20261108-audio-monitor-public",
-    "packageSize": 3538175,
-    "assetId": 0
+    "packageSize": 3538280,
+    "sha256": "961b31cf6068dd5e945c9a0a54a30d04a707c128f71c9827ef5634c945b91ce8",
+    "assetName": "MANIAC-Content-20261108-Launcher043-Final-Public.zip",
+    "releaseTag": "presentation-20261108-launcher043-public",
+    "assetId": 0,
+    "channel": "public"
   }
 }
