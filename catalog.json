@@ -3980,19 +3980,37 @@
       ]
     },
     {
-      "version": "0.1.0",
-      "minimumLauncherVersion": "0.4.0",
-      "architecture": "win-x64",
-      "assetName": "maniac-offset-0.1.0.zip",
-      "name": "MANIAC_Offset",
-      "releaseTag": "plugin-maniac-offset-v0.1.0",
-      "description": "Animierte SVG-Konturlinien mit Abstand, Pendelbewegung, Rainbow und eigenem Keyer.",
       "minimumHostVersion": "7.26.2",
-      "binaryName": "MANIAC_Offset.dll",
-      "sha256": "fdd521d79c82f9269340245655d1f3db5b509d84dff6cf3e5f2399662eb6a8be",
+      "name": "MANIAC_SVG OFFSET",
+      "version": "0.2.1",
+      "releaseTag": "plugin-maniac-offset-v0.2.1",
+      "sha256": "d0384196b9b82c258b796e4b67c2ac86b815ea01602cc268403cf91ab6c771ff",
+      "binaryName": "MANIAC_SVG OFFSET.dll",
+      "architecture": "win-x64",
+      "packageSize": 913572,
+      "assetName": "maniac-offset-0.2.1.zip",
+      "description": "Animierte SVG-Konturlinien mit Richtungswechsel, Rainbow, Keyer und geglätteter High-Ausgabe.",
       "assetId": 0,
       "pluginId": "maniac-offset",
-      "packageSize": 902461
+      "minimumLauncherVersion": "0.4.0",
+      "knownInstallations": [
+        {
+          "binaryName": "MANIAC_Offset.dll",
+          "version": "0.1.0",
+          "files": [
+            {
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "path": "Example.svg",
+              "size": 992639
+            },
+            {
+              "sha256": "0fd66c72c954fe8d8764062e6529c66785328b36caa20952a9c4036119d20f4b",
+              "path": "MANIAC_Offset.dll",
+              "size": 1220608
+            }
+          ]
+        }
+      ]
     },
     {
       "minimumLauncherVersion": "0.4.1",
@@ -4033,24 +4051,24 @@
       "packageFormat": "runtime-zip",
       "assetId": 0,
       "installDirectoryName": "maniac-audio-monitor",
-      "assetName": "MANIAC-Audio-Monitor-0.3.0.zip",
-      "packageSize": 65497140,
-      "releaseTag": "software-maniac-audio-monitor-v0.3.0",
+      "assetName": "MANIAC-Audio-Monitor-0.4.0.zip",
+      "packageSize": 65482864,
+      "releaseTag": "software-maniac-audio-monitor-v0.4.0",
       "softwareId": "maniac-audio-monitor",
       "minimumLauncherVersion": "0.4.2",
       "executableName": "MANIAC Audio Monitor.exe",
-      "description": "Live-Spektrogramm, BPM, DJ-Referenz und Pegelverlauf. Ableton Link und 3-Band-EQ für die Audioausgabe an Resolume.",
-      "version": "0.3.0",
+      "description": "Live-Spektrogramm, BPM und getrennte Pegelverläufe für Eingang und verarbeiteten Ausgang. Mit DJ-Klangreferenz, Soundcheck, Ableton Link und 3-Band-EQ.",
+      "version": "0.4.0",
       "name": "MANIAC Audio Monitor",
       "architecture": "win-x64",
-      "sha256": "0dbdde0000c141d92852d35e1bc18ecda257e3f0260beb1ce9200ee66c0cc343"
+      "sha256": "d3aa9821183c9ce9d2d78bf8c6f1f0c5b77fa23395b16b01e97924617b44c7d1"
     }
   ],
   "presentation": {
-    "packageSize": 3538280,
-    "sha256": "961b31cf6068dd5e945c9a0a54a30d04a707c128f71c9827ef5634c945b91ce8",
-    "assetName": "MANIAC-Content-20261108-Launcher043-Final-Public.zip",
-    "releaseTag": "presentation-20261108-launcher043-public",
+    "packageSize": 3501644,
+    "sha256": "dcb776128641ded57a07f895edc2cda9d88602e81d05520f498e002820b8664a",
+    "assetName": "presentation-20261108-audio04-offset021-public.zip",
+    "releaseTag": "presentation-20261108-audio04-offset021-public",
     "assetId": 0,
     "channel": "public"
   }
