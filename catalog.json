@@ -3980,19 +3980,19 @@
       ]
     },
     {
-      "minimumHostVersion": "7.26.2",
-      "name": "MANIAC_SVG OFFSET",
-      "version": "0.2.1",
-      "releaseTag": "plugin-maniac-offset-v0.2.1",
-      "sha256": "d0384196b9b82c258b796e4b67c2ac86b815ea01602cc268403cf91ab6c771ff",
-      "binaryName": "MANIAC_SVG OFFSET.dll",
-      "architecture": "win-x64",
-      "packageSize": 913572,
-      "assetName": "maniac-offset-0.2.1.zip",
-      "description": "Animierte SVG-Konturlinien mit Richtungswechsel, Rainbow, Keyer und geglätteter High-Ausgabe.",
-      "assetId": 0,
+      "assetName": "maniac-offset-0.3.0.zip",
+      "version": "0.3.0",
+      "description": "Animierte SVG-Konturen mit gestaffelter Einblendung, Rainbow, Keyer und geglätteter High-Ausgabe.",
+      "releaseTag": "plugin-maniac-offset-v0.3.0",
       "pluginId": "maniac-offset",
+      "binaryName": "MANIAC_SVG OFFSET.dll",
       "minimumLauncherVersion": "0.4.0",
+      "sha256": "0f7c7ad8210f1ca9c968ddfb5158a65940b30b880c0f57ec9666eaa7f8bb6b6d",
+      "assetId": 0,
+      "name": "MANIAC_SVG OFFSET",
+      "architecture": "win-x64",
+      "minimumHostVersion": "7.26.2",
+      "packageSize": 917302,
       "knownInstallations": [
         {
           "binaryName": "MANIAC_Offset.dll",
@@ -4007,6 +4007,22 @@
               "sha256": "0fd66c72c954fe8d8764062e6529c66785328b36caa20952a9c4036119d20f4b",
               "path": "MANIAC_Offset.dll",
               "size": 1220608
+            }
+          ]
+        },
+        {
+          "binaryName": "MANIAC_SVG OFFSET.dll",
+          "version": "0.2.1",
+          "files": [
+            {
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "path": "Example.svg"
+            },
+            {
+              "size": 1242624,
+              "sha256": "a082516dbfb34494d471c6c4048fbde4905d2021c4128f89d7af401a7643aedd",
+              "path": "MANIAC_SVG OFFSET.dll"
             }
           ]
         }
@@ -4065,10 +4081,10 @@
     }
   ],
   "presentation": {
-    "packageSize": 3501644,
-    "sha256": "dcb776128641ded57a07f895edc2cda9d88602e81d05520f498e002820b8664a",
-    "assetName": "presentation-20261108-audio04-offset021-public.zip",
-    "releaseTag": "presentation-20261108-audio04-offset021-public",
+    "packageSize": 3417178,
+    "sha256": "ac4020751f030ba1edc73a4318c71195925916a69b48dd95a22afbd1a54d880f",
+    "assetName": "presentation-20261109-offset-public.zip",
+    "releaseTag": "presentation-20261109-offset-public",
     "assetId": 0,
     "channel": "public"
   }
