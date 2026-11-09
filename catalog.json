@@ -3980,19 +3980,19 @@
       ]
     },
     {
-      "assetName": "maniac-offset-0.3.0.zip",
-      "version": "0.3.0",
-      "description": "Animierte SVG-Konturen mit gestaffelter Einblendung, Rainbow, Keyer und geglätteter High-Ausgabe.",
-      "releaseTag": "plugin-maniac-offset-v0.3.0",
-      "pluginId": "maniac-offset",
-      "binaryName": "MANIAC_SVG OFFSET.dll",
       "minimumLauncherVersion": "0.4.0",
-      "sha256": "0f7c7ad8210f1ca9c968ddfb5158a65940b30b880c0f57ec9666eaa7f8bb6b6d",
-      "assetId": 0,
-      "name": "MANIAC_SVG OFFSET",
+      "binaryName": "MANIAC_SVG OFFSET.dll",
+      "pluginId": "maniac-offset",
+      "version": "0.3.3",
       "architecture": "win-x64",
+      "name": "MANIAC_SVG OFFSET",
+      "assetId": 0,
+      "sha256": "8d23b6b274441f9a29fcd3dbd7bc5d6512bbb62d6c53ecd2bf70286c52505c9a",
+      "assetName": "maniac-offset-0.3.3.zip",
+      "packageSize": 917239,
+      "description": "Animierte SVG-Konturen mit gestaffelter Einblendung, Rainbow und Keyer. Behebt den Startabbruch in Resolume Arena.",
       "minimumHostVersion": "7.26.2",
-      "packageSize": 917302,
+      "releaseTag": "plugin-maniac-offset-v0.3.3",
       "knownInstallations": [
         {
           "binaryName": "MANIAC_Offset.dll",
@@ -4025,6 +4025,22 @@
               "path": "MANIAC_SVG OFFSET.dll"
             }
           ]
+        },
+        {
+          "files": [
+            {
+              "size": 992639,
+              "path": "Example.svg",
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87"
+            },
+            {
+              "size": 1249280,
+              "path": "MANIAC_SVG OFFSET.dll",
+              "sha256": "80df96297f157addd7fab27a71de6b534ccb834893ce7c7c354b905315caa4a1"
+            }
+          ],
+          "binaryName": "MANIAC_SVG OFFSET.dll",
+          "version": "0.3.0"
         }
       ]
     },
@@ -4044,6 +4060,21 @@
       "pluginId": "maniac-svg-neon-fog",
       "assetId": 0,
       "name": "MANIAC_SVG Neon Fog"
+    },
+    {
+      "assetName": "maniac-svg-pulse-0.1.0.zip",
+      "name": "MANIAC SVG Pulse",
+      "assetId": 0,
+      "description": "SVG-Quelle für animierte Lichtimpulse entlang eines verzweigten Adernetzes.",
+      "minimumHostVersion": "7.26.2",
+      "minimumLauncherVersion": "0.4.0",
+      "binaryName": "MANIAC SVG Pulse.dll",
+      "packageSize": 558045,
+      "architecture": "win-x64",
+      "pluginId": "maniac-svg-pulse",
+      "sha256": "43fd603f1426b6e07b5c61ab37673da961ab39b38efcefbfacf94047e9e33636",
+      "releaseTag": "plugin-maniac-svg-pulse-v0.1.0",
+      "version": "0.1.0"
     }
   ],
   "software": [
@@ -4081,10 +4112,10 @@
     }
   ],
   "presentation": {
-    "packageSize": 3411074,
-    "sha256": "61cf14c1b1f90860e6a1e69b9abee3265080a653d2f5025b2135cb9630d55c0a",
-    "assetName": "presentation-20261109-audio05-public.zip",
-    "releaseTag": "presentation-20261109-audio05-public",
+    "packageSize": 3563613,
+    "sha256": "5ba3cb97aa9d65f6fe2143867261019cbd50127b57211f11259c81cf2ec1d60e",
+    "assetName": "presentation-20261109-offset033-public.zip",
+    "releaseTag": "presentation-20261109-offset033-public",
     "assetId": 0,
     "channel": "public"
   }
