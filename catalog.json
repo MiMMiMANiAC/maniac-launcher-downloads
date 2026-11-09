@@ -4062,19 +4062,37 @@
       "name": "MANIAC_SVG Neon Fog"
     },
     {
-      "assetName": "maniac-svg-pulse-0.1.0.zip",
-      "name": "MANIAC SVG Pulse",
-      "assetId": 0,
-      "description": "SVG-Quelle für animierte Lichtimpulse entlang eines verzweigten Adernetzes.",
-      "minimumHostVersion": "7.26.2",
-      "minimumLauncherVersion": "0.4.0",
-      "binaryName": "MANIAC SVG Pulse.dll",
-      "packageSize": 558045,
-      "architecture": "win-x64",
       "pluginId": "maniac-svg-pulse",
-      "sha256": "43fd603f1426b6e07b5c61ab37673da961ab39b38efcefbfacf94047e9e33636",
-      "releaseTag": "plugin-maniac-svg-pulse-v0.1.0",
-      "version": "0.1.0"
+      "assetId": 0,
+      "description": "SVG-Lichtimpulse mit Aderflackern, mehrfarbigen Verläufen und Lichtfront ohne Nachleuchten.",
+      "binaryName": "MANIAC SVG Pulse.dll",
+      "architecture": "win-x64",
+      "releaseTag": "plugin-maniac-svg-pulse-v0.3.1",
+      "minimumLauncherVersion": "0.4.0",
+      "assetName": "maniac-svg-pulse-0.3.1.zip",
+      "sha256": "084a5f72a7a5a894c9cbe4975a891697af8c588e2938d38c943c0c7f280df7ac",
+      "version": "0.3.1",
+      "packageSize": 560653,
+      "name": "MANIAC SVG Pulse",
+      "minimumHostVersion": "7.26.2",
+      "knownInstallations": [
+        {
+          "version": "0.1.0",
+          "files": [
+            {
+              "size": 637,
+              "sha256": "25b1af83d3aa62af07f852167288d08278c6e1db6e4d3c508714201c99d39cec",
+              "path": "Example.svg"
+            },
+            {
+              "size": 1257984,
+              "sha256": "1595389a0d666c2c1f57ca2ed97871c7be8f25d4e03a9cade0b709b44fc7a5bf",
+              "path": "MANIAC SVG Pulse.dll"
+            }
+          ],
+          "binaryName": "MANIAC SVG Pulse.dll"
+        }
+      ]
     }
   ],
   "software": [
@@ -4112,10 +4130,10 @@
     }
   ],
   "presentation": {
-    "packageSize": 3563613,
-    "sha256": "5ba3cb97aa9d65f6fe2143867261019cbd50127b57211f11259c81cf2ec1d60e",
-    "assetName": "presentation-20261109-offset033-public.zip",
-    "releaseTag": "presentation-20261109-offset033-public",
+    "packageSize": 3572989,
+    "sha256": "dce3894c04c7c09b4a40cd5ce8d43eed1d36b9f400f6dee7a17cab2f53df33c9",
+    "assetName": "presentation-20261110-pulse-public.zip",
+    "releaseTag": "presentation-20261110-pulse-public",
     "assetId": 0,
     "channel": "public"
   }
