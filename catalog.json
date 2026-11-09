@@ -4067,24 +4067,24 @@
       "packageFormat": "runtime-zip",
       "assetId": 0,
       "installDirectoryName": "maniac-audio-monitor",
-      "assetName": "MANIAC-Audio-Monitor-0.4.0.zip",
-      "packageSize": 65482864,
-      "releaseTag": "software-maniac-audio-monitor-v0.4.0",
+      "assetName": "MANIAC-Audio-Monitor-0.5.0.zip",
+      "packageSize": 65485525,
+      "releaseTag": "software-maniac-audio-monitor-v0.5.0",
       "softwareId": "maniac-audio-monitor",
       "minimumLauncherVersion": "0.4.2",
       "executableName": "MANIAC Audio Monitor.exe",
-      "description": "Live-Spektrogramm, BPM und getrennte Pegelverläufe für Eingang und verarbeiteten Ausgang. Mit DJ-Klangreferenz, Soundcheck, Ableton Link und 3-Band-EQ.",
-      "version": "0.4.0",
+      "description": "Live-Spektrogramm und BPM, getrennte Ein- und Ausgangspegel und ein durchgehend sichtbarer Soundcheck. Mit DJ-Klangreferenz, Ableton Link und 3-Band-EQ.",
+      "version": "0.5.0",
       "name": "MANIAC Audio Monitor",
       "architecture": "win-x64",
-      "sha256": "d3aa9821183c9ce9d2d78bf8c6f1f0c5b77fa23395b16b01e97924617b44c7d1"
+      "sha256": "808e719d150d473abccac94181b8d9f9530b4a70dca421f232d9eb47bfea93b7"
     }
   ],
   "presentation": {
-    "packageSize": 3417178,
-    "sha256": "ac4020751f030ba1edc73a4318c71195925916a69b48dd95a22afbd1a54d880f",
-    "assetName": "presentation-20261109-offset-public.zip",
-    "releaseTag": "presentation-20261109-offset-public",
+    "packageSize": 3411074,
+    "sha256": "61cf14c1b1f90860e6a1e69b9abee3265080a653d2f5025b2135cb9630d55c0a",
+    "assetName": "presentation-20261109-audio05-public.zip",
+    "releaseTag": "presentation-20261109-audio05-public",
     "assetId": 0,
     "channel": "public"
   }
