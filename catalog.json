@@ -4128,19 +4128,19 @@
       ]
     },
     {
-      "version": "0.2.0",
+      "releaseTag": "plugin-maniac-matrix-v0.3.0",
       "architecture": "win-x64",
-      "name": "MANIAC_SVG MATRIX",
-      "pluginId": "maniac-matrix",
-      "packageSize": 571609,
-      "assetName": "maniac-matrix-0.2.0.zip",
-      "description": "Zeichenregen auf SVG-Tunnelwänden mit geglätteten Vektorzeichen und ruhigerem Tempo.",
-      "minimumHostVersion": "7.26.2",
       "minimumLauncherVersion": "0.4.0",
-      "releaseTag": "plugin-maniac-matrix-v0.2.0",
-      "sha256": "86027e70690abab37e84d58022a62aa73a5a8ac38c5ee495dfd9a01c1952e6e3",
-      "binaryName": "MANIAC_SVG MATRIX.dll",
       "assetId": 0,
+      "pluginId": "maniac-matrix",
+      "assetName": "maniac-matrix-0.3.0.zip",
+      "binaryName": "MANIAC_SVG MATRIX.dll",
+      "description": "Zeichenregen in einer gemeinsamen SVG-Tunnelhülle oder getrennt pro SVG-Block.",
+      "version": "0.3.0",
+      "packageSize": 577670,
+      "minimumHostVersion": "7.26.2",
+      "name": "MANIAC_SVG MATRIX",
+      "sha256": "09330b45c2ed7e502fb41a5d9267a88fa4fda8ab26c41f927a257e9ddf99d0c9",
       "knownInstallations": [
         {
           "binaryName": "MANIAC Matrix.dll",
@@ -4155,6 +4155,22 @@
               "path": "MANIAC Matrix.dll",
               "sha256": "9114e7f77df98b7b3d00b858a16c7d2f0b7ca492eb36d7419cfebf7a31d19553",
               "size": 1286144
+            }
+          ]
+        },
+        {
+          "binaryName": "MANIAC_SVG MATRIX.dll",
+          "version": "0.2.0",
+          "files": [
+            {
+              "sha256": "a94fa12464b1c142de74c9bb237575319b931afca58fc343e7032086260c8f8a",
+              "path": "Example.svg",
+              "size": 300
+            },
+            {
+              "sha256": "748d1e5223e3ad2efc02510c230c4d0f27c71f0f2da11ae08913e8dde9e40e4a",
+              "path": "MANIAC_SVG MATRIX.dll",
+              "size": 1289216
             }
           ]
         }
@@ -4196,10 +4212,10 @@
     }
   ],
   "presentation": {
-    "packageSize": 4054390,
-    "sha256": "37946cff1ea2cc7579c52ef8c5c2ffc8551673c502eb696bc0cbd85d797465f5",
-    "assetName": "presentation-20261110-wire044-public.zip",
-    "releaseTag": "presentation-20261110-wire044-public",
+    "packageSize": 4060516,
+    "sha256": "02554c6493cf5d8f96e58c4c432d3e258ddeab81c3051a0b5a4037558ae1d135",
+    "assetName": "presentation-20261110-matrix030-public.zip",
+    "releaseTag": "presentation-20261110-matrix030-public",
     "assetId": 0,
     "channel": "public"
   }
