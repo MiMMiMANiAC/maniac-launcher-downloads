@@ -4096,18 +4096,51 @@
     },
     {
       "assetId": 0,
-      "binaryName": "MANIAC_SVG FRACT.dll",
-      "version": "0.1.0",
-      "description": "Animierte 2D-Mandelbrot- und 3D-Mandelbulb-Fraktale in einer SVG-Maske.",
-      "minimumHostVersion": "7.26.2",
-      "releaseTag": "plugin-maniac-svg-fract-v0.1.0",
-      "name": "MANIAC_SVG FRACT",
-      "sha256": "1dbab41bd07f0c02a7b86b6543a2052803918dc97e92e7439274bf85b963d901",
-      "assetName": "maniac-svg-fract-0.1.0.zip",
+      "minimumLauncherVersion": "0.4.0",
+      "description": "Kontinuierlicher 2D-Mandelbrot-Zoom und zyklischer 3D-Mandelbulb-Flug in einer SVG-Maske.",
       "pluginId": "maniac-svg-fract",
-      "packageSize": 537634,
       "architecture": "win-x64",
-      "minimumLauncherVersion": "0.4.0"
+      "binaryName": "MANIAC_SVG FRACT.dll",
+      "assetName": "maniac-svg-fract-0.1.2.zip",
+      "version": "0.1.2",
+      "name": "MANIAC_SVG FRACT",
+      "packageSize": 538283,
+      "sha256": "be9a2b1007cba49c360b70bf58c2c5a0268771fcbb5f5ce9e19a3fabe6d732fb",
+      "releaseTag": "plugin-maniac-svg-fract-v0.1.2",
+      "minimumHostVersion": "7.26.2",
+      "knownInstallations": [
+        {
+          "files": [
+            {
+              "sha256": "6e646f07db6c9a4098ef0504fc4b95f4f93d126846b6903cd4ac33cdeacb0298",
+              "path": "Example.svg",
+              "size": 54679
+            },
+            {
+              "sha256": "6c0f49dd3fabe0506d34f047826d091bba760c104e50f85a4c9a610e50bb5b63",
+              "path": "MANIAC_SVG FRACT.dll",
+              "size": 1181696
+            }
+          ],
+          "binaryName": "MANIAC_SVG FRACT.dll",
+          "version": "0.1.0"
+        }
+      ]
+    },
+    {
+      "assetId": 0,
+      "minimumLauncherVersion": "0.4.0",
+      "description": "Leuchtender Zeichenregen auf räumlichen Tunnelwänden aus SVG-Konturen.",
+      "pluginId": "maniac-matrix",
+      "architecture": "win-x64",
+      "binaryName": "MANIAC Matrix.dll",
+      "assetName": "maniac-matrix-0.1.0.zip",
+      "version": "0.1.0",
+      "name": "MANIAC Matrix",
+      "packageSize": 569913,
+      "sha256": "c72f524883e1c3127bdb7497126634a9f096a380b7a4b32a3807091ef04619ff",
+      "releaseTag": "plugin-maniac-matrix-v0.1.0",
+      "minimumHostVersion": "7.26.2"
     }
   ],
   "software": [
@@ -4145,10 +4178,10 @@
     }
   ],
   "presentation": {
-    "packageSize": 3923218,
-    "sha256": "f8f4b69e13b28dcb87b890a3be788bf03eb6bc05ff2e95577f5b71522fb87578",
-    "assetName": "presentation-20261110-fract-public.zip",
-    "releaseTag": "presentation-20261110-fract-public",
+    "packageSize": 3956939,
+    "sha256": "6dd0a6a08d85690deb34cdd20fc43247bd1637d9a5b0291636fc95e9dd028adc",
+    "assetName": "presentation-20261110-matrix-fract-public.zip",
+    "releaseTag": "presentation-20261110-matrix-fract-public",
     "assetId": 0,
     "channel": "public"
   }
