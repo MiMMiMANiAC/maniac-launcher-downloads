@@ -4093,6 +4093,21 @@
           "binaryName": "MANIAC SVG Pulse.dll"
         }
       ]
+    },
+    {
+      "assetId": 0,
+      "binaryName": "MANIAC_SVG FRACT.dll",
+      "version": "0.1.0",
+      "description": "Animierte 2D-Mandelbrot- und 3D-Mandelbulb-Fraktale in einer SVG-Maske.",
+      "minimumHostVersion": "7.26.2",
+      "releaseTag": "plugin-maniac-svg-fract-v0.1.0",
+      "name": "MANIAC_SVG FRACT",
+      "sha256": "1dbab41bd07f0c02a7b86b6543a2052803918dc97e92e7439274bf85b963d901",
+      "assetName": "maniac-svg-fract-0.1.0.zip",
+      "pluginId": "maniac-svg-fract",
+      "packageSize": 537634,
+      "architecture": "win-x64",
+      "minimumLauncherVersion": "0.4.0"
     }
   ],
   "software": [
@@ -4130,10 +4145,10 @@
     }
   ],
   "presentation": {
-    "packageSize": 3572989,
-    "sha256": "dce3894c04c7c09b4a40cd5ce8d43eed1d36b9f400f6dee7a17cab2f53df33c9",
-    "assetName": "presentation-20261110-pulse-public.zip",
-    "releaseTag": "presentation-20261110-pulse-public",
+    "packageSize": 3923218,
+    "sha256": "f8f4b69e13b28dcb87b890a3be788bf03eb6bc05ff2e95577f5b71522fb87578",
+    "assetName": "presentation-20261110-fract-public.zip",
+    "releaseTag": "presentation-20261110-fract-public",
     "assetId": 0,
     "channel": "public"
   }
