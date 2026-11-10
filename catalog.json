@@ -2,11 +2,11 @@
   "launcher": {
     "channel": "public",
     "assetId": 0,
-    "sha256": "d8b95be2af98f0b166567b1489453fbb59528b4ee22b42558c306ccfa8afd04b",
-    "assetName": "MANIAC-Launcher-0.4.3-Setup.exe",
-    "releaseTag": "launcher-v0.4.3",
-    "packageSize": 49064412,
-    "version": "0.4.3"
+    "sha256": "6cab297b94722eacb9c86f1f8921f70afdd654d23c0b7639152e9c75a93935a9",
+    "assetName": "MANIAC-Launcher-0.4.4-Setup.exe",
+    "releaseTag": "launcher-v0.4.4",
+    "packageSize": 49076983,
+    "version": "0.4.4"
   },
   "schemaVersion": 1,
   "plugins": [
@@ -4128,19 +4128,37 @@
       ]
     },
     {
-      "assetId": 0,
-      "minimumLauncherVersion": "0.4.0",
-      "description": "Leuchtender Zeichenregen auf räumlichen Tunnelwänden aus SVG-Konturen.",
-      "pluginId": "maniac-matrix",
+      "version": "0.2.0",
       "architecture": "win-x64",
-      "binaryName": "MANIAC Matrix.dll",
-      "assetName": "maniac-matrix-0.1.0.zip",
-      "version": "0.1.0",
-      "name": "MANIAC Matrix",
-      "packageSize": 569913,
-      "sha256": "c72f524883e1c3127bdb7497126634a9f096a380b7a4b32a3807091ef04619ff",
-      "releaseTag": "plugin-maniac-matrix-v0.1.0",
-      "minimumHostVersion": "7.26.2"
+      "name": "MANIAC_SVG MATRIX",
+      "pluginId": "maniac-matrix",
+      "packageSize": 571609,
+      "assetName": "maniac-matrix-0.2.0.zip",
+      "description": "Zeichenregen auf SVG-Tunnelwänden mit geglätteten Vektorzeichen und ruhigerem Tempo.",
+      "minimumHostVersion": "7.26.2",
+      "minimumLauncherVersion": "0.4.0",
+      "releaseTag": "plugin-maniac-matrix-v0.2.0",
+      "sha256": "86027e70690abab37e84d58022a62aa73a5a8ac38c5ee495dfd9a01c1952e6e3",
+      "binaryName": "MANIAC_SVG MATRIX.dll",
+      "assetId": 0,
+      "knownInstallations": [
+        {
+          "binaryName": "MANIAC Matrix.dll",
+          "version": "0.1.0",
+          "files": [
+            {
+              "path": "Example.svg",
+              "sha256": "a94fa12464b1c142de74c9bb237575319b931afca58fc343e7032086260c8f8a",
+              "size": 300
+            },
+            {
+              "path": "MANIAC Matrix.dll",
+              "sha256": "9114e7f77df98b7b3d00b858a16c7d2f0b7ca492eb36d7419cfebf7a31d19553",
+              "size": 1286144
+            }
+          ]
+        }
+      ]
     }
   ],
   "software": [
@@ -4178,10 +4196,10 @@
     }
   ],
   "presentation": {
-    "packageSize": 3956939,
-    "sha256": "6dd0a6a08d85690deb34cdd20fc43247bd1637d9a5b0291636fc95e9dd028adc",
-    "assetName": "presentation-20261110-matrix-fract-public.zip",
-    "releaseTag": "presentation-20261110-matrix-fract-public",
+    "packageSize": 4054390,
+    "sha256": "37946cff1ea2cc7579c52ef8c5c2ffc8551673c502eb696bc0cbd85d797465f5",
+    "assetName": "presentation-20261110-wire044-public.zip",
+    "releaseTag": "presentation-20261110-wire044-public",
     "assetId": 0,
     "channel": "public"
   }
