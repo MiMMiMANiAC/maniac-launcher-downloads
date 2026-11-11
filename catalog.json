@@ -4175,6 +4175,21 @@
           ]
         }
       ]
+    },
+    {
+      "binaryName": "MANIAC_SVG Melt.dll",
+      "assetName": "maniac-svg-melt-0.1.0.zip",
+      "sha256": "7b298427dfc02a44c862ebfba8efa1136de346aba516bdb6333a174fee4d5d13",
+      "pluginId": "maniac-svg-melt",
+      "packageSize": 562487,
+      "name": "MANIAC_SVG Melt",
+      "minimumHostVersion": "7.26.2",
+      "releaseTag": "plugin-maniac-svg-melt-v0.1.0",
+      "assetId": 0,
+      "version": "0.1.0",
+      "description": "SVG-Formen als Extrusion darstellen und stufenlos zu einer Pfütze schmelzen.",
+      "architecture": "win-x64",
+      "minimumLauncherVersion": "0.4.0"
     }
   ],
   "software": [
@@ -4212,10 +4227,10 @@
     }
   ],
   "presentation": {
-    "packageSize": 4060516,
-    "sha256": "02554c6493cf5d8f96e58c4c432d3e258ddeab81c3051a0b5a4037558ae1d135",
-    "assetName": "presentation-20261110-matrix030-public.zip",
-    "releaseTag": "presentation-20261110-matrix030-public",
+    "packageSize": 4105950,
+    "sha256": "8f73310b55bef07817a05b1f8db8bd7e737bbd1345f3434c5283245c1cab9dd8",
+    "assetName": "presentation-20261111-melt-public.zip",
+    "releaseTag": "presentation-20261111-melt-public",
     "assetId": 0,
     "channel": "public"
   }
