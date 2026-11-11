@@ -2,11 +2,11 @@
   "launcher": {
     "channel": "public",
     "assetId": 0,
-    "sha256": "ea53cc82cbc9738bcd8b1954dc7eec6af85a560e8ede4a56b789671438e12ef1",
-    "assetName": "MANIAC-Launcher-0.4.6-Setup.exe",
-    "releaseTag": "launcher-v0.4.6",
-    "packageSize": 49188438,
-    "version": "0.4.6"
+    "sha256": "e63af0a199e72312442fbce6772ad349a5721602cd5cb5620bea9c4eb16b7d7d",
+    "assetName": "MANIAC-Launcher-0.4.7-Setup.exe",
+    "releaseTag": "launcher-v0.4.7",
+    "packageSize": 49188894,
+    "version": "0.4.7"
   },
   "schemaVersion": 1,
   "plugins": [
@@ -4247,14 +4247,14 @@
       "softwareId": "pattern-studio",
       "name": "Pattern Studio",
       "description": "Geometrische Muster, Foto-Nachzeichnen und Bühnenflächen; 2D-/3D-Animation und SVG-/PNG-Export. Lokal und offline.",
-      "version": "1.4.8",
+      "version": "1.4.9",
       "architecture": "win-x64",
       "minimumLauncherVersion": "0.4.4",
-      "releaseTag": "software-pattern-studio-v1.4.8",
+      "releaseTag": "software-pattern-studio-v1.4.9",
       "assetId": 0,
-      "packageSize": 159068066,
-      "sha256": "c8a695f4e11bbb36dfaf33df12294db062a99ac0091712384b2f9a8481353c5a",
-      "assetName": "Pattern-Studio-1.4.8.zip",
+      "packageSize": 159067225,
+      "sha256": "17866d6a81b8f01149257496d488e1f502be7f863d30988e3b21079494e65d89",
+      "assetName": "Pattern-Studio-1.4.9.zip",
       "executableName": "Pattern Studio.exe",
       "installDirectoryName": "pattern-studio",
       "packageFormat": "runtime-zip"
@@ -4263,25 +4263,25 @@
       "packageFormat": "runtime-zip",
       "assetId": 0,
       "installDirectoryName": "maniac-audio-monitor",
-      "assetName": "MANIAC-Audio-Monitor-0.5.0.zip",
-      "packageSize": 65485525,
-      "releaseTag": "software-maniac-audio-monitor-v0.5.0",
+      "assetName": "MANIAC-Audio-Monitor-0.5.2.zip",
+      "packageSize": 63447205,
+      "releaseTag": "software-maniac-audio-monitor-v0.5.2",
       "softwareId": "maniac-audio-monitor",
       "minimumLauncherVersion": "0.4.2",
       "executableName": "MANIAC Audio Monitor.exe",
-      "description": "Live-Spektrogramm und BPM, getrennte Ein- und Ausgangspegel und ein durchgehend sichtbarer Soundcheck. Mit DJ-Klangreferenz, Ableton Link und 3-Band-EQ.",
-      "version": "0.5.0",
+      "description": "Live-Spektrogramm, BPM, getrennte Ein- und Ausgangspegel, Ableton Link und 3-Band-EQ. Mit Pegel-Icon und korrigierter Fenstergröße beim Maximieren.",
+      "version": "0.5.2",
       "name": "MANIAC Audio Monitor",
       "architecture": "win-x64",
-      "sha256": "808e719d150d473abccac94181b8d9f9530b4a70dca421f232d9eb47bfea93b7"
+      "sha256": "dd1ec939a6fbf18639faf8473307517a412052dcbc606e1e451fe798c2626af6"
     }
   ],
   "presentation": {
-    "releaseTag": "presentation-20261111-launcher046-studio148-public",
     "assetId": 0,
-    "sha256": "cba3ee7e6c7caf38a0ab7a494105627ca3339ec23198e7d84023f0955a261601",
     "channel": "public",
-    "assetName": "presentation-20261111-launcher046-studio148-public.zip",
-    "packageSize": 4392289
+    "releaseTag": "presentation-20261112-launcher047-public",
+    "sha256": "4430e3b55eb264d13c5d2daa6a64a2ce90cb08ff3a02cd0b603bcb47490b0919",
+    "packageSize": 4410605,
+    "assetName": "presentation-20261112-launcher047-public.zip"
   }
 }
