@@ -2,11 +2,11 @@
   "launcher": {
     "channel": "public",
     "assetId": 0,
-    "sha256": "6cab297b94722eacb9c86f1f8921f70afdd654d23c0b7639152e9c75a93935a9",
-    "assetName": "MANIAC-Launcher-0.4.4-Setup.exe",
-    "releaseTag": "launcher-v0.4.4",
-    "packageSize": 49076983,
-    "version": "0.4.4"
+    "sha256": "779de4d6124ca55c5779b03a30a41b24d9742bdc1ebb28d437b6a037d0bbe781",
+    "assetName": "MANIAC-Launcher-0.4.5-Setup.exe",
+    "releaseTag": "launcher-v0.4.5",
+    "packageSize": 49080124,
+    "version": "0.4.5"
   },
   "schemaVersion": 1,
   "plugins": [
@@ -4178,18 +4178,18 @@
     },
     {
       "minimumHostVersion": "7.26.2",
-      "version": "0.1.8",
+      "version": "0.1.13",
       "binaryName": "MANIAC_SVG Melt.dll",
-      "description": "Frontaler SVG-Schmelzeffekt mit zähen Metallsträngen und abreißenden Tropfen im Pulse-Modus.",
-      "sha256": "7c57f5492d2fe5b18299258e53e0984977203e96895872cac7dda5d825144c39",
-      "releaseTag": "plugin-maniac-svg-melt-v0.1.8",
+      "description": "Frontaler SVG-Schmelzeffekt mit Metallfarben und Pulse Lokal. Blockkerne schrumpfen an ihrer Position, während Metall nach unten abfließt.",
+      "sha256": "52b2efcefe5a230f844fb3316aaa177639315528dc1fc5d6b8d9670a6bfc4b08",
+      "releaseTag": "plugin-maniac-svg-melt-v0.1.13",
       "architecture": "win-x64",
       "pluginId": "maniac-svg-melt",
-      "assetName": "maniac-svg-melt-0.1.8.zip",
+      "assetName": "maniac-svg-melt-0.1.13.zip",
       "name": "MANIAC_SVG Melt",
       "assetId": 0,
-      "minimumLauncherVersion": "0.4.0",
-      "packageSize": 569928,
+      "minimumLauncherVersion": "0.4.4",
+      "packageSize": 571286,
       "knownInstallations": [
         {
           "version": "0.1.0",
@@ -4222,6 +4222,22 @@
               "path": "MANIAC_SVG Melt.dll"
             }
           ]
+        },
+        {
+          "version": "0.1.8",
+          "binaryName": "MANIAC_SVG Melt.dll",
+          "files": [
+            {
+              "sha256": "fca4b75a0844539bf36b94e1b521abfb5ee7755abd365f217c52e8e9fca035dd",
+              "path": "Example.svg",
+              "size": 438
+            },
+            {
+              "sha256": "421d89f0d9adf1db57d13262a2996f7af84f50e94edac12c36a73d04c2e75d87",
+              "path": "MANIAC_SVG Melt.dll",
+              "size": 1286656
+            }
+          ]
         }
       ]
     }
@@ -4230,15 +4246,15 @@
     {
       "softwareId": "pattern-studio",
       "name": "Pattern Studio",
-      "description": "Geometrische Muster, nummerierte und gruppierbare Bühnenflächen, Objekt-Snap sowie 2D-/3D-Animation und SVG-/PNG-Export. Lokal und offline.",
-      "version": "1.4.5",
+      "description": "Geometrische Muster, Foto-Nachzeichnen und Bühnenflächen; 2D-/3D-Animation und SVG-/PNG-Export. Lokal und offline.",
+      "version": "1.4.7",
       "architecture": "win-x64",
-      "minimumLauncherVersion": "0.4.0",
-      "releaseTag": "software-pattern-studio-v1.4.5",
+      "minimumLauncherVersion": "0.4.4",
+      "releaseTag": "software-pattern-studio-v1.4.7",
       "assetId": 0,
-      "packageSize": 159052953,
-      "sha256": "c1554ede21feb7fdd0228e15a39807d6b18e42646c17767282fd1c29d8560973",
-      "assetName": "Pattern-Studio-1.4.5.zip",
+      "packageSize": 159067412,
+      "sha256": "027ce5f9d86150b62e170f32efaedd5c1a81c9d949845f55bc96be3fc0ed8429",
+      "assetName": "Pattern-Studio-1.4.7.zip",
       "executableName": "Pattern Studio.exe",
       "installDirectoryName": "pattern-studio",
       "packageFormat": "runtime-zip"
@@ -4261,11 +4277,11 @@
     }
   ],
   "presentation": {
-    "packageSize": 4220623,
-    "sha256": "9bad945823d6ad402d1e09c4222a5bfc9c07b6d6da37e17db2d781306371fead",
-    "assetName": "presentation-20261111-melt018-public.zip",
-    "releaseTag": "presentation-20261111-melt018-public",
+    "packageSize": 4331752,
+    "releaseTag": "presentation-20261111-launcher045-melt0113-studio147-public",
+    "channel": "public",
+    "assetName": "presentation-20261111-launcher045-melt0113-studio147-public.zip",
     "assetId": 0,
-    "channel": "public"
+    "sha256": "ff423bf9cf5d420c9bff96fc3d0036554b9e6f6f0d84eebaaf5fd2f6669af83a"
   }
 }
