@@ -4177,19 +4177,19 @@
       ]
     },
     {
-      "architecture": "win-x64",
-      "name": "MANIAC_SVG Melt",
       "minimumHostVersion": "7.26.2",
-      "assetName": "maniac-svg-melt-0.1.3.zip",
-      "version": "0.1.3",
-      "pluginId": "maniac-svg-melt",
-      "sha256": "676e76b14f1633a1df35703759a63fefd1272015be75b12c7581ec642b571ef2",
-      "description": "Frontaler SVG-Schmelzeffekt mit manueller Steuerung, Pulse und Loop.",
-      "packageSize": 564689,
-      "minimumLauncherVersion": "0.4.0",
-      "assetId": 0,
-      "releaseTag": "plugin-maniac-svg-melt-v0.1.3",
+      "version": "0.1.8",
       "binaryName": "MANIAC_SVG Melt.dll",
+      "description": "Frontaler SVG-Schmelzeffekt mit zähen Metallsträngen und abreißenden Tropfen im Pulse-Modus.",
+      "sha256": "7c57f5492d2fe5b18299258e53e0984977203e96895872cac7dda5d825144c39",
+      "releaseTag": "plugin-maniac-svg-melt-v0.1.8",
+      "architecture": "win-x64",
+      "pluginId": "maniac-svg-melt",
+      "assetName": "maniac-svg-melt-0.1.8.zip",
+      "name": "MANIAC_SVG Melt",
+      "assetId": 0,
+      "minimumLauncherVersion": "0.4.0",
+      "packageSize": 569928,
       "knownInstallations": [
         {
           "version": "0.1.0",
@@ -4204,6 +4204,22 @@
               "size": 1267200,
               "path": "MANIAC_SVG Melt.dll",
               "sha256": "12404fe0c6f04a7da59832b9d264199c01c78b344f410792f075cfe10aa30a95"
+            }
+          ]
+        },
+        {
+          "version": "0.1.3",
+          "binaryName": "MANIAC_SVG Melt.dll",
+          "files": [
+            {
+              "sha256": "fca4b75a0844539bf36b94e1b521abfb5ee7755abd365f217c52e8e9fca035dd",
+              "size": 438,
+              "path": "Example.svg"
+            },
+            {
+              "sha256": "10197f5b5c8bac2ada5ea6d59de519c940e7a0e631bd72a1d1bbcc7814a20709",
+              "size": 1273856,
+              "path": "MANIAC_SVG Melt.dll"
             }
           ]
         }
@@ -4245,10 +4261,10 @@
     }
   ],
   "presentation": {
-    "packageSize": 4203996,
-    "sha256": "2a71e9a3f6d71d97f61a799fb915e0600e7f99048ea7840cb61be92a4268b40c",
-    "assetName": "presentation-20261111-melt013-public.zip",
-    "releaseTag": "presentation-20261111-melt013-public",
+    "packageSize": 4220623,
+    "sha256": "9bad945823d6ad402d1e09c4222a5bfc9c07b6d6da37e17db2d781306371fead",
+    "assetName": "presentation-20261111-melt018-public.zip",
+    "releaseTag": "presentation-20261111-melt018-public",
     "assetId": 0,
     "channel": "public"
   }
