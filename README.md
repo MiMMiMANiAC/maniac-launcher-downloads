@@ -1,15 +1,15 @@
 # MANIAC Launcher
 
-[MANIAC Launcher 0.4.6](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/launcher-v0.4.6) zeigt das MANiACViSUALS-Querlogo in der dunklen Titelleiste, das MV-Signet in der Taskleiste und einen Bereich für News und Coming Soon.
+[MANIAC Launcher 0.4.7](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/launcher-v0.4.7) zeigt Titelleiste und Fußleiste auch maximiert vollständig oberhalb der Windows-Taskleiste.
 
-Unter **Plugins** ist [MANIAC_SVG Melt 0.1.13](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/plugin-maniac-svg-melt-v0.1.13) mit Pulse Lokal und RGB-Metallfarbe verfügbar. Unter **Software** findest du [Pattern Studio 1.4.8](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/software-pattern-studio-v1.4.8) mit der neuen Zeichnen-Leiste über der Arbeitsfläche und [MANIAC Audio Monitor 0.5.0](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/software-maniac-audio-monitor-v0.5.0).
+Unter **Plugins** ist [MANIAC_SVG Melt 0.1.13](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/plugin-maniac-svg-melt-v0.1.13) mit Pulse Lokal und RGB-Metallfarbe verfügbar. Unter **Software** findest du [Pattern Studio 1.4.9](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/software-pattern-studio-v1.4.9) mit der kompakteren Zeichenansicht und [MANIAC Audio Monitor 0.5.2](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/software-maniac-audio-monitor-v0.5.2).
 
 
 **Neu im Launcher:** [MANIAC_Offset 0.1.0](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/plugin-maniac-offset-v0.1.0) animiert gestaffelte Linien innerhalb deiner SVG-Formen. Dazu kommen acht Versionen mit einheitlichen Namen in Launcher und Resolume, darunter **MANIAC_SVG LINES** (bisher Flow) und **MANIAC_SVG LT 3D** (bisher Stagelight). Frühere Versionen bleiben als Downloads verfügbar. Falls Resolume ein umbenanntes Plugin in einer älteren Komposition nicht zuordnet, füge es neu hinzu.
 
 **MANIAC SVG Worm 0.8.1** behebt das Geometrie-Suchlimit der Formportale auf der Originalbühne. Unter Form → Spiegelpaar lässt sich ein synchroner, horizontal gespiegelter Partner einschalten. Die bisherigen Flugarten bleiben verfügbar.
 
-**[MANIAC Launcher 0.4.6 herunterladen](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/download/launcher-v0.4.6/MANIAC-Launcher-0.4.6-Setup.exe)**
+**[MANIAC Launcher 0.4.7 herunterladen](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/download/launcher-v0.4.7/MANIAC-Launcher-0.4.7-Setup.exe)**
 
 **MANIAC SVG 3D 0.8.2** schließt die Rückseite extrudierter Platten. SVG-Löcher und Aussparungen bleiben frei. Die Rückseite wurde bei 180° Drehung in Low, Mid und High geprüft.
 
