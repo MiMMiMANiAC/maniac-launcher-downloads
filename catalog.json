@@ -4177,19 +4177,37 @@
       ]
     },
     {
-      "binaryName": "MANIAC_SVG Melt.dll",
-      "assetName": "maniac-svg-melt-0.1.0.zip",
-      "sha256": "7b298427dfc02a44c862ebfba8efa1136de346aba516bdb6333a174fee4d5d13",
-      "pluginId": "maniac-svg-melt",
-      "packageSize": 562487,
+      "architecture": "win-x64",
       "name": "MANIAC_SVG Melt",
       "minimumHostVersion": "7.26.2",
-      "releaseTag": "plugin-maniac-svg-melt-v0.1.0",
+      "assetName": "maniac-svg-melt-0.1.3.zip",
+      "version": "0.1.3",
+      "pluginId": "maniac-svg-melt",
+      "sha256": "676e76b14f1633a1df35703759a63fefd1272015be75b12c7581ec642b571ef2",
+      "description": "Frontaler SVG-Schmelzeffekt mit manueller Steuerung, Pulse und Loop.",
+      "packageSize": 564689,
+      "minimumLauncherVersion": "0.4.0",
       "assetId": 0,
-      "version": "0.1.0",
-      "description": "SVG-Formen als Extrusion darstellen und stufenlos zu einer Pfütze schmelzen.",
-      "architecture": "win-x64",
-      "minimumLauncherVersion": "0.4.0"
+      "releaseTag": "plugin-maniac-svg-melt-v0.1.3",
+      "binaryName": "MANIAC_SVG Melt.dll",
+      "knownInstallations": [
+        {
+          "version": "0.1.0",
+          "binaryName": "MANIAC_SVG Melt.dll",
+          "files": [
+            {
+              "size": 438,
+              "path": "Example.svg",
+              "sha256": "fca4b75a0844539bf36b94e1b521abfb5ee7755abd365f217c52e8e9fca035dd"
+            },
+            {
+              "size": 1267200,
+              "path": "MANIAC_SVG Melt.dll",
+              "sha256": "12404fe0c6f04a7da59832b9d264199c01c78b344f410792f075cfe10aa30a95"
+            }
+          ]
+        }
+      ]
     }
   ],
   "software": [
@@ -4227,10 +4245,10 @@
     }
   ],
   "presentation": {
-    "packageSize": 4105950,
-    "sha256": "8f73310b55bef07817a05b1f8db8bd7e737bbd1345f3434c5283245c1cab9dd8",
-    "assetName": "presentation-20261111-melt-public.zip",
-    "releaseTag": "presentation-20261111-melt-public",
+    "packageSize": 4203996,
+    "sha256": "2a71e9a3f6d71d97f61a799fb915e0600e7f99048ea7840cb61be92a4268b40c",
+    "assetName": "presentation-20261111-melt013-public.zip",
+    "releaseTag": "presentation-20261111-melt013-public",
     "assetId": 0,
     "channel": "public"
   }
