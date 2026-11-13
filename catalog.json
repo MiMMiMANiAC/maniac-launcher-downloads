@@ -4263,17 +4263,17 @@
       "packageFormat": "runtime-zip",
       "assetId": 0,
       "installDirectoryName": "maniac-audio-monitor",
-      "assetName": "MANIAC-Audio-Monitor-0.5.3.zip",
-      "packageSize": 80992757,
-      "releaseTag": "software-maniac-audio-monitor-v0.5.3",
+      "assetName": "MANIAC-Audio-Monitor-0.5.4.zip",
+      "packageSize": 80998460,
+      "releaseTag": "software-maniac-audio-monitor-v0.5.4",
       "softwareId": "maniac-audio-monitor",
       "minimumLauncherVersion": "0.3.2",
       "executableName": "MANIAC Audio Monitor.exe",
-      "description": "Live-Spektrogramm, BPM und getrennter Ein- und Ausgangspegel. Kompakte Ausgabeanzeige mit Soundcheck und separater Automatik für Lautstärke und Klang.",
-      "version": "0.5.3",
+      "description": "Ein Soundcheck für automatische Lautstärke und Klangbalance bei DJ-Wechseln. Getrennte Bandpegel für Resolume und genauere BPM-Messung.",
+      "version": "0.5.4",
       "name": "MANIAC Audio Monitor",
       "architecture": "win-x64",
-      "sha256": "18d934b84970ebeea2ed1ce74ec84f9bc645823ce725573f484906f711320595"
+      "sha256": "4d5d86d7087e0e6f52776bf16e02707189cd2b9b2195d1fb91772a441b02f698"
     },
     {
       "softwareId": "dj-convert-tool-lab",
@@ -4293,11 +4293,11 @@
     }
   ],
   "presentation": {
-    "assetName": "presentation-20261114-lab0312b2-public.zip",
-    "releaseTag": "presentation-20261114-lab0312b2-public",
-    "sha256": "055500e14438d56a70bc2555bb5766f0e5dd5af52691f61e81a7de0c7584e96f",
+    "packageSize": 4440870,
+    "assetId": 0,
+    "assetName": "presentation-20261114-audio054-public.zip",
     "channel": "public",
-    "packageSize": 4442720,
-    "assetId": 0
+    "sha256": "4f74ec45453ba567b58040311b8144944e729735fcf3dc1cd74255763c8df6e2",
+    "releaseTag": "presentation-20261114-audio054-public"
   }
 }
