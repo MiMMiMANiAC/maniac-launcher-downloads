@@ -4274,14 +4274,30 @@
       "name": "MANIAC Audio Monitor",
       "architecture": "win-x64",
       "sha256": "18d934b84970ebeea2ed1ce74ec84f9bc645823ce725573f484906f711320595"
+    },
+    {
+      "softwareId": "dj-convert-tool-lab",
+      "name": "DJ Convert Tool Lab",
+      "description": "Leere lokale Sitzung beim Start, Track-Auswahl für Playlists und Ergänzen bestehender rekordbox-Sticks.",
+      "version": "0.3.12-beta.2",
+      "architecture": "win-x64",
+      "minimumLauncherVersion": "0.3.2",
+      "releaseTag": "software-dj-convert-tool-lab-v0.3.12-beta.2",
+      "assetId": 0,
+      "packageSize": 346393752,
+      "sha256": "6ea87c227f780e963070c5c3a3e22d5c6f58a22f7043ad6d4822cd0f99d3d6f1",
+      "assetName": "DJ-Convert-Tool-Lab-0.3.12-beta.2.zip",
+      "executableName": "DJ Convert Tool Lab.exe",
+      "installDirectoryName": "dj-convert-tool-lab",
+      "packageFormat": "runtime-zip"
     }
   ],
   "presentation": {
-    "sha256": "c9621b1d7943cdf0e60adb31b17315924f673adba6786caf8d2d2141fcce2912",
-    "assetName": "presentation-20261113-audio053-public.zip",
-    "assetId": 0,
-    "releaseTag": "presentation-20261113-audio053-public",
+    "assetName": "presentation-20261114-lab0312b2-public.zip",
+    "releaseTag": "presentation-20261114-lab0312b2-public",
+    "sha256": "055500e14438d56a70bc2555bb5766f0e5dd5af52691f61e81a7de0c7584e96f",
     "channel": "public",
-    "packageSize": 4425972
+    "packageSize": 4442720,
+    "assetId": 0
   }
 }
