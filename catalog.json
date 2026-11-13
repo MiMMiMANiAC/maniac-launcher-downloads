@@ -2,11 +2,11 @@
   "launcher": {
     "channel": "public",
     "assetId": 0,
-    "sha256": "e63af0a199e72312442fbce6772ad349a5721602cd5cb5620bea9c4eb16b7d7d",
-    "assetName": "MANIAC-Launcher-0.4.7-Setup.exe",
-    "releaseTag": "launcher-v0.4.7",
-    "packageSize": 49188894,
-    "version": "0.4.7"
+    "sha256": "26f0dbdb17dd27d9c87c850dbafe5831587507de1e61ff4b667cd2d4254d864d",
+    "assetName": "MANIAC-Launcher-0.4.8-Setup.exe",
+    "releaseTag": "launcher-v0.4.8",
+    "packageSize": 49189987,
+    "version": "0.4.8"
   },
   "schemaVersion": 1,
   "plugins": [
@@ -4263,25 +4263,25 @@
       "packageFormat": "runtime-zip",
       "assetId": 0,
       "installDirectoryName": "maniac-audio-monitor",
-      "assetName": "MANIAC-Audio-Monitor-0.5.2.zip",
-      "packageSize": 63447205,
-      "releaseTag": "software-maniac-audio-monitor-v0.5.2",
+      "assetName": "MANIAC-Audio-Monitor-0.5.3.zip",
+      "packageSize": 80992757,
+      "releaseTag": "software-maniac-audio-monitor-v0.5.3",
       "softwareId": "maniac-audio-monitor",
-      "minimumLauncherVersion": "0.4.2",
+      "minimumLauncherVersion": "0.3.2",
       "executableName": "MANIAC Audio Monitor.exe",
-      "description": "Live-Spektrogramm, BPM, getrennte Ein- und Ausgangspegel, Ableton Link und 3-Band-EQ. Mit Pegel-Icon und korrigierter Fenstergröße beim Maximieren.",
-      "version": "0.5.2",
+      "description": "Live-Spektrogramm, BPM und getrennter Ein- und Ausgangspegel. Kompakte Ausgabeanzeige mit Soundcheck und separater Automatik für Lautstärke und Klang.",
+      "version": "0.5.3",
       "name": "MANIAC Audio Monitor",
       "architecture": "win-x64",
-      "sha256": "dd1ec939a6fbf18639faf8473307517a412052dcbc606e1e451fe798c2626af6"
+      "sha256": "18d934b84970ebeea2ed1ce74ec84f9bc645823ce725573f484906f711320595"
     }
   ],
   "presentation": {
+    "sha256": "c9621b1d7943cdf0e60adb31b17315924f673adba6786caf8d2d2141fcce2912",
+    "assetName": "presentation-20261113-audio053-public.zip",
     "assetId": 0,
+    "releaseTag": "presentation-20261113-audio053-public",
     "channel": "public",
-    "releaseTag": "presentation-20261112-launcher047-public",
-    "sha256": "4430e3b55eb264d13c5d2daa6a64a2ce90cb08ff3a02cd0b603bcb47490b0919",
-    "packageSize": 4410605,
-    "assetName": "presentation-20261112-launcher047-public.zip"
+    "packageSize": 4425972
   }
 }
