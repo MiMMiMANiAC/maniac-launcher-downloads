@@ -2,7 +2,7 @@
 
 [MANIAC Launcher 0.4.8](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/launcher-v0.4.8) zählt Launcher-, Plugin- und Softwareupdates gemeinsam und zeigt sie unter Updates.
 
-Unter **Plugins** ist [MANIAC_SVG Melt 0.1.13](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/plugin-maniac-svg-melt-v0.1.13) mit Pulse Lokal und RGB-Metallfarbe verfügbar. Unter **Software** findest du [Pattern Studio 1.4.9](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/software-pattern-studio-v1.4.9) mit der kompakteren Zeichenansicht und [MANIAC Audio Monitor 0.5.3](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/software-maniac-audio-monitor-v0.5.3).
+Unter **Plugins** ist [MANIAC_SVG Melt 0.1.13](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/plugin-maniac-svg-melt-v0.1.13) mit Pulse Lokal und RGB-Metallfarbe verfügbar. Unter **Software** findest du [Pattern Studio 1.4.9](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/software-pattern-studio-v1.4.9) mit der kompakteren Zeichenansicht und [MANIAC Audio Monitor 0.5.4](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/software-maniac-audio-monitor-v0.5.4).
 
 
 **Neu im Launcher:** [MANIAC_Offset 0.1.0](https://github.com/MiMMiMANiAC/maniac-launcher-downloads/releases/tag/plugin-maniac-offset-v0.1.0) animiert gestaffelte Linien innerhalb deiner SVG-Formen. Dazu kommen acht Versionen mit einheitlichen Namen in Launcher und Resolume, darunter **MANIAC_SVG LINES** (bisher Flow) und **MANIAC_SVG LT 3D** (bisher Stagelight). Frühere Versionen bleiben als Downloads verfügbar. Falls Resolume ein umbenanntes Plugin in einer älteren Komposition nicht zuordnet, füge es neu hinzu.
