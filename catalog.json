@@ -4263,17 +4263,17 @@
       "packageFormat": "runtime-zip",
       "assetId": 0,
       "installDirectoryName": "maniac-audio-monitor",
-      "assetName": "MANIAC-Audio-Monitor-0.5.4.zip",
-      "packageSize": 80998460,
-      "releaseTag": "software-maniac-audio-monitor-v0.5.4",
+      "assetName": "MANIAC-Audio-Monitor-0.5.5.zip",
+      "packageSize": 80995641,
+      "releaseTag": "software-maniac-audio-monitor-v0.5.5",
       "softwareId": "maniac-audio-monitor",
       "minimumLauncherVersion": "0.3.2",
       "executableName": "MANIAC Audio Monitor.exe",
-      "description": "Ein Soundcheck für automatische Lautstärke und Klangbalance bei DJ-Wechseln. Getrennte Bandpegel für Resolume und genauere BPM-Messung.",
-      "version": "0.5.4",
+      "description": "Ein Referenz-Soundcheck für Resolume. Der Party-Modus gleicht Pegel und Klang an und zeigt die drei Ausgangsbänder mit ihren Zielmarken.",
+      "version": "0.5.5",
       "name": "MANIAC Audio Monitor",
       "architecture": "win-x64",
-      "sha256": "4d5d86d7087e0e6f52776bf16e02707189cd2b9b2195d1fb91772a441b02f698"
+      "sha256": "98f570ad04910884de1c13e78f2661cffdbf934051b8dd2e62f78721be902580"
     },
     {
       "softwareId": "dj-convert-tool-lab",
@@ -4293,11 +4293,11 @@
     }
   ],
   "presentation": {
-    "packageSize": 4440870,
+    "assetName": "presentation-20261114-audio055-public.zip",
     "assetId": 0,
-    "assetName": "presentation-20261114-audio054-public.zip",
     "channel": "public",
-    "sha256": "4f74ec45453ba567b58040311b8144944e729735fcf3dc1cd74255763c8df6e2",
-    "releaseTag": "presentation-20261114-audio054-public"
+    "releaseTag": "presentation-20261114-audio055-public",
+    "sha256": "97a503a4fd3a40376d33b710ade348f23d4664b91272c60209f19d03b0c9ba20",
+    "packageSize": 4399753
   }
 }
