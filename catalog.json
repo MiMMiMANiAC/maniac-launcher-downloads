@@ -1,12 +1,12 @@
 {
   "launcher": {
     "channel": "public",
+    "version": "0.4.10",
     "assetId": 0,
-    "sha256": "810db0237c96b855932893e01aa4b6c3aaab4beb7e9b09a5e1496a217390744d",
-    "assetName": "MANIAC-Launcher-0.4.9-Setup.exe",
-    "releaseTag": "launcher-v0.4.9",
-    "packageSize": 49188535,
-    "version": "0.4.9"
+    "releaseTag": "launcher-v0.4.10",
+    "assetName": "MANIAC-Launcher-0.4.10-Setup.exe",
+    "sha256": "b2d08936485f030ea970a858a6ad8474c3c65924af995c93eac3bc6c5c01b6b5",
+    "packageSize": 49192445
   },
   "schemaVersion": 1,
   "plugins": [
@@ -1746,17 +1746,17 @@
     },
     {
       "minimumLauncherVersion": "0.3.6",
-      "version": "0.5.5",
+      "version": "0.6.0",
       "pluginId": "maniac-stagelight-3d",
       "assetId": 0,
-      "packageSize": 944315,
+      "packageSize": 953215,
       "minimumHostVersion": "7.26.2",
       "name": "MANIAC_SVG LT 3D",
-      "sha256": "63c6f244f7d43697b0fc0b122fea95e8ee7177ff196feb25e43b9b8f6042de9a",
-      "description": "Eigenständige SVG-Reliefquelle mit automatischen Shows, 4/8/16 Scheinwerfern, Schatten und Nebel. 0.5.2 erhält gültige Szenen auch nach gescheitertem GPU-Tausch und begrenzt native Zwischenbilder. Alle 234 Parameteridentitäten bleiben erhalten. Speicherarme SVG-Vorbereitung für große Motive; vorhandenes Aussehen und Animation bleiben erhalten.",
-      "binaryName": "MANIAC_SVG LT 3D.dll",
-      "assetName": "maniac-stagelight-3d-0.5.5.zip",
-      "releaseTag": "plugin-maniac-stagelight-3d-v0.5.5",
+      "sha256": "bdd071308f2286e3e4b81485d7ee8ba455b31deb6bb7ee58cbe9cad21336c28d",
+      "description": "3D-Bühnenlicht mit bis zu 16 Spots, feineren SVG-Kanten, weicheren Schatten und verbessertem High-Rendering.",
+      "binaryName": "MANIAC_Stagelight 3d.dll",
+      "assetName": "maniac-stagelight-3d-0.6.0.zip",
+      "releaseTag": "plugin-maniac-stagelight-3d-v0.6.0",
       "architecture": "win-x64",
       "isTestOnly": false,
       "knownInstallations": [
@@ -2266,6 +2266,22 @@
             }
           ],
           "version": "0.5.4"
+        },
+        {
+          "version": "0.5.5",
+          "binaryName": "MANIAC_SVG LT 3D.dll",
+          "files": [
+            {
+              "path": "Example.svg",
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "size": 992639
+            },
+            {
+              "path": "MANIAC_SVG LT 3D.dll",
+              "sha256": "0ac85dd014a148ebc9ee676d228020fe2a89a826421a62feb59e4280e28c75d3",
+              "size": 1289728
+            }
+          ]
         }
       ]
     },
@@ -4144,19 +4160,19 @@
       ]
     },
     {
-      "releaseTag": "plugin-maniac-matrix-v0.4.0",
+      "releaseTag": "plugin-maniac-matrix-v0.5.0",
       "architecture": "win-x64",
       "minimumLauncherVersion": "0.2.9",
       "assetId": 0,
       "pluginId": "maniac-matrix",
-      "assetName": "maniac-matrix-0.4.0.zip",
+      "assetName": "maniac-matrix-0.5.0.zip",
       "binaryName": "MANIAC_SVG MATRIX.dll",
-      "description": "Leuchtende Zeichen auf SVG-Tunnelwänden. Korrigierte Zeitbasis für Resolume und zwei Tunnelmodi.",
-      "version": "0.4.0",
-      "packageSize": 577663,
+      "description": "Leuchtender Zeichenregen in SVG-Tunneln. Das Tempo reicht jetzt bis 10 Zeichen pro Sekunde.",
+      "version": "0.5.0",
+      "packageSize": 577666,
       "minimumHostVersion": "7.26.2",
       "name": "MANIAC_SVG MATRIX",
-      "sha256": "aa3d118ba706b043704f150331a04557f89e63f6dcf7e46c05f718767c5eaabb",
+      "sha256": "62eda71b1532b0d62d6b0e5e18ec1cde8dea7002a20791d5737dab75a50ab482",
       "knownInstallations": [
         {
           "binaryName": "MANIAC Matrix.dll",
@@ -4203,6 +4219,22 @@
               "size": 1298432,
               "sha256": "0cf6c3f50a83666ea68c7d48ac59414b22165ecc4d8c56e31fccdaf027fd6da9",
               "path": "MANIAC_SVG MATRIX.dll"
+            }
+          ]
+        },
+        {
+          "version": "0.4.0",
+          "binaryName": "MANIAC_SVG MATRIX.dll",
+          "files": [
+            {
+              "path": "Example.svg",
+              "sha256": "a94fa12464b1c142de74c9bb237575319b931afca58fc343e7032086260c8f8a",
+              "size": 300
+            },
+            {
+              "path": "MANIAC_SVG MATRIX.dll",
+              "sha256": "ffa236a4595cdecb9b697a5828dee331d81078745c42e66b4810488be6c31cd7",
+              "size": 1298432
             }
           ]
         }
@@ -4326,26 +4358,48 @@
     {
       "softwareId": "dj-convert-tool-lab",
       "name": "DJ Convert Tool Lab",
-      "description": "Leere lokale Sitzung beim Start, Track-Auswahl für Playlists und Ergänzen bestehender rekordbox-Sticks.",
-      "version": "0.3.12-beta.2",
+      "description": "DJ-Audiokonverter mit gespeicherter Bibliothek, Cue- und Beatgrid-Bearbeitung, parallelem Export und FAT32-Unterstützung.",
+      "version": "0.3.13-beta.1",
       "architecture": "win-x64",
       "minimumLauncherVersion": "0.4.9",
-      "releaseTag": "software-dj-convert-tool-lab-v0.3.12-beta.2",
+      "releaseTag": "software-dj-convert-tool-lab-v0.3.13-beta.1",
       "assetId": 0,
-      "packageSize": 346393752,
-      "sha256": "6ea87c227f780e963070c5c3a3e22d5c6f58a22f7043ad6d4822cd0f99d3d6f1",
-      "assetName": "DJ-Convert-Tool-Lab-0.3.12-beta.2.zip",
+      "packageSize": 280451018,
+      "sha256": "94f8d5eb2200d04ecfe1ddcea4d3a9cb6c68029b7e510630244c2ff1602b9f80",
+      "assetName": "DJ-Convert-Tool-Lab-0.3.13-beta.1.zip",
       "executableName": "DJ Convert Tool Lab.exe",
       "installDirectoryName": "dj-convert-tool-lab",
       "packageFormat": "runtime-zip"
     }
   ],
   "presentation": {
-    "assetId": 0,
-    "releaseTag": "presentation-20261115-inbox-public",
-    "packageSize": 5091974,
-    "assetName": "presentation-20261115-inbox-public.zip",
-    "sha256": "1747a32fe24d047e63cdea4956c640b7e72901777b1a03d5739b509dd96a971b",
-    "channel": "public"
+    "releaseTag": "presentation-20261115-editorial-public",
+    "channel": "public",
+    "sha256": "7c46225fcf68df0b8a369e3540c2102dcb13c70bf96410522a9c61cf94ad0edb",
+    "assetName": "presentation-20261115-editorial-public.zip",
+    "packageSize": 5078423,
+    "assetId": 0
+  },
+  "editorial": {
+    "channel": "public",
+    "publishedOn": "2026-11-15",
+    "news": [
+      {
+        "title": "Launcher 0.4.10",
+        "description": "News und Coming Soon werden mit der Pluginliste aktualisiert und stehen offline bereit."
+      },
+      {
+        "title": "Stagelight 0.6.0",
+        "description": "Feinere SVG-Kanten, weichere Schatten und effizienteres Rendering auf High."
+      },
+      {
+        "title": "Matrix 0.5.0",
+        "description": "Doppelter Tempobereich für den Zeichenregen. Bis zu zehn Zeichen pro Sekunde."
+      },
+      {
+        "title": "DJ Convert Tool Lab 0.3.13-beta.1",
+        "description": "Gespeicherte Bibliothek, Cue- und Beatgrid-Bearbeitung und paralleler Export."
+      }
+    ]
   }
 }
