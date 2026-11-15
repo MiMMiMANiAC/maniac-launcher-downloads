@@ -2,11 +2,11 @@
   "launcher": {
     "channel": "public",
     "assetId": 0,
-    "sha256": "26f0dbdb17dd27d9c87c850dbafe5831587507de1e61ff4b667cd2d4254d864d",
-    "assetName": "MANIAC-Launcher-0.4.8-Setup.exe",
-    "releaseTag": "launcher-v0.4.8",
-    "packageSize": 49189987,
-    "version": "0.4.8"
+    "sha256": "810db0237c96b855932893e01aa4b6c3aaab4beb7e9b09a5e1496a217390744d",
+    "assetName": "MANIAC-Launcher-0.4.9-Setup.exe",
+    "releaseTag": "launcher-v0.4.9",
+    "packageSize": 49188535,
+    "version": "0.4.9"
   },
   "schemaVersion": 1,
   "plugins": [
@@ -4281,7 +4281,7 @@
       "description": "Leere lokale Sitzung beim Start, Track-Auswahl für Playlists und Ergänzen bestehender rekordbox-Sticks.",
       "version": "0.3.12-beta.2",
       "architecture": "win-x64",
-      "minimumLauncherVersion": "0.3.2",
+      "minimumLauncherVersion": "0.4.9",
       "releaseTag": "software-dj-convert-tool-lab-v0.3.12-beta.2",
       "assetId": 0,
       "packageSize": 346393752,
