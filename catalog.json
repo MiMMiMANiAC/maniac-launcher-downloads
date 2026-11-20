@@ -4160,19 +4160,19 @@
       ]
     },
     {
-      "releaseTag": "plugin-maniac-matrix-v0.5.0",
+      "releaseTag": "plugin-maniac-matrix-v0.6.0",
       "architecture": "win-x64",
       "minimumLauncherVersion": "0.2.9",
       "assetId": 0,
       "pluginId": "maniac-matrix",
-      "assetName": "maniac-matrix-0.5.0.zip",
+      "assetName": "maniac-matrix-0.6.0.zip",
       "binaryName": "MANIAC_SVG MATRIX.dll",
-      "description": "Leuchtender Zeichenregen in SVG-Tunneln. Das Tempo reicht jetzt bis 10 Zeichen pro Sekunde.",
-      "version": "0.5.0",
-      "packageSize": 577666,
+      "description": "Leuchtender Zeichenregen in SVG-Tunneln mit bis zu 30 Zeichen pro Sekunde und Pause an der aktuellen Position.",
+      "version": "0.6.0",
+      "packageSize": 577914,
       "minimumHostVersion": "7.26.2",
       "name": "MANIAC_SVG MATRIX",
-      "sha256": "62eda71b1532b0d62d6b0e5e18ec1cde8dea7002a20791d5737dab75a50ab482",
+      "sha256": "b0a03a079e42f7d0759853ad4daae5c886a030df64290e7334e05a35c10b0b68",
       "knownInstallations": [
         {
           "binaryName": "MANIAC Matrix.dll",
@@ -4235,6 +4235,22 @@
               "path": "MANIAC_SVG MATRIX.dll",
               "sha256": "ffa236a4595cdecb9b697a5828dee331d81078745c42e66b4810488be6c31cd7",
               "size": 1298432
+            }
+          ]
+        },
+        {
+          "version": "0.5.0",
+          "binaryName": "MANIAC_SVG MATRIX.dll",
+          "files": [
+            {
+              "size": 300,
+              "sha256": "a94fa12464b1c142de74c9bb237575319b931afca58fc343e7032086260c8f8a",
+              "path": "Example.svg"
+            },
+            {
+              "size": 1298432,
+              "sha256": "ad2b574171c41f2c3f4486ae29301b3b6835a6f0c92093ea145748cb27a8de9e",
+              "path": "MANIAC_SVG MATRIX.dll"
             }
           ]
         }
@@ -4358,47 +4374,39 @@
     {
       "softwareId": "dj-convert-tool-lab",
       "name": "DJ Convert Tool Lab",
-      "description": "DJ-Audiokonverter mit gespeicherter Bibliothek, Cue- und Beatgrid-Bearbeitung, parallelem Export und FAT32-Unterstützung.",
-      "version": "0.3.13-beta.1",
+      "description": "Ganze Playlists per Rechtsklick auf einen USB-Stick exportieren. Vorhandene Tonarten und Interpreten werden wiederverwendet.",
+      "version": "0.3.15-beta.1",
       "architecture": "win-x64",
       "minimumLauncherVersion": "0.4.9",
-      "releaseTag": "software-dj-convert-tool-lab-v0.3.13-beta.1",
+      "releaseTag": "software-dj-convert-tool-lab-v0.3.15-beta.1",
       "assetId": 0,
-      "packageSize": 280451018,
-      "sha256": "94f8d5eb2200d04ecfe1ddcea4d3a9cb6c68029b7e510630244c2ff1602b9f80",
-      "assetName": "DJ-Convert-Tool-Lab-0.3.13-beta.1.zip",
+      "packageSize": 280462628,
+      "sha256": "5df9bdbe3acf0195797d93c1eeee18bc17abc74ebd88a63e613fe3b684c457d8",
+      "assetName": "DJ-Convert-Tool-Lab-0.3.15-beta.1.zip",
       "executableName": "DJ Convert Tool Lab.exe",
       "installDirectoryName": "dj-convert-tool-lab",
       "packageFormat": "runtime-zip"
     }
   ],
   "presentation": {
-    "releaseTag": "presentation-20261115-editorial-public",
+    "releaseTag": "presentation-20261120-inbox-public",
+    "assetName": "presentation-20261120-inbox-public.zip",
     "channel": "public",
-    "sha256": "7c46225fcf68df0b8a369e3540c2102dcb13c70bf96410522a9c61cf94ad0edb",
-    "assetName": "presentation-20261115-editorial-public.zip",
-    "packageSize": 5078423,
-    "assetId": 0
+    "sha256": "3415ad1828b652d8640c21ff1821770041199ef3f0df05f8dbb9ef3a50c62b75",
+    "assetId": 0,
+    "packageSize": 5076578
   },
   "editorial": {
     "channel": "public",
-    "publishedOn": "2026-11-15",
+    "publishedOn": "2026-11-20",
     "news": [
       {
-        "title": "Launcher 0.4.10",
-        "description": "News und Coming Soon werden mit der Pluginliste aktualisiert und stehen offline bereit."
+        "title": "Matrix 0.6.0",
+        "description": "Bis zu 30 Zeichen pro Sekunde. Bei Tempo null friert der Regen an seiner aktuellen Position ein."
       },
       {
-        "title": "Stagelight 0.6.0",
-        "description": "Feinere SVG-Kanten, weichere Schatten und effizienteres Rendering auf High."
-      },
-      {
-        "title": "Matrix 0.5.0",
-        "description": "Doppelter Tempobereich für den Zeichenregen. Bis zu zehn Zeichen pro Sekunde."
-      },
-      {
-        "title": "DJ Convert Tool Lab 0.3.13-beta.1",
-        "description": "Gespeicherte Bibliothek, Cue- und Beatgrid-Bearbeitung und paralleler Export."
+        "title": "DJ Convert Tool Lab 0.3.15-beta.1",
+        "description": "Ganze Playlists per Rechtsklick auf einen USB-Stick exportieren. Lab übernimmt vorhandene Tonarten und Interpreten."
       }
     ]
   }
