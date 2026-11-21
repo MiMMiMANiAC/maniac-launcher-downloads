@@ -11,19 +11,19 @@
   "schemaVersion": 1,
   "plugins": [
     {
-      "version": "0.8.2",
-      "description": "MANIAC_SVG SLIME mit drei Qualitätsstufen. Mid entspricht der bisherigen High-Ausgabe.",
-      "binaryName": "MANIAC_SVG SLIME.dll",
+      "version": "0.8.3",
+      "description": "MANiAC_SVG SLIME mit drei Qualitätsstufen. Mid entspricht der bisherigen High-Ausgabe.",
+      "binaryName": "MANiAC_SVG SLIME.dll",
       "minimumHostVersion": "7.26.2",
       "assetId": 0,
       "pluginId": "maniac-svg-slime",
       "architecture": "win-x64",
       "minimumLauncherVersion": "0.3.8",
-      "name": "MANIAC_SVG SLIME",
-      "releaseTag": "plugin-maniac-svg-slime-v0.8.2",
-      "packageSize": 417955,
-      "sha256": "bfd485a86cb3f4f77a1c60b26e9682d1bc202f6837ebe35415b7a8e4b2c0236d",
-      "assetName": "maniac-svg-slime-0.8.2.zip",
+      "name": "MANiAC_SVG SLIME",
+      "releaseTag": "plugin-maniac-svg-slime-v0.8.3",
+      "packageSize": 418125,
+      "sha256": "adcac4102ab89778cfe35a7e939cf1952f834b79eac1ddbc132b422d00cb801f",
+      "assetName": "maniac-svg-slime-0.8.3.zip",
       "isTestOnly": false,
       "knownInstallations": [
         {
@@ -207,20 +207,31 @@
               "size": 1031680
             }
           ]
+        },
+        {
+          "version": "0.8.2",
+          "binaryName": "MANIAC_SVG SLIME.dll",
+          "files": [
+            {
+              "sha256": "e268c22ec57591d3970b1525d8feeed8dbb0ae2b8d7f04fa0fbd21069bd4c7f1",
+              "path": "MANIAC_SVG SLIME.dll",
+              "size": 1031680
+            }
+          ]
         }
       ]
     },
     {
-      "version": "0.2.6",
-      "binaryName": "MANIAC_SVG FLUID.dll",
+      "version": "0.2.7",
+      "binaryName": "MANiAC_SVG FLUID.dll",
       "minimumHostVersion": "7.26.2",
-      "description": "MANIAC_SVG FLUID mit drei Qualitätsstufen. Mid entspricht der bisherigen High-Ausgabe.",
-      "packageSize": 430216,
-      "assetName": "maniac-svg-fluid-0.2.6.zip",
-      "name": "MANIAC_SVG FLUID",
+      "description": "MANiAC_SVG FLUID mit drei Qualitätsstufen. Mid entspricht der bisherigen High-Ausgabe.",
+      "packageSize": 430274,
+      "assetName": "maniac-svg-fluid-0.2.7.zip",
+      "name": "MANiAC_SVG FLUID",
       "assetId": 0,
-      "sha256": "68d8d330dfacab0716d7928660ba946090e0cae27584d9a44905ff41c2a82e9b",
-      "releaseTag": "plugin-maniac-svg-fluid-v0.2.6",
+      "sha256": "eedfbfbfd679206b6d498a6b0e78e2f2e09e8f7074e498f12c50b9d9244a61b6",
+      "releaseTag": "plugin-maniac-svg-fluid-v0.2.7",
       "architecture": "win-x64",
       "minimumLauncherVersion": "0.4.0",
       "pluginId": "maniac-svg-fluid",
@@ -356,22 +367,33 @@
               "size": 1049600
             }
           ]
+        },
+        {
+          "version": "0.2.6",
+          "binaryName": "MANIAC_SVG FLUID.dll",
+          "files": [
+            {
+              "sha256": "4240e9a4954f1a8d70c616b460460fbd66d040dab0ffa81f8d6182109e0a18af",
+              "path": "MANIAC_SVG FLUID.dll",
+              "size": 1055744
+            }
+          ]
         }
       ]
     },
     {
       "minimumLauncherVersion": "0.3.6",
-      "version": "0.7.4",
+      "version": "0.7.5",
       "pluginId": "maniac-svg-flow",
       "assetId": 0,
-      "packageSize": 796875,
+      "packageSize": 796984,
       "minimumHostVersion": "7.26.2",
-      "name": "MANIAC_SVG LINES",
-      "sha256": "2e53b85e40f6b9bca8056ada8a03ff0374b9ab2e26d8c0e1d0bd100e6a569e6a",
-      "description": "MANIAC_SVG LINES mit drei Qualitätsstufen. Mid entspricht der bisherigen High-Ausgabe.",
-      "binaryName": "MANIAC_SVG LINES.dll",
-      "assetName": "maniac-svg-flow-0.7.4.zip",
-      "releaseTag": "plugin-maniac-svg-flow-v0.7.4",
+      "name": "MANiAC_SVG LINES",
+      "sha256": "b02ba672d2f858371d3908146794b58833faba5088ec7dfffd04fb0cd68d20a0",
+      "description": "MANiAC_SVG LINES mit drei Qualitätsstufen. Mid entspricht der bisherigen High-Ausgabe.",
+      "binaryName": "MANiAC_SVG LINES.dll",
+      "assetName": "maniac-svg-flow-0.7.5.zip",
+      "releaseTag": "plugin-maniac-svg-flow-v0.7.5",
       "architecture": "win-x64",
       "isTestOnly": false,
       "knownInstallations": [
@@ -769,22 +791,38 @@
               "size": 1035776
             }
           ]
+        },
+        {
+          "version": "0.7.4",
+          "binaryName": "MANIAC_SVG LINES.dll",
+          "files": [
+            {
+              "path": "Example.svg",
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "size": 992639
+            },
+            {
+              "path": "MANIAC_SVG LINES.dll",
+              "sha256": "7acfbf6b15509585ec525ae873be1bd087eb6462bd73fa87362d5bcb657e6bd4",
+              "size": 1046016
+            }
+          ]
         }
       ]
     },
     {
       "minimumLauncherVersion": "0.4.0",
-      "version": "0.8.4",
+      "version": "0.8.5",
       "pluginId": "maniac-svg-3d",
       "assetId": 0,
-      "packageSize": 963899,
+      "packageSize": 964001,
       "minimumHostVersion": "7.26.2",
-      "name": "MANIAC_SVG 3D",
-      "sha256": "0bdfe0bcb4977524210f3097ae19455e0f2a47a04f39a377d0d45553534a6bc2",
-      "description": "MANIAC_SVG 3D mit drei Qualitätsstufen. Mid entspricht der bisherigen High-Ausgabe.",
-      "binaryName": "MANIAC_SVG 3D.dll",
-      "assetName": "maniac-svg-3d-0.8.4.zip",
-      "releaseTag": "plugin-maniac-svg-3d-v0.8.4",
+      "name": "MANiAC_SVG 3D",
+      "sha256": "51599c95bb730dbd144e4803736a35f9ae597262926e56963106eb761071716f",
+      "description": "MANiAC_SVG 3D mit drei Qualitätsstufen. Mid entspricht der bisherigen High-Ausgabe.",
+      "binaryName": "MANiAC_SVG 3D.dll",
+      "assetName": "maniac-svg-3d-0.8.5.zip",
+      "releaseTag": "plugin-maniac-svg-3d-v0.8.5",
       "architecture": "win-x64",
       "knownInstallations": [
         {
@@ -1795,22 +1833,38 @@
               "size": 1364480
             }
           ]
+        },
+        {
+          "version": "0.8.4",
+          "binaryName": "MANIAC_SVG 3D.dll",
+          "files": [
+            {
+              "path": "Example.svg",
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "size": 992639
+            },
+            {
+              "path": "MANIAC_SVG 3D.dll",
+              "sha256": "ee65d2d8e8e81c81007ca0354a21bbf51a6bbc9ff12b20300f71a912e77cd3d8",
+              "size": 1367040
+            }
+          ]
         }
       ]
     },
     {
       "minimumLauncherVersion": "0.3.6",
-      "version": "0.6.1",
+      "version": "0.6.2",
       "pluginId": "maniac-stagelight-3d",
       "assetId": 0,
-      "packageSize": 940134,
+      "packageSize": 940399,
       "minimumHostVersion": "7.26.2",
-      "name": "MANIAC_SVG LT 3D",
-      "sha256": "80c398e7966cf9ef7b56058cc1d7dd4f6ad968089718df3615c7f19ee145ac68",
-      "description": "MANIAC_SVG LT 3D mit drei Qualitätsstufen. Mid entspricht der bisherigen High-Ausgabe.",
-      "binaryName": "MANIAC_Stagelight 3d.dll",
-      "assetName": "maniac-stagelight-3d-0.6.1.zip",
-      "releaseTag": "plugin-maniac-stagelight-3d-v0.6.1",
+      "name": "MANiAC_SVG LT 3D",
+      "sha256": "1895c750d9da9fde9257e342ed4cef89dbbe692eb3be32e7396848143bb414ed",
+      "description": "MANiAC_SVG LT 3D mit drei Qualitätsstufen. Mid entspricht der bisherigen High-Ausgabe.",
+      "binaryName": "MANiAC_SVG LT 3D.dll",
+      "assetName": "maniac-stagelight-3d-0.6.2.zip",
+      "releaseTag": "plugin-maniac-stagelight-3d-v0.6.2",
       "architecture": "win-x64",
       "isTestOnly": false,
       "knownInstallations": [
@@ -2352,22 +2406,38 @@
               "path": "MANIAC_Stagelight 3d.dll"
             }
           ]
+        },
+        {
+          "version": "0.6.1",
+          "binaryName": "MANIAC_Stagelight 3d.dll",
+          "files": [
+            {
+              "size": 992639,
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "path": "Example.svg"
+            },
+            {
+              "size": 1320960,
+              "sha256": "b481028ffd5bb3fa7f7c77719df6ca47e9773b89a2869b4248e9131c7459893b",
+              "path": "MANIAC_Stagelight 3d.dll"
+            }
+          ]
         }
       ]
     },
     {
       "minimumLauncherVersion": "0.3.6",
-      "version": "0.5.5",
+      "version": "0.5.7",
       "pluginId": "moireaction",
       "assetId": 0,
-      "packageSize": 896332,
+      "packageSize": 896911,
       "minimumHostVersion": "7.26.2",
-      "name": "MANIAC_SVG MOIRE",
-      "sha256": "c4bff300f6a59ea2285e6fb59d710557d385cb2fe353e108d31e654dc7b0bbae",
-      "description": "MANIAC_SVG MOIRE mit drei Qualitätsstufen. Mid entspricht der bisherigen High-Ausgabe.",
-      "binaryName": "MANIAC_SVG MOIRE.dll",
-      "assetName": "moireaction-0.5.5.zip",
-      "releaseTag": "plugin-moireaction-v0.5.5",
+      "name": "MANiAC_SVG MOIRE",
+      "sha256": "23ed93b0b5afd02b5db403405c4b89f98838389d2d2948551f5121067d8180b3",
+      "description": "MANiAC_SVG MOIRE mit drei Qualitätsstufen. Mid entspricht der bisherigen High-Ausgabe.",
+      "binaryName": "MANiAC_SVG MOIRE.dll",
+      "assetName": "moireaction-0.5.7.zip",
+      "releaseTag": "plugin-moireaction-v0.5.7",
       "architecture": "win-x64",
       "isTestOnly": false,
       "knownInstallations": [
@@ -2698,22 +2768,54 @@
               "size": 1223168
             }
           ]
+        },
+        {
+          "version": "0.5.5",
+          "binaryName": "MANIAC_SVG MOIRE.dll",
+          "files": [
+            {
+              "path": "Komposition_2D_1920x1080_Resolume.svg",
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "size": 992639
+            },
+            {
+              "path": "MANIAC_SVG MOIRE.dll",
+              "sha256": "6aa9b0ae8e5e83f86753f44b4023383e5fca9affc4819650c7839ae309d1a23b",
+              "size": 1229824
+            }
+          ]
+        },
+        {
+          "version": "0.5.6",
+          "binaryName": "MANIAC_SVG MOIRE.dll",
+          "files": [
+            {
+              "sha256": "7a67df20c0d262bd38c64b464025eeba51c8b2239544f66068162011f67d8f87",
+              "size": 992639,
+              "path": "Komposition_2D_1920x1080_Resolume.svg"
+            },
+            {
+              "sha256": "ba270faa21b93f7715d6438fab888caf3ef680f7aaf71c18a39c1ca819bee57b",
+              "size": 1230336,
+              "path": "MANIAC_SVG MOIRE.dll"
+            }
+          ]
         }
       ]
     },
     {
       "minimumLauncherVersion": "0.4.0",
-      "version": "0.9.1",
+      "version": "0.9.2",
       "pluginId": "maniac-svg-worm",
       "assetId": 0,
-      "packageSize": 724106,
+      "packageSize": 725115,
       "minimumHostVersion": "7.26.2",
-      "name": "MANIAC_SVG WRM3D",
-      "sha256": "9c1b00fc4168b89761c33acf0bfd77411db088f06aed250824477a1448f3cb8a",
+      "name": "MANiAC_SVG WRM3D",
+      "sha256": "14d988166fa629afc1dc1bf1cbad5d019ed075309c27119cf2db357d06df2ba2",
       "description": "SVG-Wurm mit wechselnden Zielen im zufälligen Formflug, optional festem Loop und neuen Qualitätsstufen für Konturen und Schatten.",
-      "binaryName": "MANIAC_SVG WRM3D.dll",
-      "assetName": "maniac-svg-worm-0.9.1.zip",
-      "releaseTag": "plugin-maniac-svg-worm-v0.9.1",
+      "binaryName": "MANiAC_SVG WRM3D.dll",
+      "assetName": "maniac-svg-worm-0.9.2.zip",
+      "releaseTag": "plugin-maniac-svg-worm-v0.9.2",
       "architecture": "win-x64",
       "knownInstallations": [
         {
@@ -4018,22 +4120,43 @@
               "size": 1582080
             }
           ]
+        },
+        {
+          "version": "0.9.1",
+          "binaryName": "MANIAC_SVG WRM3D.dll",
+          "files": [
+            {
+              "path": "Example.svg",
+              "sha256": "fa9f05d5557c35f2902cd7ff98d5e9f442d2c2742c0fa0e5c58f2f12ab3b3710",
+              "size": 113281
+            },
+            {
+              "path": "Kene.svg",
+              "sha256": "0b3b9bd0f22cc094555b85f72ddebb88bec72c41f8986e976c43be3b660325da",
+              "size": 1617
+            },
+            {
+              "path": "MANIAC_SVG WRM3D.dll",
+              "sha256": "e12d6c25f330d18cf7aa902c232326c76c35ec7f507f495e65fc53518485a876",
+              "size": 1588224
+            }
+          ]
         }
       ]
     },
     {
       "minimumLauncherVersion": "0.3.0",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "pluginId": "maniac-slowmo",
       "assetId": 0,
-      "packageSize": 130457,
+      "packageSize": 130586,
       "minimumHostVersion": "7.26.2",
-      "name": "MANIAC_SVG SLOMO",
-      "sha256": "6d3528d6a4f637925f65d607cb16a2bf6128409aad7e4925402a73b07021c7e3",
+      "name": "MANiAC_SVG SLOMO",
+      "sha256": "0b0233ff7123873454121f1d64fe2fdc146af26f0f9a92e5ecb6d4dd1cdda580",
       "description": "Zwischenbilder mit drei Auflösungen für die Bewegungsanalyse. In Entwicklung.",
-      "binaryName": "MANIAC_SVG SLOMO.dll",
-      "assetName": "maniac-slowmo-0.1.3.zip",
-      "releaseTag": "plugin-maniac-slowmo-v0.1.3",
+      "binaryName": "MANiAC_SVG SLOMO.dll",
+      "assetName": "maniac-slowmo-0.1.4.zip",
+      "releaseTag": "plugin-maniac-slowmo-v0.1.4",
       "architecture": "win-x64",
       "isTestOnly": false,
       "isDeveloperOnly": false,
@@ -4060,22 +4183,33 @@
               "size": 428544
             }
           ]
+        },
+        {
+          "version": "0.1.3",
+          "binaryName": "MANIAC_SVG SLOMO.dll",
+          "files": [
+            {
+              "path": "MANIAC_SVG SLOMO.dll",
+              "sha256": "b8ca3ea71f1db73dd8ab9c14a5abe119d39944bb70e33f5f5a90613ceab52de1",
+              "size": 430592
+            }
+          ]
         }
       ]
     },
     {
       "minimumLauncherVersion": "0.3.9",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "pluginId": "maniac-chrome",
       "assetId": 0,
-      "packageSize": 575793,
+      "packageSize": 575951,
       "minimumHostVersion": "7.26.2",
-      "name": "MANIAC_SVG CHRME",
-      "sha256": "65abdfa8217633683b9631e6bed917a5f3e1f7e1e75c23088c6ab7c1121e2b2d",
-      "description": "MANIAC_SVG CHRME mit drei Qualitätsstufen. Mid entspricht der bisherigen High-Ausgabe.",
-      "binaryName": "MANIAC_SVG CHRME.dll",
-      "assetName": "maniac-chrome-0.1.3.zip",
-      "releaseTag": "plugin-maniac-chrome-v0.1.3",
+      "name": "MANiAC_SVG CHRME",
+      "sha256": "c05fbf55883f5f1e0406be6f380cf4ae424d37ae628eb6f52ef766757f67805e",
+      "description": "MANiAC_SVG CHRME mit drei Qualitätsstufen. Mid entspricht der bisherigen High-Ausgabe.",
+      "binaryName": "MANiAC_SVG CHRME.dll",
+      "assetName": "maniac-chrome-0.1.4.zip",
+      "releaseTag": "plugin-maniac-chrome-v0.1.4",
       "architecture": "win-x64",
       "isTestOnly": false,
       "knownInstallations": [
@@ -4123,6 +4257,22 @@
             {
               "path": "MANIAC_SVG CHRME.dll",
               "sha256": "85810e29503977326d2be1945933f883586f22dbc8bc95e5b41d706753ecbd07",
+              "size": 1339392
+            }
+          ]
+        },
+        {
+          "version": "0.1.3",
+          "binaryName": "MANIAC_SVG CHRME.dll",
+          "files": [
+            {
+              "path": "Example.svg",
+              "sha256": "25b1af83d3aa62af07f852167288d08278c6e1db6e4d3c508714201c99d39cec",
+              "size": 637
+            },
+            {
+              "path": "MANIAC_SVG CHRME.dll",
+              "sha256": "8d02b4eaefce5b6bd30adbdb9eaf8f07a51383f1b04b45c06a18470545aabd84",
               "size": 1339392
             }
           ]
@@ -4295,16 +4445,16 @@
     {
       "assetId": 0,
       "minimumLauncherVersion": "0.4.0",
-      "description": "MANIAC_SVG FRACT mit drei Qualitätsstufen. Mid entspricht der bisherigen High-Ausgabe.",
+      "description": "MANiAC_SVG FRACT mit drei Qualitätsstufen. Mid entspricht der bisherigen High-Ausgabe.",
       "pluginId": "maniac-svg-fract",
       "architecture": "win-x64",
-      "binaryName": "MANIAC_SVG FRACT.dll",
-      "assetName": "maniac-svg-fract-0.1.3.zip",
-      "version": "0.1.3",
-      "name": "MANIAC_SVG FRACT",
-      "packageSize": 523472,
-      "sha256": "f776cd2e3fec1495cf1caaba9c98b9f4e27246a5b8f299fdf7d9d76aff5bc5e4",
-      "releaseTag": "plugin-maniac-svg-fract-v0.1.3",
+      "binaryName": "MANiAC_SVG FRACT.dll",
+      "assetName": "maniac-svg-fract-0.1.4.zip",
+      "version": "0.1.4",
+      "name": "MANiAC_SVG FRACT",
+      "packageSize": 523662,
+      "sha256": "45dda8d19b4bfc0d1044f3f14fca3c2c6f848f9405f8c5778c89d37abec0abbe",
+      "releaseTag": "plugin-maniac-svg-fract-v0.1.4",
       "minimumHostVersion": "7.26.2",
       "knownInstallations": [
         {
@@ -4338,23 +4488,39 @@
               "size": 1183232
             }
           ]
+        },
+        {
+          "version": "0.1.3",
+          "binaryName": "MANIAC_SVG FRACT.dll",
+          "files": [
+            {
+              "path": "Example.svg",
+              "sha256": "6e646f07db6c9a4098ef0504fc4b95f4f93d126846b6903cd4ac33cdeacb0298",
+              "size": 54679
+            },
+            {
+              "path": "MANIAC_SVG FRACT.dll",
+              "sha256": "e547e61cfa034153d9ed4b43c12430b3771e876ad16dd72a1a793d5d181f0bea",
+              "size": 1183744
+            }
+          ]
         }
       ]
     },
     {
-      "releaseTag": "plugin-maniac-matrix-v0.6.1",
+      "releaseTag": "plugin-maniac-matrix-v0.6.2",
       "architecture": "win-x64",
       "minimumLauncherVersion": "0.2.9",
       "assetId": 0,
       "pluginId": "maniac-matrix",
-      "assetName": "maniac-matrix-0.6.1.zip",
-      "binaryName": "MANIAC_SVG MATRIX.dll",
+      "assetName": "maniac-matrix-0.6.2.zip",
+      "binaryName": "MANiAC_SVG MATRIX.dll",
       "description": "Zeichenregen in SVG-Tunneln mit bis zu 30 Zeichen pro Sekunde und feinerer Kantenglättung auf High.",
-      "version": "0.6.1",
-      "packageSize": 559671,
+      "version": "0.6.2",
+      "packageSize": 560412,
       "minimumHostVersion": "7.26.2",
-      "name": "MANIAC_SVG MATRIX",
-      "sha256": "c74c725c7533d4e52834b0b0fc671c1f3865d467462b8ba86181f1c2b3ab0dbb",
+      "name": "MANiAC_SVG MATRIX",
+      "sha256": "61e9337a9da13c9addf30fc8c720355a22ad601db63f30f79882be25c8ff4b78",
       "knownInstallations": [
         {
           "binaryName": "MANIAC Matrix.dll",
@@ -4449,6 +4615,22 @@
               "sha256": "2c7b2a27b4692009b3a767bedd29e731a8ba56149ad9f5fb58261d66603b1e57",
               "path": "MANIAC_SVG MATRIX.dll",
               "size": 1298432
+            }
+          ]
+        },
+        {
+          "version": "0.6.1",
+          "binaryName": "MANIAC_SVG MATRIX.dll",
+          "files": [
+            {
+              "sha256": "a94fa12464b1c142de74c9bb237575319b931afca58fc343e7032086260c8f8a",
+              "path": "Example.svg",
+              "size": 300
+            },
+            {
+              "sha256": "2ccb606fa8c4947d058014cde3b74f28b93043d5cdea6728607f3db2305ea37f",
+              "path": "MANIAC_SVG MATRIX.dll",
+              "size": 1298944
             }
           ]
         }
@@ -4550,6 +4732,21 @@
           ]
         }
       ]
+    },
+    {
+      "minimumHostVersion": "7.26.2",
+      "sha256": "2b564523fe9ecf17b8be486bbeb7df7199a7a1fe9daf54d244b9b652de950baf",
+      "releaseTag": "plugin-maniac-svg-parasite-v0.1.1",
+      "pluginId": "maniac-svg-parasite",
+      "description": "Eine FFGL-Quelle mit einer räumlichen Kreatur hinter SVG-Fenstern. Beim Drehen verdecken die vorderen Schalen das grün schimmernde Auge.",
+      "name": "MANiAC_SVG PARASITE",
+      "binaryName": "MANiAC_SVG PARASITE.dll",
+      "architecture": "win-x64",
+      "version": "0.1.1",
+      "assetId": 0,
+      "minimumLauncherVersion": "0.2.9",
+      "assetName": "maniac-svg-parasite-0.1.1.zip",
+      "packageSize": 520008
     }
   ],
   "software": [
@@ -4603,17 +4800,21 @@
     }
   ],
   "presentation": {
+    "releaseTag": "presentation-20261122-plugin-names-r2-public",
+    "assetId": 0,
+    "packageSize": 4767754,
     "channel": "public",
-    "sha256": "cf1f2f0197ff3c3d59594578ac064099f5579bc874c738eca13aadfcb0c17ea3",
-    "assetName": "presentation-20261122-software-public.zip",
-    "packageSize": 4566522,
-    "releaseTag": "presentation-20261122-software-public",
-    "assetId": 0
+    "assetName": "presentation-20261122-plugin-names-r2-public.zip",
+    "sha256": "04a9953e9900c28f4e75107927135dfc3e675d8da3e0c25295372ea9346f602d"
   },
   "editorial": {
     "channel": "public",
     "publishedOn": "2026-11-22",
     "news": [
+      {
+        "title": "MANiAC SVG-Plugin-Update",
+        "description": "Einheitliche Plugin-Namen und Ausgabe als letzte Reglergruppe in den aktualisierten Effekten. PARASITE 0.1.1 ist neu."
+      },
       {
         "title": "MANiAC LiBRARY 0.4.0-beta.1",
         "description": "DJ Convert Tool Lab heißt jetzt MANiAC LiBRARY. Neue Bibliotheksansicht, Playlist-Verwaltung und Track-Editor mit rekordbox-Export."
