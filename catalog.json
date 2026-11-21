@@ -4572,59 +4572,55 @@
     {
       "softwareId": "maniac-audio-monitor",
       "name": "MANIAC Audio Monitor",
-      "description": "Live-Spektrogramm, BPM, Soundcheck-Referenz und Pegelwarnungen. Ableton Link und 3-Band-EQ für die Audioausgabe an Resolume.",
-      "version": "0.6.7",
+      "description": "Live-Spektrogramm mit Detailansicht und Bild halten, Tempoerkennung ab 40 BPM und FFT-Spitzen je Band. Soundcheck, 3-Band-EQ und Ableton Link.",
+      "version": "0.7.0",
       "architecture": "win-x64",
       "minimumLauncherVersion": "0.3.2",
-      "releaseTag": "software-maniac-audio-monitor-v0.6.7",
+      "releaseTag": "software-maniac-audio-monitor-v0.7.0",
       "assetId": 0,
-      "packageSize": 63456623,
-      "sha256": "8862d00801a5f143d7cef33a859c748e2528bcf5d9b1bbe7d973ac678dd8e099",
-      "assetName": "MANIAC-Audio-Monitor-0.6.7.zip",
+      "packageSize": 63462703,
+      "sha256": "1e97939cbc79d9ea85a5ced65422b69ebfdf307d8fe86706c4df587ea6a482f1",
+      "assetName": "MANIAC-Audio-Monitor-0.7.0.zip",
       "executableName": "MANIAC Audio Monitor.exe",
       "installDirectoryName": "maniac-audio-monitor",
       "packageFormat": "runtime-zip"
     },
     {
       "softwareId": "dj-convert-tool-lab",
-      "name": "DJ Convert Tool Lab",
-      "description": "Ganze Playlists per Rechtsklick auf einen USB-Stick exportieren. Vorhandene Tonarten und Interpreten werden wiederverwendet.",
-      "version": "0.3.15-beta.1",
+      "name": "MANiAC LiBRARY",
+      "description": "DJ-Musikbibliothek mit Track- und Playlist-Verwaltung und USB-Export für rekordbox.",
+      "version": "0.4.0-beta.1",
       "architecture": "win-x64",
       "minimumLauncherVersion": "0.4.9",
-      "releaseTag": "software-dj-convert-tool-lab-v0.3.15-beta.1",
+      "releaseTag": "software-dj-convert-tool-lab-v0.4.0-beta.1",
       "assetId": 0,
-      "packageSize": 280462628,
-      "sha256": "5df9bdbe3acf0195797d93c1eeee18bc17abc74ebd88a63e613fe3b684c457d8",
-      "assetName": "DJ-Convert-Tool-Lab-0.3.15-beta.1.zip",
-      "executableName": "DJ Convert Tool Lab.exe",
+      "packageSize": 275555783,
+      "sha256": "da56a019080a49d11e93f3788cdaba0b5fcc32a214a024a0c387fdfc798ea0b0",
+      "assetName": "MANiAC-LiBRARY-0.4.0-beta.1.zip",
+      "executableName": "MANiAC LiBRARY.exe",
       "installDirectoryName": "dj-convert-tool-lab",
       "packageFormat": "runtime-zip"
     }
   ],
   "presentation": {
-    "packageSize": 5058966,
-    "assetId": 0,
     "channel": "public",
-    "assetName": "presentation-20261120-quality-public.zip",
-    "releaseTag": "presentation-20261120-quality-public",
-    "sha256": "efa7b04fd7540e8a18e3702cdab71cb43aba858eb145d12e03e32506733d6e6e"
+    "sha256": "cf1f2f0197ff3c3d59594578ac064099f5579bc874c738eca13aadfcb0c17ea3",
+    "assetName": "presentation-20261122-software-public.zip",
+    "packageSize": 4566522,
+    "releaseTag": "presentation-20261122-software-public",
+    "assetId": 0
   },
   "editorial": {
     "channel": "public",
-    "publishedOn": "2026-11-21",
+    "publishedOn": "2026-11-22",
     "news": [
       {
-        "title": "Drei Qualitätsstufen für MANIAC-Plugins",
-        "description": "14 Plugin-Updates mit Low, Mid und High. Mid übernimmt bei diesen Updates die bisherige High-Ausgabe."
+        "title": "MANiAC LiBRARY 0.4.0-beta.1",
+        "description": "DJ Convert Tool Lab heißt jetzt MANiAC LiBRARY. Neue Bibliotheksansicht, Playlist-Verwaltung und Track-Editor mit rekordbox-Export."
       },
       {
-        "title": "WRM3D 0.9.1",
-        "description": "Zufälliger Formflug wechselt die Ziele pro Runde. Fester Loop hält eine Bahn wiederholbar."
-      },
-      {
-        "title": "Matrix 0.6.1 und Melt 0.1.15",
-        "description": "High glättet Zeichen bei Matrix und verfeinert Materialdetails bei Melt."
+        "title": "MANIAC Audio Monitor 0.7.0",
+        "description": "Spektrogramm-Details mit Standbild und Mausmessung, FFT-Spitzen je Frequenzband und Status für bestätigtes oder gehaltenes Tempo."
       }
     ]
   }
