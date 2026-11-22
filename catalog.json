@@ -1,12 +1,12 @@
 {
   "launcher": {
     "channel": "public",
-    "version": "0.4.10",
+    "version": "0.4.11",
     "assetId": 0,
-    "releaseTag": "launcher-v0.4.10",
-    "assetName": "MANIAC-Launcher-0.4.10-Setup.exe",
-    "sha256": "b2d08936485f030ea970a858a6ad8474c3c65924af995c93eac3bc6c5c01b6b5",
-    "packageSize": 49192445
+    "releaseTag": "launcher-v0.4.11",
+    "assetName": "MANIAC-Launcher-0.4.11-Setup.exe",
+    "sha256": "ae07a6515afe51f878a0ee295c3c359af5e442babb1245b5eeee30bd48f5f193",
+    "packageSize": 49189454
   },
   "schemaVersion": 1,
   "plugins": [
@@ -4788,7 +4788,7 @@
       "description": "DJ-Musikbibliothek mit Track- und Playlist-Verwaltung und USB-Export für rekordbox.",
       "version": "0.4.0-beta.1",
       "architecture": "win-x64",
-      "minimumLauncherVersion": "0.4.9",
+      "minimumLauncherVersion": "0.4.11",
       "releaseTag": "software-dj-convert-tool-lab-v0.4.0-beta.1",
       "assetId": 0,
       "packageSize": 275555783,
@@ -4811,6 +4811,10 @@
     "channel": "public",
     "publishedOn": "2026-11-22",
     "news": [
+      {
+        "title": "Launcher 0.4.11",
+        "description": "Der Launcher akzeptiert MANiAC LiBRARY und erkennt vorhandene DJ Convert Tool Lab-Installationen beim Update."
+      },
       {
         "title": "MANiAC SVG-Plugin-Update",
         "description": "Einheitliche Plugin-Namen und Ausgabe als letzte Reglergruppe in den aktualisierten Effekten. PARASITE 0.1.1 ist neu."
